@@ -666,11 +666,63 @@ El Movimiento Rectilíneo Uniformemente Variado (MRUV) se caracteriza por presen
 
 \subsection{Ecuaciones}
 
-%%%%%%%%%%%%--------------------
 \[
-a = ctte \qquad v(t) =(diferente) ctte
+a=\text{cte} \;\Rightarrow\; v \neq \text{cte}
 \]
-ACAAAAAAAAAAAAAAAAAAAAAAA
+
+\vspace{-20pt}
+
+Primera ecuacion:
+\begin{align*}
+a &= \frac{dv}{dt}\\
+dv &= a\,dt\\
+\int_{v_0}^{v} dv &= \int_{0}^{t} a\,dt\\
+\left[v\right]_{v_0}^{v} &= a\left[t\right]_{0}^{t}\\
+v - v_0 &= a(t-0)
+\end{align*}
+
+\vspace{-20pt}
+
+\[
+\colorbox{blue!20}{$v = v_0 + at$}
+\]
+
+Segunda ecuacion:
+
+\begin{align*}
+v &= \frac{dx}{dt}\\
+dx &= v(t)\,dt\\
+\int_{x_0}^{x} dx &= \int_{0}^{t} (v_0 + at)\,dt\\
+\int_{x_0}^{x} dx &= \int_{0}^{t} v_0\,dt + \int_{0}^{t} at\,dt\\
+\left[x\right]_{x_0}^{x} &= v_0\left[t\right]_{0}^{t} + a\left[\frac{t^2}{2}\right]_{0}^{t}\\
+x - x_0 &= v_0(t-0) + \frac{1}{2}a(t^2-0)
+\end{align*}
+
+\vspace{-20pt}
+
+\[
+\colorbox{blue!20}{$x = x_0 + v_0 t + \frac{1}{2}at^2$}
+\]
+
+Tercera ecuacion:
+
+\begin{align*}
+a &= \frac{dv}{dt}\\
+dv &= a dt\\
+dv &= a dt(\frac{dx}{dx})\\
+dv &= \frac{a dx}{(\frac{dx}{dt})}\\
+dv &= a\frac{dx}{v}\\
+v\,dv &= a\,dx\\
+\int_{v_0}^{v} v\,dv &= \int_{x_0}^{x} a\,dx\\
+\left[\frac{v^2}{2}\right]_{v_0}^{v} &= a\left[x\right]_{x_0}^{x}\\
+\frac{1}{2}(v^2 - v_0^2) &= a(x - x_0)
+\end{align*}
+
+\vspace{-20pt}
+
+\[
+\colorbox{blue!20}{$v^2 = v_0^2 + 2a(x - x_0)$}
+\]
 
 
 Las ecuaciones fundamentales del MRUV son:
