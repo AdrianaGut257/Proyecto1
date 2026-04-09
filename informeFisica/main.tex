@@ -1,0 +1,88 @@
+\documentclass[man,12pt,floatsintext]{apa7}
+\usepackage[spanish,es-tabla]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{csquotes}   
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage[justification=centering]{caption}
+\usepackage[nottoc]{tocbibind}
+\usepackage{fancyhdr}
+\usepackage[backend=biber, style=apa]{biblatex}
+\addbibresource{bibliography.bib}
+\usepackage{subcaption}
+\usepackage{xcolor}
+\usepackage{empheq}
+\usepackage{tcolorbox}
+\usepackage{cancel}
+
+\geometry{left=35mm, right=25mm, top=21mm, headsep=6mm, height=210mm, footskip=15mm}
+\hypersetup{hidelinks}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%   NUMERACIÓN DE SECCIONES     %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\setcounter{secnumdepth}{4}
+\renewcommand{\thesection}{\arabic{section}}
+\renewcommand{\thesubsection}{\thesection.\arabic{subsection}}
+\renewcommand{\thesubsubsection}{\thesubsection.\arabic{subsubsection}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%  ENCABEZADOS Y PIE DE PÁGINA %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\aplicarEstilo}{
+  \fancyhf{}
+  \fancyfoot[L]{Universidad Mayor de San Simón}
+  \fancyfoot[R]{\thepage}
+  \fancyhead[L]{\nouppercase{\leftmark}}
+  \renewcommand{\headrulewidth}{0.4pt}
+  \renewcommand{\footrulewidth}{0.4pt}
+  \setlength{\headheight}{14pt}
+}
+
+\fancypagestyle{cuerpo}{
+  \aplicarEstilo
+}
+
+\fancypagestyle{plain}{
+  \aplicarEstilo
+}
+
+\begin{document}
+\pagestyle{fancy}
+\aplicarEstilo
+
+\fancypagestyle{plain}{
+  \aplicarEstilo
+}
+
+\clearpage
+\newpage
+
+%%%%%%%%%%%%%
+%  CARÁTULA %
+%%%%%%%%%%%%%
+\input{cover}
+
+%%%%%%%%%%%%%%%%%%%
+%  ÍNDICE GENERAL %
+%%%%%%%%%%%%%%%%%%%
+\tableofcontents
+\newpage
+\listoffigures
+\newpage
+\listoftables
+\newpage
+
+%%%%%%%%%%%%%%%%%%
+%  MARCO TEÓRICO %
+%%%%%%%%%%%%%%%%%%
+\input{theoreticalFramework}
+
+%%%%%%%%%%%%%%%%%%
+%  BIBLIOGRAFÍA  %
+%%%%%%%%%%%%%%%%%%
+\nocite{*}
+\printbibliography[title={Bibliografía}]
+
+\end{document}

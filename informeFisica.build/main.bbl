@@ -1,0 +1,227 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{apa/apasortcite//global/global/global}
+    \entry{geogebra}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=2190b1c1ebdc18c903e001ee5867de74}{%
+           family={{GeoGebra}},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{2190b1c1ebdc18c903e001ee5867de74}
+      \strng{fullhash}{2190b1c1ebdc18c903e001ee5867de74}
+      \strng{fullhashraw}{2190b1c1ebdc18c903e001ee5867de74}
+      \strng{bibnamehash}{2190b1c1ebdc18c903e001ee5867de74}
+      \strng{authorbibnamehash}{2190b1c1ebdc18c903e001ee5867de74}
+      \strng{authornamehash}{2190b1c1ebdc18c903e001ee5867de74}
+      \strng{authorfullhash}{2190b1c1ebdc18c903e001ee5867de74}
+      \strng{authorfullhashraw}{2190b1c1ebdc18c903e001ee5867de74}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{GeoGebra}
+      \field{year}{2024}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://www.geogebra.org
+      \endverb
+      \verb{url}
+      \verb https://www.geogebra.org
+      \endverb
+    \endentry
+    \entry{serway}{book}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=9142d7571fe4a7a87301eeced5dee93b}{%
+           family={Serway},
+           familyi={S\bibinitperiod},
+           given={Raymond\bibnamedelima A.},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9ae1a0dbf6fb8359590e8687bddfc7d6}{%
+           family={Jewett},
+           familyi={J\bibinitperiod},
+           given={John\bibnamedelima W.},
+           giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Cengage Learning}%
+      }
+      \strng{namehash}{661f7d9fde93c3aa92bd7766edfeb8b4}
+      \strng{fullhash}{661f7d9fde93c3aa92bd7766edfeb8b4}
+      \strng{fullhashraw}{661f7d9fde93c3aa92bd7766edfeb8b4}
+      \strng{bibnamehash}{661f7d9fde93c3aa92bd7766edfeb8b4}
+      \strng{authorbibnamehash}{661f7d9fde93c3aa92bd7766edfeb8b4}
+      \strng{authornamehash}{661f7d9fde93c3aa92bd7766edfeb8b4}
+      \strng{authorfullhash}{661f7d9fde93c3aa92bd7766edfeb8b4}
+      \strng{authorfullhashraw}{661f7d9fde93c3aa92bd7766edfeb8b4}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{8}
+      \field{title}{Física para ciencias e ingeniería}
+      \field{year}{2014}
+      \true{nocite}
+    \endentry
+    \entry{tipler}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=943b75d33d2ddaa051f5704fa8676cdd}{%
+           family={Tipler},
+           familyi={T\bibinitperiod},
+           given={Paul\bibnamedelima A.},
+           giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Reverté}%
+      }
+      \strng{namehash}{943b75d33d2ddaa051f5704fa8676cdd}
+      \strng{fullhash}{943b75d33d2ddaa051f5704fa8676cdd}
+      \strng{fullhashraw}{943b75d33d2ddaa051f5704fa8676cdd}
+      \strng{bibnamehash}{943b75d33d2ddaa051f5704fa8676cdd}
+      \strng{authorbibnamehash}{943b75d33d2ddaa051f5704fa8676cdd}
+      \strng{authornamehash}{943b75d33d2ddaa051f5704fa8676cdd}
+      \strng{authorfullhash}{943b75d33d2ddaa051f5704fa8676cdd}
+      \strng{authorfullhashraw}{943b75d33d2ddaa051f5704fa8676cdd}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Física}
+      \field{year}{2008}
+      \true{nocite}
+    \endentry
+  \enddatalist
+  \datalist[entry]{apa/global//global/global/global}
+    \entry{geogebra}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=2190b1c1ebdc18c903e001ee5867de74}{%
+           family={{GeoGebra}},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{2190b1c1ebdc18c903e001ee5867de74}
+      \strng{fullhash}{2190b1c1ebdc18c903e001ee5867de74}
+      \strng{fullhashraw}{2190b1c1ebdc18c903e001ee5867de74}
+      \strng{bibnamehash}{2190b1c1ebdc18c903e001ee5867de74}
+      \strng{authorbibnamehash}{2190b1c1ebdc18c903e001ee5867de74}
+      \strng{authornamehash}{2190b1c1ebdc18c903e001ee5867de74}
+      \strng{authorfullhash}{2190b1c1ebdc18c903e001ee5867de74}
+      \strng{authorfullhashraw}{2190b1c1ebdc18c903e001ee5867de74}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{GeoGebra}
+      \field{year}{2024}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://www.geogebra.org
+      \endverb
+      \verb{url}
+      \verb https://www.geogebra.org
+      \endverb
+    \endentry
+    \entry{serway}{book}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=9142d7571fe4a7a87301eeced5dee93b}{%
+           family={Serway},
+           familyi={S\bibinitperiod},
+           given={Raymond\bibnamedelima A.},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9ae1a0dbf6fb8359590e8687bddfc7d6}{%
+           family={Jewett},
+           familyi={J\bibinitperiod},
+           given={John\bibnamedelima W.},
+           giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Cengage Learning}%
+      }
+      \strng{namehash}{661f7d9fde93c3aa92bd7766edfeb8b4}
+      \strng{fullhash}{661f7d9fde93c3aa92bd7766edfeb8b4}
+      \strng{fullhashraw}{661f7d9fde93c3aa92bd7766edfeb8b4}
+      \strng{bibnamehash}{661f7d9fde93c3aa92bd7766edfeb8b4}
+      \strng{authorbibnamehash}{661f7d9fde93c3aa92bd7766edfeb8b4}
+      \strng{authornamehash}{661f7d9fde93c3aa92bd7766edfeb8b4}
+      \strng{authorfullhash}{661f7d9fde93c3aa92bd7766edfeb8b4}
+      \strng{authorfullhashraw}{661f7d9fde93c3aa92bd7766edfeb8b4}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{8}
+      \field{title}{Física para ciencias e ingeniería}
+      \field{year}{2014}
+      \true{nocite}
+    \endentry
+    \entry{tipler}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=943b75d33d2ddaa051f5704fa8676cdd}{%
+           family={Tipler},
+           familyi={T\bibinitperiod},
+           given={Paul\bibnamedelima A.},
+           giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Reverté}%
+      }
+      \strng{namehash}{943b75d33d2ddaa051f5704fa8676cdd}
+      \strng{fullhash}{943b75d33d2ddaa051f5704fa8676cdd}
+      \strng{fullhashraw}{943b75d33d2ddaa051f5704fa8676cdd}
+      \strng{bibnamehash}{943b75d33d2ddaa051f5704fa8676cdd}
+      \strng{authorbibnamehash}{943b75d33d2ddaa051f5704fa8676cdd}
+      \strng{authornamehash}{943b75d33d2ddaa051f5704fa8676cdd}
+      \strng{authorfullhash}{943b75d33d2ddaa051f5704fa8676cdd}
+      \strng{authorfullhashraw}{943b75d33d2ddaa051f5704fa8676cdd}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Física}
+      \field{year}{2008}
+      \true{nocite}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
