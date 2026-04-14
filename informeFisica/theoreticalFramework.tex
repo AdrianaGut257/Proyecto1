@@ -643,9 +643,16 @@ x - x_0 &= v(t - \cancel{t_0})\\
 \vspace{-60pt}
 
 \[
-\hspace{1,8cm}\colorbox{blue!20}{$\vec{x}(t) = \vec{x}_0 + \vec{v}t$}
+\hspace{1,8cm}\colorbox{blue!20}{$x = x_0 + vt$}
 \]
-Donde $x_0$ es la posición inicial, $v$ es la velocidad constante y $t$ es el tiempo transcurrido.
+
+Donde:
+\begin{itemize}
+    \item $x$: posición final
+    \item $x_0$: posición inicial
+    \item $v$: velocidad constante
+    \item $t$: tiempo transcurrido
+\end{itemize}
 
 \subsection{Características del MRU}
 
@@ -660,9 +667,9 @@ Donde $x_0$ es la posición inicial, $v$ es la velocidad constante y $t$ es el t
 %%%%%%%%%%%%%%%%%%%%%
 
 %%%%%%%%%%%%%%%%%%%%%
-\section{Movimiento Rectilíneo Uniformemente Variado (MRUV)}
+\section{Movimiento Rectilíneo Uniformemente Acelerado (MRUA)}
 
-El Movimiento Rectilíneo Uniformemente Variado (MRUV) se caracteriza por presentar una aceleración constante distinta de cero. En este tipo de movimiento, la velocidad cambia de manera uniforme con respecto al tiempo.
+El Movimiento Rectilíneo Uniformemente Acelerado (MRUA) se caracteriza por presentar una aceleración constante distinta de cero. En este tipo de movimiento, la velocidad cambia de manera uniforme con respecto al tiempo.
 
 \subsection{Ecuaciones}
 
@@ -725,7 +732,7 @@ v\,dv &= a\,dx\\
 \]
 
 
-Las ecuaciones fundamentales del MRUV son:
+Las ecuaciones fundamentales del MRUA son:
 
 \begin{itemize}
     \item Ecuación de posición:
@@ -754,7 +761,7 @@ Donde:
     \item $t$: tiempo
 \end{itemize}
 
-\subsection{Características del MRUV}
+\subsection{Características del MRUA}
 
 \begin{itemize}
     \item La trayectoria es una línea recta.
@@ -764,8 +771,6 @@ Donde:
     \item La gráfica velocidad-tiempo es una línea recta con pendiente igual a la aceleración.
     \item Si la aceleración es positiva, el objeto acelera; si es negativa, desacelera.
 \end{itemize}
-
-
 
 %%%%%%%%%%%%%%%%%%%%%
 
@@ -778,48 +783,209 @@ Donde:
     \item Computadora o laptop
     \item Software GeoGebra
     \item Cuaderno de apuntes
+    \item Calculadora científica
 \end{itemize}
 
 \subsection{Procedimiento}
 
 \begin{enumerate}
     \item Abrir el software GeoGebra.
-    \item Definir la función de posición:
+    \item En la barra de entrada, definir la función de posición del automóvil (MRU):
     \[
-    x(t) = x_0 + v_0 t + \frac{1}{2}at^2
+    x_a(t) = 40t
     \]
+    \item Definir la función de posición del camión (MRUA):
+    \[
+    x_c(t) = 2t^2 + 80
+    \]
+    \item Observar las curvas generadas: la del automóvil es una línea recta y la del camión es una parábola.
+    \item Identificar gráficamente los puntos de intersección entre ambas curvas.
+    \item Verificar los resultados obtenidos analíticamente con los valores leídos en la gráfica.
 \end{enumerate}
+
+El ejercicio simulado es el siguiente:
+
+\textbf{Un automóvil se mueve a velocidad constante de 144 km/h en una carretera recta. En determinado momento, un camión que está a 80 m delante del automóvil comienza a moverse desde el reposo con una aceleración de 4 m/s$^2$. Determinar:}
+\begin{itemize}
+    \item[a)] El tiempo y la posición cuando el automóvil y el camión se encuentran juntos.
+    \item[b)] El momento cuando la velocidad del automóvil y del camión son iguales, y la separación entre ellos en ese instante.
+\end{itemize}
+
+\subsection{Resolución}
+
+\textbf{Datos del problema:}
+
+\begin{itemize}
+    \item \textbf{Automóvil:}
+    \begin{align*}
+        v_a &= 144\,\frac{\cancel{\text{km}}}{\cancel{\text{h}}} \cdot \frac{1000\,\text{m}}{1\,\cancel{\text{km}}} \cdot \frac{1\,\cancel{\text{h}}}{3600\,\text{s}} = 40\,\frac{\text{m}}{\text{s}} \\
+        x_{0a} &= 0\,\text{m} \\
+        a_a &= 0\,\frac{\text{m}}{\text{s}^2}
+    \end{align*}
+
+    \item \textbf{Camión:}
+    \begin{align*}
+        v_{0c} &= 0\,\frac{\text{m}}{\text{s}} \\
+        x_{0c} &= 80\,\text{m} \\
+        a_c &= 4\,\frac{\text{m}}{\text{s}^2}
+    \end{align*}
+\end{itemize}
+
+\textbf{Velocidad del camión (MRUA):}
+\vspace{-20pt}
+
+\begin{align*}
+a_c &= \frac{dv}{dt} \\
+4 &= \frac{dv}{dt} \\
+dv &= 4\,dt \\
+\int_{0}^{v} dv &= \int_{0}^{t} 4\,dt \\
+\left[v\right]_{0}^{v} &= 4\left[t\right]_{0}^{t} \\
+v - 0 &= 4(t - 0) \\
+\Aboxed{v_c &= 4t}
+\end{align*}
+
+\textbf{Posición del camión (MRUA):}
+\vspace{-20pt}
+
+\begin{align*}
+v_c &= \frac{dx}{dt} \\
+4t &= \frac{dx}{dt} \\
+dx &= 4t\,dt \\
+\int_{80}^{x} dx &= \int_{0}^{t} 4t\,dt \\
+\left[x\right]_{80}^{x} &= 2\left[t^2\right]_{0}^{t} \\
+x - 80 &= 2(t^2 - 0) \\
+x - 80 &= 2t^2 \\
+\Aboxed{x_c &= 2t^2 + 80}
+\end{align*}
+
+\textbf{Posición del automóvil (MRU):}
+\vspace{-20pt}
+
+\begin{align*}
+v_a &= \frac{dx}{dt} \\
+40 &= \frac{dx}{dt} \\
+dx &= 40\,dt \\
+\int_{0}^{x} dx &= \int_{0}^{t} 40\,dt \\
+\left[x\right]_{0}^{x} &= 40\left[t\right]_{0}^{t} \\
+x - 0 &= 40(t - 0) \\
+\Aboxed{x_a &= 40t}
+\end{align*}
+
+\subsubsection*{a) Tiempo y posición cuando se encuentran juntos}
+
+Para que el automóvil y el camión estén en la misma posición, igualamos sus ecuaciones de posición:
+\vspace{-20pt}
+
+\begin{align*}
+x_a &= x_c \\
+40t &= 2t^2 + 80 \\
+0 &= 2t^2 - 40t + 80 \\
+0 &= t^2 - 20t + 40
+\end{align*}
+
+Aplicando la fórmula general:
+\vspace{-20pt}
+
+\begin{align*}
+t &= \frac{-b \pm \sqrt{b^2 - 4ac}}{2a} \\
+t &= \frac{20 \pm \sqrt{(-20)^2 - 4(1)(40)}}{2(1)} \\
+t &= \frac{20 \pm \sqrt{400 - 160}}{2} \\
+t &= \frac{20 \pm \sqrt{240}}{2} \\
+t &= \frac{20 \pm 15{,}49}{2}
+\end{align*}
+
+Se obtienen dos eventos:
+\vspace{-20pt}
+
+\[
+\textbf{Primer evento:} \quad t_1 = \frac{20 - 15{,}49}{2} = \frac{4{,}51}{2} \approx 2{,}25\,\text{s} \Rightarrow t_1 \approx 2{,}3\,\text{s}
+\]
+
+\[
+\textbf{Segundo evento:} \quad t_2 = \frac{20 + 15{,}49}{2} = \frac{35{,}49}{2} \approx 17{,}74\,\text{s}
+\]
+
+\textit{Nota: El primer evento ($t_1 \approx 2{,}3$ s) es físicamente el relevante; corresponde al momento en que el auto alcanza al camión por primera vez.}
+
+Calculando la posición en $t_1 \approx 2{,}3$ s:
+
+\begin{align*}
+x_a &= 40t_1 = 40(2{,}25) = 90\,\text{m} \\
+x_c &= 2(2{,}25)^2 + 80 = 2(5{,}0625) + 80 = 10{,}125 + 80 \approx 90{,}2\,\text{m}
+\end{align*}
+
+\[
+\boxed{t_1 \approx 2{,}3\,\text{s}, \qquad x \approx 90{,}2\,\text{m}}
+\]
+
+\subsubsection*{b) Momento en que las velocidades son iguales y separación}
+
+\vspace{-40pt}
+
+\begin{align*}
+\intertext{Igualamos la velocidad del automóvil con la del camión:}
+v_a &= v_c \\
+40 &= 4t \\
+t &= \frac{40}{4} \\
+\Aboxed{t &= 10\,\text{s}}
+\intertext{Evaluamos las posiciones en $t = 10$ s:}
+x_a &= 40t = 40(10) = 400\,\text{m} \\
+x_c &= 2t^2 + 80 = 2(10)^2 + 80 = 200 + 80 = 280\,\text{m}
+\intertext{Separación entre ellos:}
+\Delta x &= x_a - x_c \\
+\Delta x &= 400 - 280 \\
+\Aboxed{\Delta x &= 120\,\text{m}}
+\end{align*}
 
 \subsection{Resultados}
 
 A partir de la simulación realizada en GeoGebra se obtuvieron los siguientes resultados:
 
 \begin{itemize}
-    \item La gráfica obtenida muestra\ldots
+    \item La gráfica del automóvil es una línea recta (MRU), con pendiente constante igual a su velocidad (40 m/s).
+    \item La gráfica del camión es una parábola (MRUA), que parte desde $x = 80$ m y se acelera progresivamente.
+    \item Las dos curvas se intersectan en dos puntos: el primero alrededor de $t \approx 2{,}3$ s y el segundo en $t \approx 17{,}74$ s.
 \end{itemize}
 
 \begin{table}[H]
 \centering
-\begin{tabular}{c|c|c}
-Tiempo (s) & Posición (m) & Velocidad (m/s) \\\hline
-0 & 0 & 2 \\
-1 & 2.5 & 3 \\
+\begin{tabular}{c|c|c|c}
+Tiempo (s) & $x_{\text{auto}}$ (m) & $x_{\text{camión}}$ (m) & $v_{\text{camión}}$ (m/s) \\\hline
+0   & 0     & 80    & 0  \\
+2{,}3 & 90  & 90{,}2 & 9{,}2 \\
+5   & 200   & 130   & 20 \\
+10  & 400   & 280   & 40 \\
+17{,}74 & 709{,}6 & 709{,}6 & 70{,}96 \\
 \end{tabular}
 \caption{Datos obtenidos en la simulación}
 \end{table}
 
+\vspace{-20pt}
+
 \subsection{Análisis}
 
-Los resultados obtenidos permiten observar que\ldots
-
-\subsection{Conclusiones}
+Los resultados obtenidos permiten observar que:
 
 \begin{itemize}
-    \item 
+    \item El automóvil, al tener mayor velocidad inicial, alcanza rápidamente al camión en $t \approx 2{,}3$ s (posición $\approx 90{,}2$ m). Sin embargo, como el camión está acelerando, eventualmente lo supera, por lo que el automóvil vuelve a alcanzarlo en el segundo evento ($t \approx 17{,}74$ s).
+    \item En $t = 10$ s las velocidades son iguales (ambas 40 m/s), pero el camión aún está 120 m por detrás del automóvil. A partir de ese momento, el camión, al seguir acelerando, comenzará a reducir esa brecha.
+    \item La diferencia en el tipo de movimiento (MRU vs MRUA) genera dos intersecciones en la gráfica posición-tiempo, lo cual tiene un significado físico claro: primero el auto pasa al camión, y luego el camión recupera y alcanza al auto.
 \end{itemize}
 
-\subsection{Recomendaciones}
+\section{Conclusiones}
 
 \begin{itemize}
-    \item 
+    \item El automóvil con MRU y el camión con MRUA se encuentran en dos momentos distintos: el primero a $t \approx 2{,}3$ s en la posición $x \approx 90{,}2$ m, y el segundo a $t \approx 17{,}74$ s.
+    \item Las velocidades de ambos vehículos son iguales a los $t = 10$ s, instante en el que el automóvil está 120 m adelante del camión.
+    \item La aplicación de las ecuaciones integrales del MRU y MRUA permite obtener con precisión las funciones de posición y velocidad de cada cuerpo, facilitando el análisis de encuentro entre móviles.
+    \item La simulación en GeoGebra confirma visualmente los resultados algebraicos, permitiendo una mejor comprensión del comportamiento dinámico de los dos vehículos.
+\end{itemize}
+
+\section{Recomendaciones}
+
+\begin{itemize}
+    \item Se recomienda convertir siempre las unidades al Sistema Internacional (m, s) antes de plantear las ecuaciones, para evitar errores de cálculo.
+    \item Es conveniente establecer claramente el sistema de referencia y la posición inicial de cada cuerpo al inicio del problema.
+    \item Al usar GeoGebra, es útil activar la vista gráfica y la hoja de cálculo simultáneamente para relacionar los valores numéricos con la representación visual.
+    \item Para problemas con dos móviles, se recomienda graficar ambas funciones de posición en el mismo sistema de ejes y verificar visualmente los puntos de encuentro antes de resolver algebraicamente.
 \end{itemize}

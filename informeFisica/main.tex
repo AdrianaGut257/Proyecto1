@@ -16,6 +16,10 @@
 \usepackage{tcolorbox}
 \usepackage{cancel}
 
+%%%Siguiente pagina subsection
+\usepackage{etoolbox}
+\pretocmd{\section}{\clearpage}{}{}
+
 \geometry{left=35mm, right=25mm, top=21mm, headsep=6mm, height=210mm, footskip=15mm}
 \hypersetup{hidelinks}
 
@@ -23,6 +27,7 @@
 %   NUMERACIÓN DE SECCIONES     %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \setcounter{secnumdepth}{4}
+\renewcommand{\sectionmark}[1]{\markboth{#1}{}}
 \renewcommand{\thesection}{\arabic{section}}
 \renewcommand{\thesubsection}{\thesection.\arabic{subsection}}
 \renewcommand{\thesubsubsection}{\thesubsection.\arabic{subsubsection}}
