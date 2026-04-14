@@ -1,7 +1,7 @@
-PWD C:\Users\Admin\Documents\PROYECTOS MATERIAS\Proyecto1\informeFisica
+PWD c:\Users\Admin\Documents\PROYECTOS MATERIAS\Proyecto1\informeFisica
 INPUT C:\Users\Admin\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
 INPUT c:\Users\Admin\Documents\PROYECTOS MATERIAS\Proyecto1\informeFisica\main.tex
-OUTPUT C:\Users\Admin\Documents\PROYECTOS MATERIAS\Proyecto1\informeFisica.build\main.log
+OUTPUT c:\Users\Admin\Documents\PROYECTOS MATERIAS\Proyecto1\informeFisica.build\main.log
 INPUT C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex\latex\apa7\apa7.cls
 INPUT C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex\latex\apa7\apa7.cls
 INPUT C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
@@ -314,10 +314,31 @@ INPUT C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex\latex\trimspaces\trimspac
 INPUT C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex\latex\trimspaces\trimspaces.sty
 INPUT C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex\latex\cancel\cancel.sty
 INPUT C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex\latex\cancel\cancel.sty
-INPUT C:\Users\Admin\Documents\PROYECTOS MATERIAS\Proyecto1\informeFisica.build\main.aux
-INPUT C:\Users\Admin\Documents\PROYECTOS MATERIAS\Proyecto1\informeFisica.build\main.aux
-INPUT C:\Users\Admin\Documents\PROYECTOS MATERIAS\Proyecto1\informeFisica.build\main.aux
-OUTPUT C:\Users\Admin\Documents\PROYECTOS MATERIAS\Proyecto1\informeFisica.build\main.aux
+INPUT C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex\latex\adjustbox\adjustbox.sty
+INPUT C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex\latex\adjustbox\adjustbox.sty
+INPUT C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex\latex\xkeyval\xkeyval.sty
+INPUT C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex\latex\xkeyval\xkeyval.sty
+INPUT C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex\generic\xkeyval\xkeyval.tex
+INPUT C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex\generic\xkeyval\xkvutils.tex
+INPUT C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex\latex\adjustbox\adjcalc.sty
+INPUT C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex\latex\adjustbox\adjcalc.sty
+INPUT C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex\latex\adjustbox\trimclip.sty
+INPUT C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex\latex\adjustbox\trimclip.sty
+INPUT C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex\latex\collectbox\collectbox.sty
+INPUT C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex\latex\collectbox\collectbox.sty
+INPUT C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex\latex\adjustbox\tc-pdftex.def
+INPUT C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex\latex\adjustbox\tc-pdftex.def
+INPUT C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex\latex\adjustbox\tc-pdftex.def
+INPUT C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex\latex\ifoddpage\ifoddpage.sty
+INPUT C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex\latex\ifoddpage\ifoddpage.sty
+INPUT C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex\latex\ifoddpage\ifoddpage.sty
+INPUT C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex\latex\varwidth\varwidth.sty
+INPUT C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex\latex\varwidth\varwidth.sty
+INPUT C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex\latex\varwidth\varwidth.sty
+INPUT c:\Users\Admin\Documents\PROYECTOS MATERIAS\Proyecto1\informeFisica.build\main.aux
+INPUT c:\Users\Admin\Documents\PROYECTOS MATERIAS\Proyecto1\informeFisica.build\main.aux
+INPUT c:\Users\Admin\Documents\PROYECTOS MATERIAS\Proyecto1\informeFisica.build\main.aux
+OUTPUT c:\Users\Admin\Documents\PROYECTOS MATERIAS\Proyecto1\informeFisica.build\main.aux
 INPUT C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
@@ -326,14 +347,14 @@ INPUT C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex\latex\epstopdf-pkg\epstop
 INPUT C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
 INPUT C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
 INPUT C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
-INPUT C:\Users\Admin\Documents\PROYECTOS MATERIAS\Proyecto1\informeFisica.build\main.out
-INPUT C:\Users\Admin\Documents\PROYECTOS MATERIAS\Proyecto1\informeFisica.build\main.out
-INPUT C:\Users\Admin\Documents\PROYECTOS MATERIAS\Proyecto1\informeFisica.build\main.out
-INPUT C:\Users\Admin\Documents\PROYECTOS MATERIAS\Proyecto1\informeFisica.build\main.out
-OUTPUT C:\Users\Admin\Documents\PROYECTOS MATERIAS\Proyecto1\informeFisica.build\main.pdf
-INPUT C:\Users\Admin\Documents\PROYECTOS MATERIAS\Proyecto1\informeFisica.build\main.out
-INPUT C:\Users\Admin\Documents\PROYECTOS MATERIAS\Proyecto1\informeFisica.build\main.out
-OUTPUT C:\Users\Admin\Documents\PROYECTOS MATERIAS\Proyecto1\informeFisica.build\main.out
+INPUT c:\Users\Admin\Documents\PROYECTOS MATERIAS\Proyecto1\informeFisica.build\main.out
+INPUT c:\Users\Admin\Documents\PROYECTOS MATERIAS\Proyecto1\informeFisica.build\main.out
+INPUT c:\Users\Admin\Documents\PROYECTOS MATERIAS\Proyecto1\informeFisica.build\main.out
+INPUT c:\Users\Admin\Documents\PROYECTOS MATERIAS\Proyecto1\informeFisica.build\main.out
+OUTPUT c:\Users\Admin\Documents\PROYECTOS MATERIAS\Proyecto1\informeFisica.build\main.pdf
+INPUT c:\Users\Admin\Documents\PROYECTOS MATERIAS\Proyecto1\informeFisica.build\main.out
+INPUT c:\Users\Admin\Documents\PROYECTOS MATERIAS\Proyecto1\informeFisica.build\main.out
+OUTPUT c:\Users\Admin\Documents\PROYECTOS MATERIAS\Proyecto1\informeFisica.build\main.out
 INPUT C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex\latex\apa7\config\APA7spanish.txt
 INPUT C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex\latex\apa7\config\APA7spanish.txt
 INPUT C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex\latex\apa7\config\APA7spanish.txt
@@ -346,12 +367,12 @@ INPUT C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\lbx\spanis
 INPUT C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\lbx\spanish.lbx
 INPUT C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\lbx\spanish.lbx
 INPUT C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\lbx\spanish.lbx
-OUTPUT C:\Users\Admin\Documents\PROYECTOS MATERIAS\Proyecto1\informeFisica.build\main.bcf
-INPUT C:\Users\Admin\Documents\PROYECTOS MATERIAS\Proyecto1\informeFisica.build\main.bbl
-INPUT C:\Users\Admin\Documents\PROYECTOS MATERIAS\Proyecto1\informeFisica.build\main.bbl
-INPUT C:\Users\Admin\Documents\PROYECTOS MATERIAS\Proyecto1\informeFisica.build\main.bbl
-INPUT C:\Users\Admin\Documents\PROYECTOS MATERIAS\Proyecto1\informeFisica.build\main.bbl
-INPUT C:\Users\Admin\Documents\PROYECTOS MATERIAS\Proyecto1\informeFisica.build\main.bbl
+OUTPUT c:\Users\Admin\Documents\PROYECTOS MATERIAS\Proyecto1\informeFisica.build\main.bcf
+INPUT c:\Users\Admin\Documents\PROYECTOS MATERIAS\Proyecto1\informeFisica.build\main.bbl
+INPUT c:\Users\Admin\Documents\PROYECTOS MATERIAS\Proyecto1\informeFisica.build\main.bbl
+INPUT c:\Users\Admin\Documents\PROYECTOS MATERIAS\Proyecto1\informeFisica.build\main.bbl
+INPUT c:\Users\Admin\Documents\PROYECTOS MATERIAS\Proyecto1\informeFisica.build\main.bbl
+INPUT c:\Users\Admin\Documents\PROYECTOS MATERIAS\Proyecto1\informeFisica.build\main.bbl
 INPUT .\cover.tex
 INPUT .\cover.tex
 INPUT .\cover.tex
@@ -370,9 +391,9 @@ INPUT C:\Users\Admin\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmbx12
 INPUT C:\Users\Admin\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmr10.tfm
 INPUT C:\Users\Admin\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
 INPUT C:\Users\Admin\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\lm\lm-ec.enc
-INPUT C:\Users\Admin\Documents\PROYECTOS MATERIAS\Proyecto1\informeFisica.build\main.toc
-INPUT C:\Users\Admin\Documents\PROYECTOS MATERIAS\Proyecto1\informeFisica.build\main.toc
-INPUT C:\Users\Admin\Documents\PROYECTOS MATERIAS\Proyecto1\informeFisica.build\main.toc
+INPUT c:\Users\Admin\Documents\PROYECTOS MATERIAS\Proyecto1\informeFisica.build\main.toc
+INPUT c:\Users\Admin\Documents\PROYECTOS MATERIAS\Proyecto1\informeFisica.build\main.toc
+INPUT c:\Users\Admin\Documents\PROYECTOS MATERIAS\Proyecto1\informeFisica.build\main.toc
 INPUT C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex\latex\lm\ot1lmr.fd
 INPUT C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex\latex\lm\ot1lmr.fd
 INPUT C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex\latex\lm\ot1lmr.fd
@@ -404,15 +425,15 @@ INPUT C:\Users\Admin\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\lmmib7.tf
 INPUT C:\Users\Admin\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\lmbsy10.tfm
 INPUT C:\Users\Admin\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\lmbsy10.tfm
 INPUT C:\Users\Admin\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\lmbsy7.tfm
-OUTPUT C:\Users\Admin\Documents\PROYECTOS MATERIAS\Proyecto1\informeFisica.build\main.toc
-INPUT C:\Users\Admin\Documents\PROYECTOS MATERIAS\Proyecto1\informeFisica.build\main.lof
-INPUT C:\Users\Admin\Documents\PROYECTOS MATERIAS\Proyecto1\informeFisica.build\main.lof
-INPUT C:\Users\Admin\Documents\PROYECTOS MATERIAS\Proyecto1\informeFisica.build\main.lof
-OUTPUT C:\Users\Admin\Documents\PROYECTOS MATERIAS\Proyecto1\informeFisica.build\main.lof
-INPUT C:\Users\Admin\Documents\PROYECTOS MATERIAS\Proyecto1\informeFisica.build\main.lot
-INPUT C:\Users\Admin\Documents\PROYECTOS MATERIAS\Proyecto1\informeFisica.build\main.lot
-INPUT C:\Users\Admin\Documents\PROYECTOS MATERIAS\Proyecto1\informeFisica.build\main.lot
-OUTPUT C:\Users\Admin\Documents\PROYECTOS MATERIAS\Proyecto1\informeFisica.build\main.lot
+OUTPUT c:\Users\Admin\Documents\PROYECTOS MATERIAS\Proyecto1\informeFisica.build\main.toc
+INPUT c:\Users\Admin\Documents\PROYECTOS MATERIAS\Proyecto1\informeFisica.build\main.lof
+INPUT c:\Users\Admin\Documents\PROYECTOS MATERIAS\Proyecto1\informeFisica.build\main.lof
+INPUT c:\Users\Admin\Documents\PROYECTOS MATERIAS\Proyecto1\informeFisica.build\main.lof
+OUTPUT c:\Users\Admin\Documents\PROYECTOS MATERIAS\Proyecto1\informeFisica.build\main.lof
+INPUT c:\Users\Admin\Documents\PROYECTOS MATERIAS\Proyecto1\informeFisica.build\main.lot
+INPUT c:\Users\Admin\Documents\PROYECTOS MATERIAS\Proyecto1\informeFisica.build\main.lot
+INPUT c:\Users\Admin\Documents\PROYECTOS MATERIAS\Proyecto1\informeFisica.build\main.lot
+OUTPUT c:\Users\Admin\Documents\PROYECTOS MATERIAS\Proyecto1\informeFisica.build\main.lot
 INPUT .\theoreticalFramework.tex
 INPUT .\theoreticalFramework.tex
 INPUT .\theoreticalFramework.tex
@@ -441,7 +462,7 @@ INPUT .\images\cinematicGraphics\1DPosition.jpg
 INPUT .\images\cinematicGraphics\1DPosition.jpg
 INPUT .\images\cinematicGraphics\1DPosition.jpg
 INPUT .\images\cinematicGraphics\1DPosition.jpg
-INPUT C:\Users\Admin\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmri10.tfm
+INPUT C:\Users\Admin\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\lm\lm-mathit.enc
 INPUT .\images\cinematicGraphics\2DPosition.jpg
 INPUT .\images\cinematicGraphics\2DPosition.jpg
 INPUT .\images\cinematicGraphics\2DPosition.jpg
@@ -451,30 +472,34 @@ INPUT .\images\cinematicGraphics\2DPosition.jpg
 INPUT .\images\cinematicGraphics\2DPosition.jpg
 INPUT C:\Users\Admin\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmr8.tfm
 INPUT C:\Users\Admin\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmr6.tfm
-INPUT .\images\cinematicGraphics\1DDisplacement.jpg
-INPUT .\images\cinematicGraphics\1DDisplacement.jpg
-INPUT .\images\cinematicGraphics\1DDisplacement.jpg
-INPUT .\images\cinematicGraphics\1DDisplacement.jpg
-INPUT .\images\cinematicGraphics\1DDisplacement.jpg
-INPUT .\images\cinematicGraphics\1DDisplacement.jpg
-INPUT .\images\cinematicGraphics\1DDisplacement.jpg
-INPUT .\images\cinematicGraphics\2DDisplacement.jpg
-INPUT .\images\cinematicGraphics\2DDisplacement.jpg
-INPUT .\images\cinematicGraphics\2DDisplacement.jpg
-INPUT .\images\cinematicGraphics\2DDisplacement.jpg
-INPUT .\images\cinematicGraphics\2DDisplacement.jpg
-INPUT .\images\cinematicGraphics\2DDisplacement.jpg
-INPUT .\images\cinematicGraphics\2DDisplacement.jpg
-INPUT C:\Users\Admin\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\lm\lm-mathit.enc
 INPUT C:\Users\Admin\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\lm\lm-rm.enc
 INPUT C:\Users\Admin\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\lm\lm-mathsy.enc
-INPUT .\images\cinematicGraphics\speedAndSpeed.jpg
-INPUT .\images\cinematicGraphics\speedAndSpeed.jpg
-INPUT .\images\cinematicGraphics\speedAndSpeed.jpg
-INPUT .\images\cinematicGraphics\speedAndSpeed.jpg
-INPUT .\images\cinematicGraphics\speedAndSpeed.jpg
-INPUT .\images\cinematicGraphics\speedAndSpeed.jpg
-INPUT .\images\cinematicGraphics\speedAndSpeed.jpg
+INPUT C:\Users\Admin\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\lm\lm-mathex.enc
+INPUT .\images\cinematicGraphics\1DDisplacement.jpg
+INPUT .\images\cinematicGraphics\1DDisplacement.jpg
+INPUT .\images\cinematicGraphics\1DDisplacement.jpg
+INPUT .\images\cinematicGraphics\1DDisplacement.jpg
+INPUT .\images\cinematicGraphics\1DDisplacement.jpg
+INPUT .\images\cinematicGraphics\1DDisplacement.jpg
+INPUT .\images\cinematicGraphics\1DDisplacement.jpg
+INPUT .\images\cinematicGraphics\2DDisplacement.jpg
+INPUT .\images\cinematicGraphics\2DDisplacement.jpg
+INPUT .\images\cinematicGraphics\2DDisplacement.jpg
+INPUT .\images\cinematicGraphics\2DDisplacement.jpg
+INPUT .\images\cinematicGraphics\2DDisplacement.jpg
+INPUT .\images\cinematicGraphics\2DDisplacement.jpg
+INPUT .\images\cinematicGraphics\2DDisplacement.jpg
+INPUT .\images\cinematicGraphics\speedV.jpg
+INPUT .\images\cinematicGraphics\speedV.jpg
+INPUT .\images\cinematicGraphics\speedV.jpg
+INPUT .\images\cinematicGraphics\speedV.jpg
+INPUT .\images\cinematicGraphics\speedV.jpg
+INPUT .\images\cinematicGraphics\speedV.jpg
+INPUT .\images\cinematicGraphics\speedV.jpg
+INPUT .\images\cinematicGraphics\speedV.jpg
+INPUT .\images\cinematicGraphics\speedV.jpg
+INPUT .\images\cinematicGraphics\speedV.jpg
+INPUT .\images\cinematicGraphics\speedV.jpg
 INPUT .\images\cinematicGraphics\AverageSpeed.jpg
 INPUT .\images\cinematicGraphics\AverageSpeed.jpg
 INPUT .\images\cinematicGraphics\AverageSpeed.jpg
@@ -512,7 +537,6 @@ INPUT .\images\demonstrations\example2.jpg
 INPUT .\images\demonstrations\example2.jpg
 INPUT .\images\demonstrations\example2.jpg
 INPUT .\images\demonstrations\example2.jpg
-INPUT C:\Users\Admin\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\lm\lm-mathex.enc
 INPUT .\images\demonstrations\uniformMovement.jpg
 INPUT .\images\demonstrations\uniformMovement.jpg
 INPUT .\images\demonstrations\uniformMovement.jpg
@@ -541,11 +565,11 @@ INPUT .\images\cinematicGraphics\definiteIntegral.jpg
 INPUT .\images\cinematicGraphics\definiteIntegral.jpg
 INPUT .\images\cinematicGraphics\definiteIntegral.jpg
 INPUT .\images\cinematicGraphics\definiteIntegral.jpg
-INPUT C:\Users\Admin\Documents\PROYECTOS MATERIAS\Proyecto1\informeFisica.build\main.aux
-INPUT C:\Users\Admin\Documents\PROYECTOS MATERIAS\Proyecto1\informeFisica.build\main.out
-INPUT C:\Users\Admin\Documents\PROYECTOS MATERIAS\Proyecto1\informeFisica.build\main.out
-INPUT C:\Users\Admin\Documents\PROYECTOS MATERIAS\Proyecto1\informeFisica.build\main.run.xml
-OUTPUT C:\Users\Admin\Documents\PROYECTOS MATERIAS\Proyecto1\informeFisica.build\main.run.xml
+INPUT c:\Users\Admin\Documents\PROYECTOS MATERIAS\Proyecto1\informeFisica.build\main.aux
+INPUT c:\Users\Admin\Documents\PROYECTOS MATERIAS\Proyecto1\informeFisica.build\main.out
+INPUT c:\Users\Admin\Documents\PROYECTOS MATERIAS\Proyecto1\informeFisica.build\main.out
+INPUT c:\Users\Admin\Documents\PROYECTOS MATERIAS\Proyecto1\informeFisica.build\main.run.xml
+OUTPUT c:\Users\Admin\Documents\PROYECTOS MATERIAS\Proyecto1\informeFisica.build\main.run.xml
 INPUT C:\Users\Admin\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\latxfont\line10.pfb
 INPUT C:\Users\Admin\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\latxfont\line10.pfb
 INPUT C:\Users\Admin\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmbx12.pfb
@@ -566,8 +590,6 @@ INPUT C:\Users\Admin\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmr6.pf
 INPUT C:\Users\Admin\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmr6.pfb
 INPUT C:\Users\Admin\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmr8.pfb
 INPUT C:\Users\Admin\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmr8.pfb
-INPUT C:\Users\Admin\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmri10.pfb
-INPUT C:\Users\Admin\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmri10.pfb
 INPUT C:\Users\Admin\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmri12.pfb
 INPUT C:\Users\Admin\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmri12.pfb
 INPUT C:\Users\Admin\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmsy10.pfb
