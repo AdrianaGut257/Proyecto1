@@ -6,44 +6,44 @@
 \contentsline {subsubsection}{\numberline {1.1.1}Observador interno}{5}{subsubsection.1.1.1}%
 \contentsline {subsubsection}{\numberline {1.1.2}Observador externo}{6}{subsubsection.1.1.2}%
 \contentsline {subsection}{\numberline {1.2}Posición}{6}{subsection.1.2}%
-\contentsline {subsection}{\numberline {1.3}Desplazamiento}{7}{subsection.1.3}%
-\contentsline {subsection}{\numberline {1.4}Velocidad y rapidez}{8}{subsection.1.4}%
-\contentsline {subsubsection}{\numberline {1.4.1}Velocidad}{8}{subsubsection.1.4.1}%
-\contentsline {subsubsection}{\numberline {1.4.2}Rapidez}{8}{subsubsection.1.4.2}%
-\contentsline {subsection}{\numberline {1.5}Velocidad media e instantánea}{9}{subsection.1.5}%
-\contentsline {subsubsection}{\numberline {1.5.1}Velocidad media}{9}{subsubsection.1.5.1}%
-\contentsline {subsubsection}{\numberline {1.5.2}Velocidad instantánea}{9}{subsubsection.1.5.2}%
-\contentsline {subsubsection}{\numberline {1.5.3}Ejemplo}{10}{subsubsection.1.5.3}%
-\contentsline {subsection}{\numberline {1.6}Aceleración media e instantánea}{12}{subsection.1.6}%
-\contentsline {subsubsection}{\numberline {1.6.1}Aceleración media}{12}{subsubsection.1.6.1}%
-\contentsline {subsubsection}{\numberline {1.6.2}Aceleración instantánea}{12}{subsubsection.1.6.2}%
-\contentsline {subsubsection}{\numberline {1.6.3}Ejemplo}{13}{subsubsection.1.6.3}%
-\contentsline {section}{\numberline {2}Movimiento uniforme}{15}{section.2}%
-\contentsline {subsection}{\numberline {2.1}Definición}{15}{subsection.2.1}%
-\contentsline {subsection}{\numberline {2.2}Velocidad}{15}{subsection.2.2}%
-\contentsline {subsection}{\numberline {2.3}Ecuación de movimiento}{15}{subsection.2.3}%
-\contentsline {subsection}{\numberline {2.4}Interpretación gráfica}{15}{subsection.2.4}%
-\contentsline {section}{\numberline {3}Cinematica de la particula}{17}{section.3}%
-\contentsline {section}{\numberline {4}Cálculo diferencial}{18}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Derivadas}{18}{subsection.4.1}%
-\contentsline {subsubsection}{\numberline {4.1.1}Interpretación}{18}{subsubsection.4.1.1}%
-\contentsline {subsubsection}{\numberline {4.1.2}Reglas de derivación}{18}{subsubsection.4.1.2}%
-\contentsline {subsubsection}{\numberline {4.1.3}Derivadas básicas}{20}{subsubsection.4.1.3}%
-\contentsline {subsection}{\numberline {4.2}Integrales}{20}{subsection.4.2}%
-\contentsline {subsubsection}{\numberline {4.2.1}Integral indefinida}{20}{subsubsection.4.2.1}%
-\contentsline {subsubsection}{\numberline {4.2.2}Integral definida}{21}{subsubsection.4.2.2}%
-\contentsline {subsubsection}{\numberline {4.2.3}Reglas de integración}{22}{subsubsection.4.2.3}%
-\contentsline {section}{\numberline {5}Movimiento Rectilíneo Uniforme (MRU)}{23}{section.5}%
-\contentsline {subsection}{\numberline {5.1}Ecuación de posición}{23}{subsection.5.1}%
-\contentsline {subsection}{\numberline {5.2}Características del MRU}{23}{subsection.5.2}%
-\contentsline {section}{\numberline {6}Movimiento Rectilíneo Uniformemente Acelerado (MRUA)}{25}{section.6}%
-\contentsline {subsection}{\numberline {6.1}Ecuaciones}{25}{subsection.6.1}%
-\contentsline {subsection}{\numberline {6.2}Características del MRUA}{27}{subsection.6.2}%
-\contentsline {section}{\numberline {7}Simulación}{28}{section.7}%
-\contentsline {subsection}{\numberline {7.1}Materiales}{28}{subsection.7.1}%
-\contentsline {subsection}{\numberline {7.2}Procedimiento}{28}{subsection.7.2}%
-\contentsline {subsection}{\numberline {7.3}Resolución}{29}{subsection.7.3}%
-\contentsline {subsection}{\numberline {7.4}Resultados}{32}{subsection.7.4}%
-\contentsline {subsection}{\numberline {7.5}Análisis}{33}{subsection.7.5}%
-\contentsline {section}{\numberline {8}Conclusiones}{34}{section.8}%
-\contentsline {section}{\numberline {9}Recomendaciones}{35}{section.9}%
+\contentsline {subsection}{\numberline {1.3}Desplazamiento}{8}{subsection.1.3}%
+\contentsline {subsection}{\numberline {1.4}Velocidad y rapidez}{9}{subsection.1.4}%
+\contentsline {subsubsection}{\numberline {1.4.1}Velocidad}{9}{subsubsection.1.4.1}%
+\contentsline {subsubsection}{\numberline {1.4.2}Rapidez}{10}{subsubsection.1.4.2}%
+\contentsline {subsection}{\numberline {1.5}Velocidad media e instantánea}{11}{subsection.1.5}%
+\contentsline {subsubsection}{\numberline {1.5.1}Velocidad media}{11}{subsubsection.1.5.1}%
+\contentsline {subsubsection}{\numberline {1.5.2}Velocidad instantánea}{11}{subsubsection.1.5.2}%
+\contentsline {subsubsection}{\numberline {1.5.3}Ejemplo}{12}{subsubsection.1.5.3}%
+\contentsline {subsection}{\numberline {1.6}Aceleración media e instantánea}{14}{subsection.1.6}%
+\contentsline {subsubsection}{\numberline {1.6.1}Aceleración media}{14}{subsubsection.1.6.1}%
+\contentsline {subsubsection}{\numberline {1.6.2}Aceleración instantánea}{14}{subsubsection.1.6.2}%
+\contentsline {subsubsection}{\numberline {1.6.3}Ejemplo}{15}{subsubsection.1.6.3}%
+\contentsline {section}{\numberline {2}Movimiento uniforme}{17}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Definición}{17}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Velocidad}{17}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Ecuación de movimiento}{17}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Interpretación gráfica}{17}{subsection.2.4}%
+\contentsline {section}{\numberline {3}Cinematica de la particula}{19}{section.3}%
+\contentsline {section}{\numberline {4}Cálculo diferencial}{20}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Derivadas}{20}{subsection.4.1}%
+\contentsline {subsubsection}{\numberline {4.1.1}Interpretación}{20}{subsubsection.4.1.1}%
+\contentsline {subsubsection}{\numberline {4.1.2}Reglas de derivación}{20}{subsubsection.4.1.2}%
+\contentsline {subsubsection}{\numberline {4.1.3}Derivadas básicas}{22}{subsubsection.4.1.3}%
+\contentsline {subsection}{\numberline {4.2}Integrales}{22}{subsection.4.2}%
+\contentsline {subsubsection}{\numberline {4.2.1}Integral indefinida}{22}{subsubsection.4.2.1}%
+\contentsline {subsubsection}{\numberline {4.2.2}Integral definida}{23}{subsubsection.4.2.2}%
+\contentsline {subsubsection}{\numberline {4.2.3}Reglas de integración}{24}{subsubsection.4.2.3}%
+\contentsline {section}{\numberline {5}Movimiento Rectilíneo Uniforme (MRU)}{25}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Ecuación de posición}{25}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Características del MRU}{25}{subsection.5.2}%
+\contentsline {section}{\numberline {6}Movimiento Rectilíneo Uniformemente Acelerado (MRUA)}{27}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Ecuaciones}{27}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Características del MRUA}{29}{subsection.6.2}%
+\contentsline {section}{\numberline {7}Simulación}{30}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Materiales}{30}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Procedimiento}{30}{subsection.7.2}%
+\contentsline {subsection}{\numberline {7.3}Resolución}{31}{subsection.7.3}%
+\contentsline {subsection}{\numberline {7.4}Resultados}{34}{subsection.7.4}%
+\contentsline {subsection}{\numberline {7.5}Análisis}{35}{subsection.7.5}%
+\contentsline {section}{\numberline {8}Conclusiones}{36}{section.8}%
+\contentsline {section}{\numberline {9}Recomendaciones}{37}{section.9}%

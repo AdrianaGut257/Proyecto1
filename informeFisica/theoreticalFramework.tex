@@ -6,9 +6,10 @@ La cinemática es la rama de la física que estudia el movimiento de los cuerpos
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.5\textwidth]{images/cinematicImages/cinematic.png}
-    \caption{Representación gráfica de la cinematica}
-    \label{fig:cinematica}
+    \adjustbox{margin={0pt 5pt 0pt 0pt}}{
+        \includegraphics[width=0.6\textwidth]{images/cinematicImages/cinematic.png}
+    }
+    \caption{Gráfica de la cinematica}
 \end{figure}
 
 \vspace{-20pt}
@@ -18,9 +19,10 @@ Es el marco o conjunto de coordenadas desde el cual un observador describe la po
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.6\textwidth]{images/cinematicImages/referenceSystem.png}
+    \adjustbox{margin={0pt 10pt 0pt 0pt}}{
+        \includegraphics[width=0.7\textwidth]{images/cinematicImages/referenceSystem.png}
+    }
     \caption{Representación gráfica del sistema de referencia}
-    \label{fig:sistemaDeReferencia}
 \end{figure}
 
 \vspace{-20pt}
@@ -36,41 +38,35 @@ La posición de un objeto indica su ubicación en el espacio respecto a un punto
 
 \begin{itemize}
     \item \textbf{En una dimensión (1D):} la posición se describe mediante una sola coordenada, generalmente $x$, que indica la distancia (con signo) respecto al origen.
-    
     \item \textbf{En dos dimensiones (2D):} la posición se describe mediante un vector $\vec{r}$ compuesto por dos coordenadas, $x$ e $y$, que determinan la ubicación del objeto en el plano.
 \end{itemize}
 
 \begin{figure}[H]
     \centering
-    \begin{subfigure}{0.4\textwidth}
-        \centering
-        \includegraphics[width=\linewidth]{images/cinematicGraphics/1DPosition.jpg}
-        \caption{Posición en "1D"}
-    \end{subfigure}
-    \hspace{0.02\textwidth}
-    \begin{subfigure}{0.4\textwidth}
-        \centering
-        \includegraphics[width=\linewidth]{images/cinematicGraphics/2DPosition.jpg}
-        \caption{Posición en "2D"}
-    \end{subfigure}
-    \caption{Representaciones gráficas de las posiciones}
-    \label{fig:posiciones}
+    \includegraphics[width=0.7\linewidth]{images/cinematicGraphics/1DPosition.jpg}
+    \caption{Representación gráfica de la posición en 1D}
 \end{figure}
 
-\vspace{-40pt}
+\vspace{-60pt}
 
-\[
-\begin{array}{l@{\hspace{5cm}}l}
+\begin{align*}
+    \Aboxed{\vec{r} = x_0(\pm \hat{\imath})}
+\end{align*}
 
-\colorbox{blue!20}{$\vec{r} = x_0(\pm \hat{\imath})$}
-&
-\colorbox{blue!20}{$\vec{r} = x\hat{\imath} + y\hat{\jmath}$}
-\\&
-\colorbox{blue!20}{$|\vec{r}| = \sqrt{x^2 + y^2}$}
-\\
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\linewidth]{images/cinematicGraphics/2DPosition.jpg}
+    \caption{Representación gráfica de la posición en 2D}
+\end{figure}
 
-\end{array}
-\]
+\vspace{-60pt}
+
+\begin{align*}
+    \Aboxed{\vec{r} = x\hat{\imath} + y\hat{\jmath}}\\
+    \Aboxed{|\vec{r}| = \sqrt{x^2 + y^2}}
+\end{align*}
+
+\vspace{-20pt}
 
 \[
 [\vec{r}\,] = [\mathrm{m}] \quad \text{S.I.} 
@@ -81,83 +77,82 @@ El desplazamiento es la variación de posición de un objeto entre dos instantes
 
 \begin{figure}[H]
     \centering
-    \begin{subfigure}{0.4\textwidth}
-        \centering
-        \includegraphics[width=\linewidth]{images/cinematicGraphics/1DDisplacement.jpg}
-        \caption{Desplazamiento en "1D"}
-    \end{subfigure}
-    \hspace{0.02\textwidth}
-    \begin{subfigure}{0.4\textwidth}
-        \centering
-        \includegraphics[width=\linewidth]{images/cinematicGraphics/2DDisplacement.jpg}
-        \caption{Desplazamiento en "2D"}
-    \end{subfigure}
-    \caption{Representaciones gráficas de los desplazamientos}
-    \label{fig:desplazamiento}
+    \includegraphics[width=0.7\linewidth]{images/cinematicGraphics/1DDisplacement.jpg}
+    \caption{Representación gráfica del desplazamiento en 1D}
 \end{figure}
 
-\vspace{-50pt}
+\vspace{-60pt}
 
-\[
-\begin{array}{l@{\hspace{5cm}}l}
+\begin{align*}
+    \Aboxed{\Delta \vec{x} = \vec{x}_f - \vec{x}_o}
+\end{align*}
 
-\colorbox{blue!20}{$\Delta \vec{x} = \vec{x}_f - \vec{x}_o$}
-&
-\colorbox{blue!20}{$\Delta \vec{r} = \vec{r}_f - \vec{r}_o$}
-\\&
-\vec{r}_o = x_o \hat{\imath} + y_o \hat{\jmath}
-\\&
-\vec{r}_f = x_f \hat{\imath} + y_f \hat{\jmath}
-\\
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\linewidth]{images/cinematicGraphics/2DDisplacement.jpg}
+    \caption{Representación gráfica del desplazamiento en 2D}
+\end{figure}
 
-\end{array}
-\]
+\vspace{-60pt}
 
-\vspace{-15pt}
+\begin{align*}
+    \Aboxed{\Delta \vec{r} = \vec{r}_f - \vec{r}_o}\\
+    \vec{r}_o = x_o \hat{\imath} + y_o \hat{\jmath}\\
+    \vec{r}_f = x_f \hat{\imath} + y_f \hat{\jmath}
+\end{align*}
+
+\vspace{-20pt}
 
 \[
 [\Delta \vec{r}\,] = [\mathrm{m}] \quad \text{S.I.} 
 \]
 
-Donde $x_f$ es la posición final y $x_0$ es la posición inicial. A diferencia de la distancia recorrida, el desplazamiento puede ser positivo, negativo o cero.
+Donde $x_f$ es la posición final y $x_0$ es la posición inicial.\\
+El desplazamiento puede ser positivo, negativo o cero.
 
 \subsection{Velocidad y rapidez}
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.6\textwidth]{images/cinematicGraphics/speedAndSpeed.jpg}
-    \caption{Representación gráfica de la velocidad y rapidez}
-    \label{fig:velocidad y rapidez}
-\end{figure}
-
-\vspace{-20pt}
 
 \subsubsection{Velocidad}
 La velocidad es una magnitud vectorial que expresa la variación de posición por unidad de tiempo. A diferencia de la rapidez, considera la dirección y el sentido del movimiento.
 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\textwidth]{images/cinematicGraphics/speedV.jpg}
+    \caption{Representación gráfica de la velocidad y rapidez}
+\end{figure}
+
+\vspace{-40pt}
 \[
 \text{velocidad} = \frac{\text{desplazamiento}}{t} = \frac{\Delta{x}}{t}
 \]
 
-\vspace{-10pt}
+\vspace{-20pt}
 
-\[
-\colorbox{blue!20}{$\displaystyle {v} = \frac{\Delta x}{t}$}
-\]
+\begin{align*}
+    \Aboxed{\displaystyle {v} = \frac{\Delta x}{t}}
+\end{align*}
 
 \subsubsection{Rapidez}
 
 La rapidez es una magnitud escalar que indica qué tan rápido se mueve un objeto.
 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\textwidth]{images/cinematicGraphics/speedV.jpg}
+    \caption{Representación gráfica de la velocidad y rapidez}
+\end{figure}
+
+\vspace{-40pt}
+
 \[
 \text{rapidez} = \frac{\text{distancia recorrida}}{t} = \frac{\text{d}}{t}
 \]
 
-\vspace{-10pt}
+\vspace{-20pt}
 
-\[
-\colorbox{blue!20}{$\displaystyle \text{v} = \frac{\text{d}}{t}$}
-\]
+\begin{align*}
+    \Aboxed{\displaystyle \text{v} = \frac{\text{d}}{t}}
+\end{align*}
 
 \subsection{Velocidad media e instantánea}
 
@@ -168,7 +163,6 @@ La velocidad media es el cociente entre el desplazamiento total y el intervalo d
     \centering
     \includegraphics[width=0.6\textwidth]{images/cinematicGraphics/AverageSpeed.jpg}
     \caption{Representación gráfica de la velocidad media}
-    \label{fig:velocidadMedia}
 \end{figure}
 
 \vspace{-40pt}
