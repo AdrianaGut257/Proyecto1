@@ -80,9 +80,9 @@ El desplazamiento es la variación de posición de un objeto entre dos instantes
 
 \vspace{-60pt}
 
-\begin{align*}
+\begin{align}
     \Aboxed{\Delta \vec{x} = \vec{x}_f - \vec{x}_o}
-\end{align*}
+\end{align}
 
 \begin{figure}[H]
     \centering
@@ -92,8 +92,10 @@ El desplazamiento es la variación de posición de un objeto entre dos instantes
 
 \vspace{-60pt}
 
+\begin{align}
+    \Aboxed{\Delta \vec{r} = \vec{r}_f - \vec{r}_o}
+\end{align}
 \begin{align*}
-    \Aboxed{\Delta \vec{r} = \vec{r}_f - \vec{r}_o}\\
     \vec{r}_o = x_o \hat{\imath} + y_o \hat{\jmath}\\
     \vec{r}_f = x_f \hat{\imath} + y_f \hat{\jmath}
 \end{align*}
@@ -164,9 +166,9 @@ La velocidad media es una magnitud vectorial que se define como el cambio de pos
 
 \vspace{-50pt}
 
-\begin{align*}
+\begin{align}
     \Aboxed{\displaystyle \vec{v}_m = \frac{\Delta \vec{r}}{\Delta t}} = \frac{\vec{r}_f - \vec{r}_o}{\vec{t}_f - \vec{t}_o}
-\end{align*}
+\end{align}
 
 \vspace{-20pt}
 
@@ -185,9 +187,9 @@ Este límite es lo que en cálculo se conoce como la derivada de la posición re
 
 \vspace{-40pt}
 
-\[
-\vec{v} = \lim_{\Delta t \to 0} \frac{\Delta \vec{r}}{\Delta t} = \frac{d\vec{r}}{dt}
-\]
+\begin{align}
+    \Aboxed{\vec{v} = \lim_{\Delta t \to 0} \frac{\Delta \vec{r}}{\Delta t}} = \frac{d\vec{r}}{dt}
+\end{align}
 
 \vspace{-20pt}
 
@@ -250,17 +252,20 @@ Determinar la velocidad instantánea de la partícula.
 La aceleración media mide la variación de la velocidad en un intervalo de tiempo determinado:
 \vspace{-20pt}
 
-\begin{align*}
+\begin{align}
     \Aboxed{\displaystyle \vec{a}_m = \frac{\Delta \vec{v}}{\Delta t}} = \frac{v_f - v_0}{t_f - t_0}
-\end{align*}
+\end{align}
 
 \subsubsection{Aceleración instantánea}
 
 La aceleración instantánea es la aceleración de un objeto en un instante preciso. Se define como el límite de la aceleración media cuando el intervalo de tiempo tiende a cero:
 \vspace{-20pt}
 
+\begin{align}
+\Aboxed{\vec{a} &= \lim_{\Delta t \to 0} (\frac{\Delta v}{\Delta t})}
+\end{align}
+
 \begin{align*}
-\Aboxed{\vec{a} &= \lim_{\Delta t \to 0} (\frac{\Delta v}{\Delta t})}\\
 \vec{a} &= \frac{\Delta v}{\Delta t}(t) \\
 \vec{a} &= \frac{d\vec{v}}{dt} \\
 \vec{v} &= v_x \hat{\imath} + v_y \hat{\jmath} + v_z \hat{k} \\
@@ -275,8 +280,11 @@ a_x &= \frac{dv_x}{dt}, \quad
 a_y = \frac{dv_y}{dt}, \quad
 a_z = \frac{dv_z}{dt}\\
 \vec{a} &= a_x \hat{\imath} + a_y \hat{\jmath} + a_z \hat{k}\\
-\Aboxed{|\vec{a}| &= a = \sqrt{a_x^2 + a_y^2 + a_z^2}}
 \end{align*}
+\vspace{-40pt}
+\begin{align}
+    \Aboxed{|\vec{a}| &= a = \sqrt{a_x^2 + a_y^2 + a_z^2}}
+\end{align}
 
 Geométricamente, corresponde a la pendiente de la recta tangente a la curva velocidad-tiempo en un punto dado.
 
