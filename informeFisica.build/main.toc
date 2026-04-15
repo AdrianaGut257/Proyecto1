@@ -46,11 +46,13 @@
 \contentsline {subsection}{\numberline {7.4}Tiempo total de subida y bajada}{32}{subsection.7.4}%
 \contentsline {subsection}{\numberline {7.5}Características}{33}{subsection.7.5}%
 \contentsline {section}{\numberline {8}Herramientas}{34}{section.8}%
-\contentsline {section}{\numberline {9}Simulación}{36}{section.9}%
-\contentsline {subsection}{\numberline {9.1}Materiales}{36}{subsection.9.1}%
-\contentsline {subsection}{\numberline {9.2}Procedimiento}{36}{subsection.9.2}%
-\contentsline {subsection}{\numberline {9.3}Resolución}{37}{subsection.9.3}%
-\contentsline {subsection}{\numberline {9.4}Resultados}{40}{subsection.9.4}%
-\contentsline {subsection}{\numberline {9.5}Análisis}{41}{subsection.9.5}%
-\contentsline {section}{\numberline {10}Conclusiones}{42}{section.10}%
-\contentsline {section}{\numberline {11}Recomendaciones}{43}{section.11}%
+\contentsline {subsection}{\numberline {8.1}Redacción del informe}{34}{subsection.8.1}%
+\contentsline {subsection}{\numberline {8.2}Presentación de exposición}{36}{subsection.8.2}%
+\contentsline {section}{\numberline {9}Simulación}{39}{section.9}%
+\contentsline {subsection}{\numberline {9.1}Materiales}{39}{subsection.9.1}%
+\contentsline {subsection}{\numberline {9.2}Procedimiento}{39}{subsection.9.2}%
+\contentsline {subsection}{\numberline {9.3}Resolución}{40}{subsection.9.3}%
+\contentsline {subsection}{\numberline {9.4}Resultados}{43}{subsection.9.4}%
+\contentsline {subsection}{\numberline {9.5}Análisis}{44}{subsection.9.5}%
+\contentsline {section}{\numberline {10}Conclusiones}{45}{section.10}%
+\contentsline {section}{\numberline {11}Recomendaciones}{46}{section.11}%

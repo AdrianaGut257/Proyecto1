@@ -19,6 +19,37 @@
 
 \refsection{0}
   \datalist[entry]{apa/apasortcite//global/global/global}
+    \entry{audacity}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=6eeddaff647b4d5744923fa08c6973af}{%
+           family={{Audacity Team}},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{6eeddaff647b4d5744923fa08c6973af}
+      \strng{fullhash}{6eeddaff647b4d5744923fa08c6973af}
+      \strng{fullhashraw}{6eeddaff647b4d5744923fa08c6973af}
+      \strng{bibnamehash}{6eeddaff647b4d5744923fa08c6973af}
+      \strng{authorbibnamehash}{6eeddaff647b4d5744923fa08c6973af}
+      \strng{authornamehash}{6eeddaff647b4d5744923fa08c6973af}
+      \strng{authorfullhash}{6eeddaff647b4d5744923fa08c6973af}
+      \strng{authorfullhashraw}{6eeddaff647b4d5744923fa08c6973af}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Audacity: software de edición de audio}
+      \field{year}{2024}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://www.audacityteam.org
+      \endverb
+      \verb{url}
+      \verb https://www.audacityteam.org
+      \endverb
+    \endentry
     \entry{canva}{online}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=776828efa2737f017d05c533df1f8041}{%
@@ -48,6 +79,68 @@
       \endverb
       \verb{url}
       \verb https://www.canva.com
+      \endverb
+    \endentry
+    \entry{capcut}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=e9bae98b34b2138ead8c156b998c5f59}{%
+           family={{CapCut}},
+           familyi={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{e9bae98b34b2138ead8c156b998c5f59}
+      \strng{fullhash}{e9bae98b34b2138ead8c156b998c5f59}
+      \strng{fullhashraw}{e9bae98b34b2138ead8c156b998c5f59}
+      \strng{bibnamehash}{e9bae98b34b2138ead8c156b998c5f59}
+      \strng{authorbibnamehash}{e9bae98b34b2138ead8c156b998c5f59}
+      \strng{authornamehash}{e9bae98b34b2138ead8c156b998c5f59}
+      \strng{authorfullhash}{e9bae98b34b2138ead8c156b998c5f59}
+      \strng{authorfullhashraw}{e9bae98b34b2138ead8c156b998c5f59}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{CapCut: editor de video}
+      \field{year}{2024}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://www.capcut.com
+      \endverb
+      \verb{url}
+      \verb https://www.capcut.com
+      \endverb
+    \endentry
+    \entry{freesound}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=dae3fe77e8c49ebdd09e9fd3319a6cd0}{%
+           family={{Freesound}},
+           familyi={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{dae3fe77e8c49ebdd09e9fd3319a6cd0}
+      \strng{fullhash}{dae3fe77e8c49ebdd09e9fd3319a6cd0}
+      \strng{fullhashraw}{dae3fe77e8c49ebdd09e9fd3319a6cd0}
+      \strng{bibnamehash}{dae3fe77e8c49ebdd09e9fd3319a6cd0}
+      \strng{authorbibnamehash}{dae3fe77e8c49ebdd09e9fd3319a6cd0}
+      \strng{authornamehash}{dae3fe77e8c49ebdd09e9fd3319a6cd0}
+      \strng{authorfullhash}{dae3fe77e8c49ebdd09e9fd3319a6cd0}
+      \strng{authorfullhashraw}{dae3fe77e8c49ebdd09e9fd3319a6cd0}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Freesound: biblioteca de efectos de sonido}
+      \field{year}{2024}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://freesound.org
+      \endverb
+      \verb{url}
+      \verb https://freesound.org
       \endverb
     \endentry
     \entry{geogebra2024}{online}{}{}
@@ -80,6 +173,30 @@
       \verb{url}
       \verb https://www.geogebra.org
       \endverb
+    \endentry
+    \entry{handel_passacaglia}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8bfab9f451edf0ec1b4789cbbe600486}{%
+           family={{George Frideric Handel}},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{8bfab9f451edf0ec1b4789cbbe600486}
+      \strng{fullhash}{8bfab9f451edf0ec1b4789cbbe600486}
+      \strng{fullhashraw}{8bfab9f451edf0ec1b4789cbbe600486}
+      \strng{bibnamehash}{8bfab9f451edf0ec1b4789cbbe600486}
+      \strng{authorbibnamehash}{8bfab9f451edf0ec1b4789cbbe600486}
+      \strng{authornamehash}{8bfab9f451edf0ec1b4789cbbe600486}
+      \strng{authorfullhash}{8bfab9f451edf0ec1b4789cbbe600486}
+      \strng{authorfullhashraw}{8bfab9f451edf0ec1b4789cbbe600486}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Música utilizada como fondo en la presentación}
+      \field{title}{Passacaglia (interpretada por Metamorphose String Orchestra)}
+      \true{nocite}
     \endentry
     \entry{giancoli2009}{book}{}{}
       \name{author}{1}{}{%
@@ -142,6 +259,37 @@
       \endverb
       \verb{url}
       \verb https://www.overleaf.com
+      \endverb
+    \endentry
+    \entry{pexels}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=3eb2e67058ae86730adc2fb770cdce83}{%
+           family={{Pexels}},
+           familyi={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{3eb2e67058ae86730adc2fb770cdce83}
+      \strng{fullhash}{3eb2e67058ae86730adc2fb770cdce83}
+      \strng{fullhashraw}{3eb2e67058ae86730adc2fb770cdce83}
+      \strng{bibnamehash}{3eb2e67058ae86730adc2fb770cdce83}
+      \strng{authorbibnamehash}{3eb2e67058ae86730adc2fb770cdce83}
+      \strng{authornamehash}{3eb2e67058ae86730adc2fb770cdce83}
+      \strng{authorfullhash}{3eb2e67058ae86730adc2fb770cdce83}
+      \strng{authorfullhashraw}{3eb2e67058ae86730adc2fb770cdce83}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Pexels: banco de videos e imágenes gratuitos}
+      \field{year}{2024}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://www.pexels.com
+      \endverb
+      \verb{url}
+      \verb https://www.pexels.com
       \endverb
     \endentry
     \entry{serway2014}{book}{}{}
@@ -254,6 +402,37 @@
     \endentry
   \enddatalist
   \datalist[entry]{apa/global//global/global/global}
+    \entry{audacity}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=6eeddaff647b4d5744923fa08c6973af}{%
+           family={{Audacity Team}},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{6eeddaff647b4d5744923fa08c6973af}
+      \strng{fullhash}{6eeddaff647b4d5744923fa08c6973af}
+      \strng{fullhashraw}{6eeddaff647b4d5744923fa08c6973af}
+      \strng{bibnamehash}{6eeddaff647b4d5744923fa08c6973af}
+      \strng{authorbibnamehash}{6eeddaff647b4d5744923fa08c6973af}
+      \strng{authornamehash}{6eeddaff647b4d5744923fa08c6973af}
+      \strng{authorfullhash}{6eeddaff647b4d5744923fa08c6973af}
+      \strng{authorfullhashraw}{6eeddaff647b4d5744923fa08c6973af}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Audacity: software de edición de audio}
+      \field{year}{2024}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://www.audacityteam.org
+      \endverb
+      \verb{url}
+      \verb https://www.audacityteam.org
+      \endverb
+    \endentry
     \entry{canva}{online}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=776828efa2737f017d05c533df1f8041}{%
@@ -283,6 +462,68 @@
       \endverb
       \verb{url}
       \verb https://www.canva.com
+      \endverb
+    \endentry
+    \entry{capcut}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=e9bae98b34b2138ead8c156b998c5f59}{%
+           family={{CapCut}},
+           familyi={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{e9bae98b34b2138ead8c156b998c5f59}
+      \strng{fullhash}{e9bae98b34b2138ead8c156b998c5f59}
+      \strng{fullhashraw}{e9bae98b34b2138ead8c156b998c5f59}
+      \strng{bibnamehash}{e9bae98b34b2138ead8c156b998c5f59}
+      \strng{authorbibnamehash}{e9bae98b34b2138ead8c156b998c5f59}
+      \strng{authornamehash}{e9bae98b34b2138ead8c156b998c5f59}
+      \strng{authorfullhash}{e9bae98b34b2138ead8c156b998c5f59}
+      \strng{authorfullhashraw}{e9bae98b34b2138ead8c156b998c5f59}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{CapCut: editor de video}
+      \field{year}{2024}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://www.capcut.com
+      \endverb
+      \verb{url}
+      \verb https://www.capcut.com
+      \endverb
+    \endentry
+    \entry{freesound}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=dae3fe77e8c49ebdd09e9fd3319a6cd0}{%
+           family={{Freesound}},
+           familyi={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{dae3fe77e8c49ebdd09e9fd3319a6cd0}
+      \strng{fullhash}{dae3fe77e8c49ebdd09e9fd3319a6cd0}
+      \strng{fullhashraw}{dae3fe77e8c49ebdd09e9fd3319a6cd0}
+      \strng{bibnamehash}{dae3fe77e8c49ebdd09e9fd3319a6cd0}
+      \strng{authorbibnamehash}{dae3fe77e8c49ebdd09e9fd3319a6cd0}
+      \strng{authornamehash}{dae3fe77e8c49ebdd09e9fd3319a6cd0}
+      \strng{authorfullhash}{dae3fe77e8c49ebdd09e9fd3319a6cd0}
+      \strng{authorfullhashraw}{dae3fe77e8c49ebdd09e9fd3319a6cd0}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Freesound: biblioteca de efectos de sonido}
+      \field{year}{2024}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://freesound.org
+      \endverb
+      \verb{url}
+      \verb https://freesound.org
       \endverb
     \endentry
     \entry{geogebra2024}{online}{}{}
@@ -315,6 +556,30 @@
       \verb{url}
       \verb https://www.geogebra.org
       \endverb
+    \endentry
+    \entry{handel_passacaglia}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8bfab9f451edf0ec1b4789cbbe600486}{%
+           family={{George Frideric Handel}},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{8bfab9f451edf0ec1b4789cbbe600486}
+      \strng{fullhash}{8bfab9f451edf0ec1b4789cbbe600486}
+      \strng{fullhashraw}{8bfab9f451edf0ec1b4789cbbe600486}
+      \strng{bibnamehash}{8bfab9f451edf0ec1b4789cbbe600486}
+      \strng{authorbibnamehash}{8bfab9f451edf0ec1b4789cbbe600486}
+      \strng{authornamehash}{8bfab9f451edf0ec1b4789cbbe600486}
+      \strng{authorfullhash}{8bfab9f451edf0ec1b4789cbbe600486}
+      \strng{authorfullhashraw}{8bfab9f451edf0ec1b4789cbbe600486}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Música utilizada como fondo en la presentación}
+      \field{title}{Passacaglia (interpretada por Metamorphose String Orchestra)}
+      \true{nocite}
     \endentry
     \entry{giancoli2009}{book}{}{}
       \name{author}{1}{}{%
@@ -377,6 +642,37 @@
       \endverb
       \verb{url}
       \verb https://www.overleaf.com
+      \endverb
+    \endentry
+    \entry{pexels}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=3eb2e67058ae86730adc2fb770cdce83}{%
+           family={{Pexels}},
+           familyi={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{3eb2e67058ae86730adc2fb770cdce83}
+      \strng{fullhash}{3eb2e67058ae86730adc2fb770cdce83}
+      \strng{fullhashraw}{3eb2e67058ae86730adc2fb770cdce83}
+      \strng{bibnamehash}{3eb2e67058ae86730adc2fb770cdce83}
+      \strng{authorbibnamehash}{3eb2e67058ae86730adc2fb770cdce83}
+      \strng{authornamehash}{3eb2e67058ae86730adc2fb770cdce83}
+      \strng{authorfullhash}{3eb2e67058ae86730adc2fb770cdce83}
+      \strng{authorfullhashraw}{3eb2e67058ae86730adc2fb770cdce83}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Pexels: banco de videos e imágenes gratuitos}
+      \field{year}{2024}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://www.pexels.com
+      \endverb
+      \verb{url}
+      \verb https://www.pexels.com
       \endverb
     \endentry
     \entry{serway2014}{book}{}{}

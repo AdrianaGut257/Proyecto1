@@ -17,18 +17,24 @@
 \usepackage{cancel}
 \usepackage{adjustbox}
 
-\usepackage{hyperref}
 \usepackage{array}
 \usepackage{booktabs}
 \usepackage{caption}
 \usepackage{placeins}
+\definecolor{blueS}{RGB}{0, 104, 204}
 
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,   % ← índice, referencias internas
+    urlcolor=blueS,     % ← enlaces web
+    citecolor=black    % ← citas
+}
 %%%Siguiente pagina subsection
 \usepackage{etoolbox}
 \pretocmd{\section}{\clearpage}{}{}
 
 \geometry{left=35mm, right=25mm, top=21mm, headsep=6mm, height=210mm, footskip=15mm}
-\hypersetup{hidelinks}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %   NUMERACIÓN DE SECCIONES     %
@@ -74,7 +80,7 @@
 %%%%%%%%%%%%%
 %  CARÁTULA %
 %%%%%%%%%%%%%
-\input{cover}
+\input{cover.tex}
 
 %%%%%%%%%%%%%%%%%%%
 %  ÍNDICE GENERAL %
@@ -89,7 +95,18 @@
 %%%%%%%%%%%%%%%%%%
 %  MARCO TEÓRICO %
 %%%%%%%%%%%%%%%%%%
-\input{theoreticalFramework}
+\input{documentBody/Section1.tex}
+\input{documentBody/Section2.tex}
+\input{documentBody/Section3.tex}
+\input{documentBody/Section4.tex}
+\input{documentBody/Section5.tex}
+\input{documentBody/Section6.tex}
+\input{documentBody/Section7.tex}
+\input{documentBody/Section8.tex}
+\input{documentBody/Section9(Tools).tex}
+\input{documentBody/Section10(Simulation).tex}
+\input{documentBody/Section11(Conclusions).tex}
+\input{documentBody/Section12(Recommendations).tex}
 
 %%%%%%%%%%%%%%%%%%
 %  BIBLIOGRAFÍA  %

@@ -1,0 +1,148 @@
+\section{Caida libre}
+
+La caída libre es un caso particular del Movimiento Rectilíneo Uniformemente Acelerado (MRUA), en el cual un cuerpo se mueve únicamente bajo la acción de la gravedad, despreciando la resistencia del aire.
+
+\vspace{-20pt}
+
+\[
+a = g \approx 9{,}8 \,\frac{\text{m}}{\text{s}^2}
+\]
+
+Donde $g$ es la aceleración de la gravedad, dirigida hacia el centro de la Tierra.
+
+
+\subsection{Ecuaciones}
+
+Las ecuaciones son las mismas del MRUA, considerando el eje vertical ($y$):
+
+Primera ecuacion:
+\begin{align*}
+a &= \frac{dv}{dt} \\
+g &= \frac{dv}{dt} \\
+dv &= g\,dt \\
+\int_{v_0}^{v} dv &= \int_{0}^{t} g\,dt \\
+\left[v\right]_{v_0}^{v} &= g\left[t\right]_{0}^{t} \\
+v - v_0 &= g(t - 0)
+\end{align*}
+
+\vspace{-30pt}
+
+\begin{align*}
+    \Aboxed{v = v_0 + gt}
+\end{align*}
+
+Segunda ecuacion:
+\begin{align*}
+v &= \frac{dy}{dt} \\
+dy &= (v_0 + gt)\,dt \\
+\int_{y_0}^{y} dy &= \int_{0}^{t} (v_0 + gt)\,dt \\
+\left[y\right]_{y_0}^{y} &= v_0\left[t\right]_{0}^{t} + g\left[\frac{t^2}{2}\right]_{0}^{t} \\
+y - y_0 &= v_0 t + \frac{1}{2}gt^2
+\end{align*}
+
+\vspace{-20pt}
+
+\begin{align*}
+    \Aboxed{y = y_0 + v_0 t + \frac{1}{2}gt^2}
+\end{align*}
+
+Tercera ecuacion:
+\begin{align*}
+v\,dv &= g\,dy \\
+\int_{v_0}^{v} v\,dv &= \int_{y_0}^{y} g\,dy \\
+\left[\frac{v^2}{2}\right]_{v_0}^{v} &= g\left[y\right]_{y_0}^{y} \\
+\frac{1}{2}(v^2 - v_0^2) &= g(y - y_0)
+\end{align*}
+
+\vspace{-30pt}
+
+\begin{align*}
+    \Aboxed{v^2 = v_0^2 + 2g(y - y_0)}
+\end{align*}
+
+Las ecuaciones fundamentales de la caída libre son:
+
+\begin{itemize}
+    \item Ecuación de posición:
+    \[
+    y = y_0 + v_0 t + \frac{1}{2}gt^2
+    \]
+
+    \item Ecuación de velocidad:
+    \[
+    v = v_0 + gt
+    \]
+
+    \item Ecuación independiente del tiempo:
+    \[
+    v^2 = v_0^2 + 2g(y - y_0)
+    \]
+\end{itemize}
+
+Donde:
+\begin{itemize}
+    \setlength{\itemsep}{0pt}
+    \item $y$: posición final
+    \item $y_0$: posición inicial
+    \item $v$: velocidad final
+    \item $v_0$: velocidad inicial
+    \item $g$: aceleración de la gravedad
+    \item $t$: tiempo
+\end{itemize}
+
+\subsection{Convención de signos}
+
+Es importante definir el sistema de referencia:
+
+\begin{itemize}
+    \setlength{\itemsep}{0pt}
+    \item Si se toma hacia arriba como positivo:
+    \[
+    g = -9{,}8\,\frac{\text{m}}{\text{s}^2}
+    \]
+    \item Si se toma hacia abajo como positivo:
+    \[
+    g = +9{,}8\,\frac{\text{m}}{\text{s}^2}
+    \]
+\end{itemize}
+
+\subsection{Altura máxima}
+
+La altura máxima se alcanza cuando la velocidad es cero:
+
+\vspace{-30pt}
+\begin{align*}
+v &= 0 \\
+0 &= v_0 - gt \\
+t &= \frac{v_0}{g}
+\end{align*}
+
+Sustituyendo en la ecuación de posición:
+
+\vspace{-20pt}
+
+\begin{align*}
+y_{\text{max}} &= y_0 + v_0\left(\frac{v_0}{g}\right) - \frac{1}{2}g\left(\frac{v_0}{g}\right)^2 \\
+\Aboxed{y_{\text{max}} &= y_0 + \frac{v_0^2}{2g}}
+\end{align*}
+
+\subsection{Tiempo total de subida y bajada}
+
+El tiempo de subida es igual al de bajada:
+
+\vspace{-20pt}
+
+\begin{align*}
+t_{\text{subida}} &= \frac{v_0}{g} \\
+\Aboxed{t_{\text{total}} &= \frac{2v_0}{g}}
+\end{align*}
+
+\subsection{Características}
+
+\begin{itemize}
+    \setlength{\itemsep}{0pt}
+    \item Es un movimiento rectilíneo vertical.
+    \item La aceleración es constante e igual a la gravedad.
+    \item Todos los cuerpos caen con la misma aceleración, independientemente de su masa.
+    \item La velocidad cambia uniformemente con el tiempo.
+\end{itemize}

@@ -351,6 +351,7 @@ INPUT C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex\latex\epstopdf-pkg\epstop
 INPUT C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
 INPUT C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
 INPUT C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
+INPUT C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex\latex\graphics\color.sty
 INPUT c:\Users\Admin\Documents\PROYECTOS MATERIAS\Proyecto1\informeFisica.build\main.out
 INPUT c:\Users\Admin\Documents\PROYECTOS MATERIAS\Proyecto1\informeFisica.build\main.out
 INPUT c:\Users\Admin\Documents\PROYECTOS MATERIAS\Proyecto1\informeFisica.build\main.out
@@ -377,8 +378,6 @@ INPUT c:\Users\Admin\Documents\PROYECTOS MATERIAS\Proyecto1\informeFisica.build\
 INPUT c:\Users\Admin\Documents\PROYECTOS MATERIAS\Proyecto1\informeFisica.build\main.bbl
 INPUT c:\Users\Admin\Documents\PROYECTOS MATERIAS\Proyecto1\informeFisica.build\main.bbl
 INPUT c:\Users\Admin\Documents\PROYECTOS MATERIAS\Proyecto1\informeFisica.build\main.bbl
-INPUT .\cover.tex
-INPUT .\cover.tex
 INPUT .\cover.tex
 INPUT .\cover.tex
 INPUT cover.tex
@@ -438,11 +437,9 @@ INPUT c:\Users\Admin\Documents\PROYECTOS MATERIAS\Proyecto1\informeFisica.build\
 INPUT c:\Users\Admin\Documents\PROYECTOS MATERIAS\Proyecto1\informeFisica.build\main.lot
 INPUT c:\Users\Admin\Documents\PROYECTOS MATERIAS\Proyecto1\informeFisica.build\main.lot
 OUTPUT c:\Users\Admin\Documents\PROYECTOS MATERIAS\Proyecto1\informeFisica.build\main.lot
-INPUT .\theoreticalFramework.tex
-INPUT .\theoreticalFramework.tex
-INPUT .\theoreticalFramework.tex
-INPUT .\theoreticalFramework.tex
-INPUT theoreticalFramework.tex
+INPUT .\documentBody\Section1.tex
+INPUT .\documentBody\Section1.tex
+INPUT documentBody\Section1.tex
 INPUT .\images\cinematicImages\cinematic.png
 INPUT .\images\cinematicImages\cinematic.png
 INPUT .\images\cinematicImages\cinematic.png
@@ -541,6 +538,9 @@ INPUT .\images\demonstrations\example2.jpg
 INPUT .\images\demonstrations\example2.jpg
 INPUT .\images\demonstrations\example2.jpg
 INPUT .\images\demonstrations\example2.jpg
+INPUT .\documentBody\Section2.tex
+INPUT .\documentBody\Section2.tex
+INPUT documentBody\Section2.tex
 INPUT .\images\demonstrations\uniformMovement.jpg
 INPUT .\images\demonstrations\uniformMovement.jpg
 INPUT .\images\demonstrations\uniformMovement.jpg
@@ -548,6 +548,15 @@ INPUT .\images\demonstrations\uniformMovement.jpg
 INPUT .\images\demonstrations\uniformMovement.jpg
 INPUT .\images\demonstrations\uniformMovement.jpg
 INPUT .\images\demonstrations\uniformMovement.jpg
+INPUT .\documentBody\Section3.tex
+INPUT .\documentBody\Section3.tex
+INPUT documentBody\Section3.tex
+INPUT .\documentBody\Section4.tex
+INPUT .\documentBody\Section4.tex
+INPUT documentBody\Section4.tex
+INPUT .\documentBody\Section5.tex
+INPUT .\documentBody\Section5.tex
+INPUT documentBody\Section5.tex
 INPUT .\images\cinematicGraphics\derivative.jpg
 INPUT .\images\cinematicGraphics\derivative.jpg
 INPUT .\images\cinematicGraphics\derivative.jpg
@@ -569,6 +578,18 @@ INPUT .\images\cinematicGraphics\definiteIntegral.jpg
 INPUT .\images\cinematicGraphics\definiteIntegral.jpg
 INPUT .\images\cinematicGraphics\definiteIntegral.jpg
 INPUT .\images\cinematicGraphics\definiteIntegral.jpg
+INPUT .\documentBody\Section6.tex
+INPUT .\documentBody\Section6.tex
+INPUT documentBody\Section6.tex
+INPUT .\documentBody\Section7.tex
+INPUT .\documentBody\Section7.tex
+INPUT documentBody\Section7.tex
+INPUT .\documentBody\Section8.tex
+INPUT .\documentBody\Section8.tex
+INPUT documentBody\Section8.tex
+INPUT .\documentBody\Section9(Tools).tex
+INPUT .\documentBody\Section9(Tools).tex
+INPUT documentBody\Section9(Tools).tex
 INPUT .\images\tools\canva.png
 INPUT .\images\tools\canva.png
 INPUT .\images\tools\canva.png
@@ -583,13 +604,48 @@ INPUT .\images\tools\overleaf.jpg
 INPUT .\images\tools\overleaf.jpg
 INPUT .\images\tools\overleaf.jpg
 INPUT .\images\tools\overleaf.jpg
-INPUT .\images\tools\geogebra.png
-INPUT .\images\tools\geogebra.png
-INPUT .\images\tools\geogebra.png
-INPUT .\images\tools\geogebra.png
-INPUT .\images\tools\geogebra.png
-INPUT .\images\tools\geogebra.png
-INPUT .\images\tools\geogebra.png
+INPUT .\images\tools\github.png
+INPUT .\images\tools\github.png
+INPUT .\images\tools\github.png
+INPUT .\images\tools\github.png
+INPUT .\images\tools\github.png
+INPUT .\images\tools\github.png
+INPUT .\images\tools\github.png
+INPUT .\images\tools\visualStudioCode.png
+INPUT .\images\tools\visualStudioCode.png
+INPUT .\images\tools\visualStudioCode.png
+INPUT .\images\tools\visualStudioCode.png
+INPUT .\images\tools\visualStudioCode.png
+INPUT .\images\tools\visualStudioCode.png
+INPUT .\images\tools\visualStudioCode.png
+INPUT C:\Users\Admin\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmri8.tfm
+INPUT .\images\tools\canva.png
+INPUT .\images\tools\canva.png
+INPUT .\images\tools\canva.png
+INPUT .\images\tools\canva.png
+INPUT .\images\tools\capcut.jpg
+INPUT .\images\tools\capcut.jpg
+INPUT .\images\tools\capcut.jpg
+INPUT .\images\tools\capcut.jpg
+INPUT .\images\tools\capcut.jpg
+INPUT .\images\tools\capcut.jpg
+INPUT .\images\tools\capcut.jpg
+INPUT .\images\tools\audacity.png
+INPUT .\images\tools\audacity.png
+INPUT .\images\tools\audacity.png
+INPUT .\images\tools\audacity.png
+INPUT .\images\tools\audacity.png
+INPUT .\images\tools\audacity.png
+INPUT .\images\tools\audacity.png
+INPUT .\documentBody\Section10(Simulation).tex
+INPUT .\documentBody\Section10(Simulation).tex
+INPUT documentBody\Section10(Simulation).tex
+INPUT .\documentBody\Section11(Conclusions).tex
+INPUT .\documentBody\Section11(Conclusions).tex
+INPUT documentBody\Section11(Conclusions).tex
+INPUT .\documentBody\Section12(Recommendations).tex
+INPUT .\documentBody\Section12(Recommendations).tex
+INPUT documentBody\Section12(Recommendations).tex
 INPUT c:\Users\Admin\Documents\PROYECTOS MATERIAS\Proyecto1\informeFisica.build\main.aux
 INPUT c:\Users\Admin\Documents\PROYECTOS MATERIAS\Proyecto1\informeFisica.build\main.out
 INPUT c:\Users\Admin\Documents\PROYECTOS MATERIAS\Proyecto1\informeFisica.build\main.out
@@ -617,6 +673,8 @@ INPUT C:\Users\Admin\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmr8.pf
 INPUT C:\Users\Admin\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmr8.pfb
 INPUT C:\Users\Admin\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmri12.pfb
 INPUT C:\Users\Admin\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmri12.pfb
+INPUT C:\Users\Admin\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmri8.pfb
+INPUT C:\Users\Admin\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmri8.pfb
 INPUT C:\Users\Admin\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmsy10.pfb
 INPUT C:\Users\Admin\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmsy10.pfb
 INPUT C:\Users\Admin\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmsy8.pfb
