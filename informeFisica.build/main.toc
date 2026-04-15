@@ -1,49 +1,50 @@
 \babel@toc {spanish}{}\relax 
-\contentsline {section}{\'{I}ndice de figuras}{3}{section*.2}%
-\contentsline {section}{\'{I}ndice de tablas}{4}{section*.3}%
-\contentsline {section}{\numberline {1}Cinemática}{5}{section.1}%
-\contentsline {subsection}{\numberline {1.1}Sistema de referencia}{5}{subsection.1.1}%
-\contentsline {subsubsection}{\numberline {1.1.1}Observador interno}{5}{subsubsection.1.1.1}%
-\contentsline {subsubsection}{\numberline {1.1.2}Observador externo}{6}{subsubsection.1.1.2}%
-\contentsline {subsection}{\numberline {1.2}Posición}{6}{subsection.1.2}%
-\contentsline {subsection}{\numberline {1.3}Desplazamiento}{8}{subsection.1.3}%
-\contentsline {subsection}{\numberline {1.4}Velocidad y rapidez}{9}{subsection.1.4}%
-\contentsline {subsubsection}{\numberline {1.4.1}Velocidad}{9}{subsubsection.1.4.1}%
-\contentsline {subsubsection}{\numberline {1.4.2}Rapidez}{10}{subsubsection.1.4.2}%
-\contentsline {subsection}{\numberline {1.5}Velocidad media e instantánea}{11}{subsection.1.5}%
-\contentsline {subsubsection}{\numberline {1.5.1}Velocidad media}{11}{subsubsection.1.5.1}%
-\contentsline {subsubsection}{\numberline {1.5.2}Velocidad instantánea}{11}{subsubsection.1.5.2}%
-\contentsline {subsubsection}{\numberline {1.5.3}Ejemplo}{12}{subsubsection.1.5.3}%
-\contentsline {subsection}{\numberline {1.6}Aceleración media e instantánea}{14}{subsection.1.6}%
-\contentsline {subsubsection}{\numberline {1.6.1}Aceleración media}{14}{subsubsection.1.6.1}%
-\contentsline {subsubsection}{\numberline {1.6.2}Aceleración instantánea}{14}{subsubsection.1.6.2}%
-\contentsline {subsubsection}{\numberline {1.6.3}Ejemplo 2}{15}{subsubsection.1.6.3}%
-\contentsline {section}{\numberline {2}Movimiento uniforme}{17}{section.2}%
-\contentsline {subsection}{\numberline {2.1}Definición}{17}{subsection.2.1}%
-\contentsline {subsection}{\numberline {2.2}Velocidad}{17}{subsection.2.2}%
-\contentsline {subsection}{\numberline {2.3}Ecuación de movimiento}{17}{subsection.2.3}%
-\contentsline {subsection}{\numberline {2.4}Interpretación gráfica}{17}{subsection.2.4}%
-\contentsline {section}{\numberline {3}Cinematica de la particula}{19}{section.3}%
-\contentsline {section}{\numberline {4}Cálculo diferencial}{20}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Derivadas}{20}{subsection.4.1}%
-\contentsline {subsubsection}{\numberline {4.1.1}Interpretación}{20}{subsubsection.4.1.1}%
-\contentsline {subsubsection}{\numberline {4.1.2}Reglas de derivación}{20}{subsubsection.4.1.2}%
-\contentsline {subsubsection}{\numberline {4.1.3}Derivadas básicas}{22}{subsubsection.4.1.3}%
-\contentsline {subsection}{\numberline {4.2}Integrales}{22}{subsection.4.2}%
-\contentsline {subsubsection}{\numberline {4.2.1}Integral indefinida}{22}{subsubsection.4.2.1}%
-\contentsline {subsubsection}{\numberline {4.2.2}Integral definida}{23}{subsubsection.4.2.2}%
-\contentsline {subsubsection}{\numberline {4.2.3}Reglas de integración}{24}{subsubsection.4.2.3}%
-\contentsline {section}{\numberline {5}Movimiento Rectilíneo Uniforme (MRU)}{25}{section.5}%
-\contentsline {subsection}{\numberline {5.1}Ecuación de posición}{25}{subsection.5.1}%
-\contentsline {subsection}{\numberline {5.2}Características del MRU}{25}{subsection.5.2}%
-\contentsline {section}{\numberline {6}Movimiento Rectilíneo Uniformemente Acelerado (MRUA)}{26}{section.6}%
-\contentsline {subsection}{\numberline {6.1}Ecuaciones}{26}{subsection.6.1}%
-\contentsline {subsection}{\numberline {6.2}Características del MRUA}{28}{subsection.6.2}%
-\contentsline {section}{\numberline {7}Simulación}{29}{section.7}%
-\contentsline {subsection}{\numberline {7.1}Materiales}{29}{subsection.7.1}%
-\contentsline {subsection}{\numberline {7.2}Procedimiento}{29}{subsection.7.2}%
-\contentsline {subsection}{\numberline {7.3}Resolución}{30}{subsection.7.3}%
-\contentsline {subsection}{\numberline {7.4}Resultados}{33}{subsection.7.4}%
-\contentsline {subsection}{\numberline {7.5}Análisis}{34}{subsection.7.5}%
-\contentsline {section}{\numberline {8}Conclusiones}{35}{section.8}%
-\contentsline {section}{\numberline {9}Recomendaciones}{36}{section.9}%
+\contentsline {section}{\'{I}ndice de figuras}{4}{section*.2}%
+\contentsline {section}{\'{I}ndice de tablas}{5}{section*.3}%
+\contentsline {section}{\numberline {1}Cinemática}{6}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Sistema de referencia}{6}{subsection.1.1}%
+\contentsline {subsubsection}{\numberline {1.1.1}Observador interno}{6}{subsubsection.1.1.1}%
+\contentsline {subsubsection}{\numberline {1.1.2}Observador externo}{7}{subsubsection.1.1.2}%
+\contentsline {subsection}{\numberline {1.2}Posición}{7}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Desplazamiento}{9}{subsection.1.3}%
+\contentsline {subsection}{\numberline {1.4}Velocidad y rapidez}{10}{subsection.1.4}%
+\contentsline {subsubsection}{\numberline {1.4.1}Velocidad}{10}{subsubsection.1.4.1}%
+\contentsline {subsubsection}{\numberline {1.4.2}Rapidez}{11}{subsubsection.1.4.2}%
+\contentsline {subsection}{\numberline {1.5}Velocidad media e instantánea}{12}{subsection.1.5}%
+\contentsline {subsubsection}{\numberline {1.5.1}Velocidad media}{12}{subsubsection.1.5.1}%
+\contentsline {subsubsection}{\numberline {1.5.2}Velocidad instantánea}{12}{subsubsection.1.5.2}%
+\contentsline {subsubsection}{\numberline {1.5.3}Ejemplo}{13}{subsubsection.1.5.3}%
+\contentsline {subsection}{\numberline {1.6}Aceleración media e instantánea}{15}{subsection.1.6}%
+\contentsline {subsubsection}{\numberline {1.6.1}Aceleración media}{15}{subsubsection.1.6.1}%
+\contentsline {subsubsection}{\numberline {1.6.2}Aceleración instantánea}{15}{subsubsection.1.6.2}%
+\contentsline {subsubsection}{\numberline {1.6.3}Ejemplo 2}{16}{subsubsection.1.6.3}%
+\contentsline {section}{\numberline {2}Movimiento uniforme}{18}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Definición}{18}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Velocidad}{18}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Ecuación de movimiento}{18}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Interpretación gráfica}{18}{subsection.2.4}%
+\contentsline {section}{\numberline {3}Cinematica de la particula}{20}{section.3}%
+\contentsline {section}{\numberline {4}Cálculo diferencial}{21}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Derivadas}{21}{subsection.4.1}%
+\contentsline {subsubsection}{\numberline {4.1.1}Interpretación}{21}{subsubsection.4.1.1}%
+\contentsline {subsubsection}{\numberline {4.1.2}Reglas de derivación}{21}{subsubsection.4.1.2}%
+\contentsline {subsubsection}{\numberline {4.1.3}Derivadas básicas}{23}{subsubsection.4.1.3}%
+\contentsline {subsection}{\numberline {4.2}Integrales}{23}{subsection.4.2}%
+\contentsline {subsubsection}{\numberline {4.2.1}Integral indefinida}{23}{subsubsection.4.2.1}%
+\contentsline {subsubsection}{\numberline {4.2.2}Integral definida}{24}{subsubsection.4.2.2}%
+\contentsline {subsubsection}{\numberline {4.2.3}Reglas de integración}{25}{subsubsection.4.2.3}%
+\contentsline {section}{\numberline {5}Movimiento Rectilíneo Uniforme (MRU)}{26}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Ecuación de posición}{26}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Características del MRU}{26}{subsection.5.2}%
+\contentsline {section}{\numberline {6}Movimiento Rectilíneo Uniformemente Acelerado (MRUA)}{27}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Ecuaciones}{27}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Características del MRUA}{29}{subsection.6.2}%
+\contentsline {section}{\numberline {7}Herramientas}{30}{section.7}%
+\contentsline {section}{\numberline {8}Simulación}{32}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Materiales}{32}{subsection.8.1}%
+\contentsline {subsection}{\numberline {8.2}Procedimiento}{32}{subsection.8.2}%
+\contentsline {subsection}{\numberline {8.3}Resolución}{33}{subsection.8.3}%
+\contentsline {subsection}{\numberline {8.4}Resultados}{36}{subsection.8.4}%
+\contentsline {subsection}{\numberline {8.5}Análisis}{37}{subsection.8.5}%
+\contentsline {section}{\numberline {9}Conclusiones}{38}{section.9}%
+\contentsline {section}{\numberline {10}Recomendaciones}{39}{section.10}%
