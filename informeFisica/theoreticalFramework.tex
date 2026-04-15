@@ -200,12 +200,12 @@ Este límite es lo que en cálculo se conoce como la derivada de la posición re
 
 \subsubsection{Ejemplo}
 
-Encontrar la velocidad:
+Determinar la velocidad instantánea de la partícula.
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.6\textwidth]{images/demonstrations/example1.jpg}
-    \caption{Representación gráfica del ejemplo 1}
+    \caption{Gráfica del ejemplo para encontrar la velocidad instantánea}
 \end{figure}
 
 \begin{align*}
@@ -250,21 +250,19 @@ Encontrar la velocidad:
 
 \subsubsection{Aceleración media}
 La aceleración media mide la variación de la velocidad en un intervalo de tiempo determinado:
-
 \vspace{-20pt}
 
-\[
-\vec{a}_m = \frac{\Delta \vec{v}}{\Delta t} = \frac{v_f - v_0}{t_f - t_0}
-\]
+\begin{align*}
+    \Aboxed{\displaystyle \vec{a}_m = \frac{\Delta \vec{v}}{\Delta t}} = \frac{v_f - v_0}{t_f - t_0}
+\end{align*}
 
 \subsubsection{Aceleración instantánea}
 
 La aceleración instantánea es la aceleración de un objeto en un instante preciso. Se define como el límite de la aceleración media cuando el intervalo de tiempo tiende a cero:
-
 \vspace{-20pt}
 
 \begin{align*}
-\vec{a} &= \lim_{\Delta t \to 0} (\frac{\Delta v}{\Delta t})\\
+\Aboxed{\vec{a} &= \lim_{\Delta t \to 0} (\frac{\Delta v}{\Delta t})}\\
 \vec{a} &= \frac{\Delta v}{\Delta t}(t) \\
 \vec{a} &= \frac{d\vec{v}}{dt} \\
 \vec{v} &= v_x \hat{\imath} + v_y \hat{\jmath} + v_z \hat{k} \\
@@ -279,18 +277,19 @@ a_x &= \frac{dv_x}{dt}, \quad
 a_y = \frac{dv_y}{dt}, \quad
 a_z = \frac{dv_z}{dt}\\
 \vec{a} &= a_x \hat{\imath} + a_y \hat{\jmath} + a_z \hat{k}\\
-|\vec{a}| &= a = \sqrt{a_x^2 + a_y^2 + a_z^2}
+\Aboxed{|\vec{a}| &= a = \sqrt{a_x^2 + a_y^2 + a_z^2}}
 \end{align*}
 
 Geométricamente, corresponde a la pendiente de la recta tangente a la curva velocidad-tiempo en un punto dado.
 
-\subsubsection{Ejemplo}
+\subsubsection{Ejemplo 2}
+
+Determinación de la aceleración usando la definición de aceleración instantánea.
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.6\textwidth]{images/demonstrations/example2.jpg}
-    \caption{Representación gráfica del ejemplo 2}
-    \label{fig:ejemplo 2}
+    \caption{Gráfica del ejemplo para encontrar la aceleración instantánea}
 \end{figure}
 
 \begin{align*}
@@ -304,13 +303,13 @@ Geométricamente, corresponde a la pendiente de la recta tangente a la curva vel
     a_y &= \lim_{\Delta t \to 0} \frac{\cancel{v_{0y}} - \cancel{gt} - g\Delta t - \cancel{v_{0y}} + \cancel{gt}}{\Delta t} \\
     a_y &= \lim_{\Delta t \to 0} \frac{-g\cancel{\Delta t}}{\cancel{\Delta t}} \\
     a_y &= \lim_{\Delta t \to 0} (-g) \\
-    a_y &= -g \\
+    \Aboxed{a_y &= -g} \\
 &\textbf{Comprobación usando derivada:} \\
     \vec{a} &= \frac{dv(t)}{dt} \\
     \vec{a} &= \frac{d}{dt}(v_{0y}-gt) \\
     \vec{a} &= \frac{d}{dt}(\cancel{v_{0y}}) - \frac{d}{dt}(gt)\\
     \vec{a} &= -g \cancel{\frac{dt}{dt}}\\
-    a &= -g
+    \Aboxed{a &= -g}
 \end{align*}
 
 %%%%%%%%%%%%%%%%%%%%%
@@ -320,7 +319,6 @@ Geométricamente, corresponde a la pendiente de la recta tangente a la curva vel
 
 \subsection{Definición}
 El movimiento uniforme es aquel en el cual la velocidad es constante en el tiempo.
-
 \vspace{-20pt}
 
 \begin{align*}
@@ -330,6 +328,8 @@ El movimiento uniforme es aquel en el cual la velocidad es constante en el tiemp
 \vspace{-20pt}
 
 \subsection{Velocidad}
+\vspace{-20pt}
+
 \begin{align*}
 \vec{v}_x &= \frac{\Delta \vec{x}}{\Delta t} \\
 \Delta \vec{x} &= \vec{v}\,\Delta t
@@ -340,14 +340,13 @@ Si $\Delta t$ es constante, entonces también $\Delta x$ es constante.
 \vspace{-10pt}
 
 \subsection{Ecuación de movimiento}
-
 \vspace{-30pt}
 
 \begin{align*}
 \vec{x}_f - \vec{x}_0 &= \vec{v}_x (t_f - \cancel{t_0}) \\
 \text{Tomando } t_f = t: \\
-\vec{x}_f &= \vec{x}_0 + \vec{v}_x t \quad \text{(ecuación vectorial)} \\
-x &= x_0 + v_x t \quad \text{(ecuación escalar)}
+\Aboxed{\vec{x}_f &= \vec{x}_0 + \vec{v}_x t} \quad \text{(ecuación vectorial)} \\
+\Aboxed{x &= x_0 + v_x t} \quad \text{(ecuación escalar)}
 \end{align*}
 
 \subsection{Interpretación gráfica}
@@ -356,7 +355,6 @@ x &= x_0 + v_x t \quad \text{(ecuación escalar)}
     \centering
     \includegraphics[width=0.6\textwidth]{images/demonstrations/uniformMovement.jpg}
     \caption{Representación gráfica del movimiento uniforme}
-    \label{fig:movimiento uniforme}
 \end{figure}
 
 La ecuación es de la forma:
@@ -377,15 +375,19 @@ Donde:
 
 %%%%%%%%%%%%%%%%%%%%%
 \section{Cinematica de la particula}
+
+La cinemática es la rama de la mecánica que estudia el movimiento de las partículas sin considerar las causas que lo originan. Para describir dicho movimiento, se introducen magnitudes fundamentales como la posición, la velocidad y la aceleración, todas ellas dependientes del tiempo.
 \vspace{-20pt}
+
 \begin{align*}
 \vec{v_m} &= \lim_{\Delta t \to 0} \left(\frac{\Delta \vec{r}}{\Delta t}\right)\\
-          &\colorbox{blue!20}{$\vec{v_m} = \frac{d\vec{r}}{dt}(t)$} \\
+\Aboxed{\vec{v_m} &= \frac{d\vec{r}}{dt}(t)}\\[10pt]
 \vec{a_m} &= \lim_{\Delta t \to 0} \left(\frac{\Delta \vec{v}}{\Delta t}\right)\\
-          &\colorbox{blue!20}{$\vec{a} = \frac{d\vec{v}}{dt}(t)$}
+\Aboxed{\vec{a} &= \frac{d\vec{v}}{dt}(t)}
 \end{align*}
 
-\text{Ecuaciones en forma integral}
+Las relaciones anteriores también pueden expresarse en forma integral, lo que permite determinar la velocidad y la posición a partir de la aceleración:
+
 \vspace{-20pt}
 
 \begin{align*}
@@ -410,7 +412,6 @@ La derivada de una función mide la tasa de cambio instantánea. Se define como:
     \centering
     \includegraphics[width=0.6\textwidth]{images/cinematicGraphics/derivative.jpg}
     \caption{Representación gráfica de la derivada}
-    \label{fig:derivada}
 \end{figure}
 
 \vspace{-40pt}
@@ -536,7 +537,6 @@ La integral es la operación inversa de la derivada y permite calcular áreas ba
     \centering
     \includegraphics[width=0.6\textwidth]{images/cinematicGraphics/indefiniteIntegral.jpg}
     \caption{Representación gráfica de la integral indefinida}
-    \label{fig:intregral indefinida}
 \end{figure}
 
 \vspace{-40pt}
@@ -564,7 +564,6 @@ porque:
     \centering
     \includegraphics[width=0.6\textwidth]{images/cinematicGraphics/definiteIntegral.jpg}
     \caption{Representación gráfica de la integral definida}
-    \label{fig:intregral definida}
 \end{figure}
 
 \vspace{-40pt}
@@ -623,9 +622,8 @@ Luego evaluamos en los límites:
 %%%%%%%%%%%%%%%%%%%%%
 \section{Movimiento Rectilíneo Uniforme (MRU)}
 
-
-
 El Movimiento Rectilíneo Uniforme (MRU) es aquel en el que un objeto se desplaza en línea recta con velocidad constante, es decir, con aceleración igual a cero.
+\vspace{-20pt}
 
 \[
 a = 0 \qquad v = \text{constante}
@@ -646,12 +644,13 @@ x - x_0 &= v(t - \cancel{t_0})\\
 
 \vspace{-60pt}
 
-\[
-\hspace{1,8cm}\colorbox{blue!20}{$x = x_0 + vt$}
-\]
+\begin{align*}
+    \hspace{1.8cm} \Aboxed{x &= x_0 + vt}
+\end{align*}
 
 Donde:
 \begin{itemize}
+    \setlength{\itemsep}{0pt}
     \item $x$: posición final
     \item $x_0$: posición inicial
     \item $v$: velocidad constante
@@ -661,6 +660,7 @@ Donde:
 \subsection{Características del MRU}
 
 \begin{itemize}
+    \setlength{\itemsep}{0pt}
     \item La trayectoria es una línea recta.
     \item La velocidad se mantiene constante en módulo, dirección y sentido.
     \item La aceleración es cero.
@@ -676,6 +676,7 @@ Donde:
 El Movimiento Rectilíneo Uniformemente Acelerado (MRUA) se caracteriza por presentar una aceleración constante distinta de cero. En este tipo de movimiento, la velocidad cambia de manera uniforme con respecto al tiempo.
 
 \subsection{Ecuaciones}
+\vspace{-20pt}
 
 \[
 a=\text{cte} \;\Rightarrow\; v \neq \text{cte}
@@ -692,14 +693,13 @@ dv &= a\,dt\\
 v - v_0 &= a(t-0)
 \end{align*}
 
-\vspace{-20pt}
+\vspace{-30pt}
 
-\[
-\colorbox{blue!20}{$v = v_0 + at$}
-\]
+\begin{align*}
+    \Aboxed{v = v_0 + at}
+\end{align*}
 
 Segunda ecuacion:
-
 \begin{align*}
 v &= \frac{dx}{dt}\\
 dx &= v(t)\,dt\\
@@ -711,12 +711,11 @@ x - x_0 &= v_0(t-0) + \frac{1}{2}a(t^2-0)
 
 \vspace{-20pt}
 
-\[
-\colorbox{blue!20}{$x = x_0 + v_0 t + \frac{1}{2}at^2$}
-\]
+\begin{align*}
+    \Aboxed{x = x_0 + v_0 t + \frac{1}{2}at^2}
+\end{align*}
 
 Tercera ecuacion:
-
 \begin{align*}
 a &= \frac{dv}{dt}\\
 dv &= a dt\\
@@ -729,12 +728,11 @@ v\,dv &= a\,dx\\
 \frac{1}{2}(v^2 - v_0^2) &= a(x - x_0)
 \end{align*}
 
-\vspace{-20pt}
+\vspace{-30pt}
 
-\[
-\colorbox{blue!20}{$v^2 = v_0^2 + 2a(x - x_0)$}
-\]
-
+\begin{align*}
+    \Aboxed{v^2 = v_0^2 + 2a(x - x_0)}
+\end{align*}
 
 Las ecuaciones fundamentales del MRUA son:
 
@@ -757,6 +755,7 @@ Las ecuaciones fundamentales del MRUA son:
 
 Donde:
 \begin{itemize}
+    \setlength{\itemsep}{0pt}
     \item $x$: posición final
     \item $x_0$: posición inicial
     \item $v$: velocidad final
@@ -768,6 +767,7 @@ Donde:
 \subsection{Características del MRUA}
 
 \begin{itemize}
+    \setlength{\itemsep}{0pt}
     \item La trayectoria es una línea recta.
     \item La aceleración es constante y distinta de cero.
     \item La velocidad cambia de manera uniforme con el tiempo.
