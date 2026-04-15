@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.4.6)  15 APR 2026 19:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.4.6)  15 APR 2026 19:55
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1239,12 +1239,12 @@ LaTeX Info: Redefining \. on input line 93.
 LaTeX Info: Redefining \% on input line 93.
  [5
 
-] (documentBody/Section1(IntroductionAndObjectives).tex
-LaTeX Info: Redefining \. on input line 4.
-LaTeX Info: Redefining \% on input line 4.
+] (documentBody/Section1(Introduction).tex) (documentBody/Section2(Objectives).tex
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
  [6
 
-]) (documentBody/Section2(Kinematics).tex
+]) (documentBody/Section3(Kinematics).tex
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
  [7
@@ -1348,7 +1348,7 @@ Package pdftex.def Info: images/demonstrations/example2.jpg  used on input line 
 (pdftex.def)             Requested size: 266.14978pt x 200.9282pt.
 LaTeX Info: Redefining \. on input line 319.
 LaTeX Info: Redefining \% on input line 319.
- [18 <./images/demonstrations/example2.jpg>]) (documentBody/Section3(UniformMovement).tex
+ [18 <./images/demonstrations/example2.jpg>]) (documentBody/Section4(UniformMovement).tex
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
  [19]
@@ -1361,10 +1361,10 @@ LaTeX Info: Redefining \. on input line 48.
 LaTeX Info: Redefining \% on input line 48.
  [20
 
- <./images/demonstrations/uniformMovement.jpg>]) (documentBody/Section4(ParticleKinematics).tex
+ <./images/demonstrations/uniformMovement.jpg>]) (documentBody/Section5(ParticleKinematics).tex
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
- [21]) (documentBody/Section5(DifferentialCalculus).tex
+ [21]) (documentBody/Section6(DifferentialCalculus).tex
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
  [22
@@ -1401,7 +1401,7 @@ LaTeX Info: Redefining \% on input line 167.
  [26 <./images/cinematicGraphics/indefiniteIntegral.jpg>]
 LaTeX Info: Redefining \. on input line 205.
 LaTeX Info: Redefining \% on input line 205.
- [27 <./images/cinematicGraphics/definiteIntegral.jpg>]) (documentBody/Section6(MRU).tex
+ [27 <./images/cinematicGraphics/definiteIntegral.jpg>]) (documentBody/Section7(MRU).tex
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
  [28]
@@ -1414,7 +1414,7 @@ LaTeX Info: Redefining \. on input line 42.
 LaTeX Info: Redefining \% on input line 42.
  [29
 
- <./images/cinematicImages/uniformRectilinearMotion.png>]) (documentBody/Section7(MRUA).tex
+ <./images/cinematicImages/uniformRectilinearMotion.png>]) (documentBody/Section8(MRUA).tex
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
  [30]
@@ -1430,7 +1430,7 @@ LaTeX Info: Redefining \% on input line 45.
  <./images/cinematicImages/uniformAcceleratedRectilinearMovement.jpg>]
 LaTeX Info: Redefining \. on input line 83.
 LaTeX Info: Redefining \% on input line 83.
- [32]) (documentBody/Section8(MVCL).tex
+ [32]) (documentBody/Section9(MVCL).tex
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
  [33]
@@ -1449,7 +1449,7 @@ LaTeX Info: Redefining \% on input line 93.
  [35]
 LaTeX Info: Redefining \. on input line 135.
 LaTeX Info: Redefining \% on input line 135.
- [36]) (documentBody/Section9(Tools).tex
+ [36]) (documentBody/Section10(Tools).tex
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
  [37]
@@ -1508,7 +1508,7 @@ Package pdftex.def Info: images/tools/geogebra.png  used on input line 170.
 (pdftex.def)             Requested size: 85.35826pt x 85.33813pt.
 LaTeX Info: Redefining \. on input line 178.
 LaTeX Info: Redefining \% on input line 178.
- [42 <./images/tools/capcut.jpg> <./images/tools/audacity.png>]) (documentBody/Section10(Simulation).tex
+ [42 <./images/tools/capcut.jpg> <./images/tools/audacity.png>]) (documentBody/Section11(Simulation).tex
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
  [43 <./images/tools/geogebra.png>]
@@ -1528,22 +1528,22 @@ LaTeX Info: Redefining \% on input line 161.
  [47]
 LaTeX Info: Redefining \. on input line 185.
 LaTeX Info: Redefining \% on input line 185.
- [48]) (documentBody/Section11(Conclusions).tex
+ [48]) (documentBody/Section12(Conclusions).tex
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
- [49]) (documentBody/Section12(Recommendations).tex
+ [49]) (documentBody/Section13(Recommendations).tex
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
  [50
 
 ])
-LaTeX Info: Redefining \. on input line 115.
-LaTeX Info: Redefining \% on input line 115.
+LaTeX Info: Redefining \. on input line 116.
+LaTeX Info: Redefining \% on input line 116.
  [51
 
 ] AED endfloat: Processing end Figures and Tables
-LaTeX Info: Redefining \. on input line 117.
-LaTeX Info: Redefining \% on input line 117.
+LaTeX Info: Redefining \. on input line 118.
+LaTeX Info: Redefining \% on input line 118.
  [52
 
 
@@ -1563,15 +1563,15 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 38242 strings out of 467870
- 752684 string characters out of 5418356
+ 38248 strings out of 467870
+ 752910 string characters out of 5418356
  1648520 words of memory out of 5000000
- 66320 multiletter control sequences out of 15000+600000
+ 66323 multiletter control sequences out of 15000+600000
  689609 words of font info for 72 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,19n,118p,763b,2908s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Admin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/latxfont/line10.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbxi10.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr6.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri8.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb>
-Output written on "c:/Users\Admin\Documents\PROYECTOS MATERIAS\Proyecto1\informeFisica.build\main.pdf" (53 pages, 3497434 bytes).
+Output written on "c:/Users\Admin\Documents\PROYECTOS MATERIAS\Proyecto1\informeFisica.build\main.pdf" (53 pages, 3499113 bytes).
 PDF statistics:
  819 PDF objects out of 1000 (max. 8388607)
  185 named destinations out of 1000 (max. 500000)
