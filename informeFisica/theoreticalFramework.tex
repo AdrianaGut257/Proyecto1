@@ -157,31 +157,33 @@ La rapidez es una magnitud escalar que indica qué tan rápido se mueve un objet
 \subsection{Velocidad media e instantánea}
 
 \subsubsection{Velocidad media}
-La velocidad media es el cociente entre el desplazamiento total y el intervalo de tiempo correspondiente:
+La velocidad media es una magnitud vectorial que se define como el cambio de posición (desplazamiento) dividido entre el intervalo de tiempo en el que ocurre ese cambio.
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.6\textwidth]{images/cinematicGraphics/AverageSpeed.jpg}
+    \includegraphics[width=0.6\textwidth]{images/cinematicGraphics/averageSpeed.jpg}
     \caption{Representación gráfica de la velocidad media}
 \end{figure}
 
-\vspace{-40pt}
+\vspace{-50pt}
+
+\begin{align*}
+    \Aboxed{\displaystyle \vec{v}_m = \frac{\Delta \vec{r}}{\Delta t}} = \frac{\vec{r}_f - \vec{r}_o}{\vec{t}_f - \vec{t}_o}
+\end{align*}
+
+\vspace{-20pt}
 
 \[
-\colorbox{blue!20}{$\displaystyle \vec{v}_m = \frac{\Delta \vec{r}}{\Delta t}$}
-= \frac{\vec{r}_f - \vec{r}_o}{\vec{t}_f - \vec{t}_o}
+[\vec{v}_m\,] = [\frac{m}{s}] \quad \text{S.I.} 
 \]
 
-Su unidad en el Sistema Internacional es el metro por segundo (m/s).
-
 \subsubsection{Velocidad instantánea}
-La velocidad instantánea es la velocidad de un objeto en un instante preciso de tiempo. Se obtiene como el límite de la velocidad media cuando el intervalo de tiempo tiende a cero:
-
+La velocidad instantánea es la velocidad de un objeto en un instante preciso de tiempo. Se obtiene como el límite de la velocidad media cuando el intervalo de tiempo tiende a cero.\\
+Este límite es lo que en cálculo se conoce como la derivada de la posición respecto al tiempo.
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.6\textwidth]{images/cinematicGraphics/instantSpeed.jpg}
     \caption{Representación gráfica de la velocidad instantánea}
-    \label{fig:velocidadInstantánea}
 \end{figure}
 
 \vspace{-40pt}
@@ -190,17 +192,20 @@ La velocidad instantánea es la velocidad de un objeto en un instante preciso de
 \vec{v} = \lim_{\Delta t \to 0} \frac{\Delta \vec{r}}{\Delta t} = \frac{d\vec{r}}{dt}
 \]
 
-Geométricamente, corresponde a la pendiente de la recta tangente a la curva posición-tiempo en un punto dado.
+\vspace{-20pt}
+
+\[
+[\vec{v}\,] = [\frac{m}{s}] \quad \text{S.I.} 
+\]
 
 \subsubsection{Ejemplo}
 
-Encontrar a velocidad:
+Encontrar la velocidad:
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.6\textwidth]{images/demonstrations/example1.jpg}
     \caption{Representación gráfica del ejemplo 1}
-    \label{fig:ejemplo1}
 \end{figure}
 
 \begin{align*}
@@ -213,13 +218,15 @@ Encontrar a velocidad:
     v_x &= \lim_{\Delta t \to 0} \frac{\cancel{t^2} + 2t\Delta t + (\Delta t)^2 - \cancel{t^2}}{\Delta t} \\
     v_x &= \lim_{\Delta t \to 0} \frac{\cancel{\Delta t}(2t + \Delta t)}{\cancel{\Delta t}} \\
     v_x &= \lim_{\Delta t \to 0} (2t + \cancel{\Delta t}) \\
-    v_x &= 2t \\
+    \Aboxed{v_x &= 2t} \\
 &\textbf{Comprobación usando derivada:} \\
     v_x &= \frac{dx(t)}{dt} \\
     v_x &= \frac{d}{dt}(t^2) \\
     v_x &= 2t^{2-1} \\
-    v_x &= 2t
+    \Aboxed{v_x &= 2t}
 \end{align*}
+
+\vspace{-30pt}
 
 \[
 \Rightarrow \quad \text{Ambos métodos coinciden.}
@@ -233,10 +240,9 @@ Encontrar a velocidad:
     \centering
     \includegraphics[width=0.6\textwidth]{images/cinematicGraphics/averageAcceleration.jpg}
     \caption{Representación gráfica de la Aceleración}
-    \label{fig:Aceleración}
 \end{figure}
 
-\vspace{-20pt}
+\vspace{-40pt}
 
 \[
 [a] = [\frac{m/s}{s}] = [\frac{m}{s^2}]  \quad \text{S.I.} 
@@ -245,6 +251,8 @@ Encontrar a velocidad:
 \subsubsection{Aceleración media}
 La aceleración media mide la variación de la velocidad en un intervalo de tiempo determinado:
 
+\vspace{-20pt}
+
 \[
 \vec{a}_m = \frac{\Delta \vec{v}}{\Delta t} = \frac{v_f - v_0}{t_f - t_0}
 \]
@@ -252,6 +260,8 @@ La aceleración media mide la variación de la velocidad en un intervalo de tiem
 \subsubsection{Aceleración instantánea}
 
 La aceleración instantánea es la aceleración de un objeto en un instante preciso. Se define como el límite de la aceleración media cuando el intervalo de tiempo tiende a cero:
+
+\vspace{-20pt}
 
 \begin{align*}
 \vec{a} &= \lim_{\Delta t \to 0} (\frac{\Delta v}{\Delta t})\\
