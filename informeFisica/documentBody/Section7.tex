@@ -1,0 +1,104 @@
+\section{Movimiento Rectilíneo Uniformemente Acelerado (MRUA)}
+
+El Movimiento Rectilíneo Uniformemente Acelerado (MRUA) se caracteriza por presentar una aceleración constante distinta de cero. En este tipo de movimiento, la velocidad cambia de manera uniforme con respecto al tiempo.
+
+\subsection{Ecuaciones}
+\vspace{-20pt}
+
+\[
+a=\text{cte} \;\Rightarrow\; v \neq \text{cte}
+\]
+
+\vspace{-20pt}
+
+Primera ecuacion:
+\begin{align*}
+a &= \frac{dv}{dt}\\
+dv &= a\,dt\\
+\int_{v_0}^{v} dv &= \int_{0}^{t} a\,dt\\
+\left[v\right]_{v_0}^{v} &= a\left[t\right]_{0}^{t}\\
+v - v_0 &= a(t-0)
+\end{align*}
+
+\vspace{-30pt}
+
+\begin{align*}
+    \Aboxed{v = v_0 + at}
+\end{align*}
+
+Segunda ecuacion:
+\begin{align*}
+v &= \frac{dx}{dt}\\
+dx &= v(t)\,dt\\
+\int_{x_0}^{x} dx &= \int_{0}^{t} (v_0 + at)\,dt\\
+\int_{x_0}^{x} dx &= \int_{0}^{t} v_0\,dt + \int_{0}^{t} at\,dt\\
+\left[x\right]_{x_0}^{x} &= v_0\left[t\right]_{0}^{t} + a\left[\frac{t^2}{2}\right]_{0}^{t}\\
+x - x_0 &= v_0(t-0) + \frac{1}{2}a(t^2-0)
+\end{align*}
+
+\vspace{-20pt}
+
+\begin{align*}
+    \Aboxed{x = x_0 + v_0 t + \frac{1}{2}at^2}
+\end{align*}
+
+Tercera ecuacion:
+\begin{align*}
+a &= \frac{dv}{dt}\\
+dv &= a dt\\
+dv &= a dt(\frac{dx}{dx})\\
+dv &= \frac{a dx}{(\frac{dx}{dt})}\\
+dv &= a\frac{dx}{v}\\
+v\,dv &= a\,dx\\
+\int_{v_0}^{v} v\,dv &= \int_{x_0}^{x} a\,dx\\
+\left[\frac{v^2}{2}\right]_{v_0}^{v} &= a\left[x\right]_{x_0}^{x}\\
+\frac{1}{2}(v^2 - v_0^2) &= a(x - x_0)
+\end{align*}
+
+\vspace{-30pt}
+
+\begin{align*}
+    \Aboxed{v^2 = v_0^2 + 2a(x - x_0)}
+\end{align*}
+
+Las ecuaciones fundamentales del MRUA son:
+
+\begin{itemize}
+    \item Ecuación de posición:
+    \[
+    x = x_0 + v_0 t + \frac{1}{2}at^2
+    \]
+
+    \item Ecuación de velocidad:
+    \[
+    v = v_0 + at
+    \]
+
+    \item Ecuación independiente del tiempo:
+    \[
+    v^2 = v_0^2 + 2a(x - x_0)
+    \]
+\end{itemize}
+
+Donde:
+\begin{itemize}
+    \setlength{\itemsep}{0pt}
+    \item $x$: posición final
+    \item $x_0$: posición inicial
+    \item $v$: velocidad final
+    \item $v_0$: velocidad inicial
+    \item $a$: aceleración
+    \item $t$: tiempo
+\end{itemize}
+
+\subsection{Características del MRUA}
+
+\begin{itemize}
+    \setlength{\itemsep}{0pt}
+    \item La trayectoria es una línea recta.
+    \item La aceleración es constante y distinta de cero.
+    \item La velocidad cambia de manera uniforme con el tiempo.
+    \item La gráfica posición-tiempo es una parábola.
+    \item La gráfica velocidad-tiempo es una línea recta con pendiente igual a la aceleración.
+    \item Si la aceleración es positiva, el objeto acelera; si es negativa, desacelera.
+\end{itemize}
