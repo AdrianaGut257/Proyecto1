@@ -39,12 +39,18 @@
 \contentsline {section}{\numberline {6}Movimiento Rectilíneo Uniformemente Acelerado (MRUA)}{27}{section.6}%
 \contentsline {subsection}{\numberline {6.1}Ecuaciones}{27}{subsection.6.1}%
 \contentsline {subsection}{\numberline {6.2}Características del MRUA}{29}{subsection.6.2}%
-\contentsline {section}{\numberline {7}Herramientas}{30}{section.7}%
-\contentsline {section}{\numberline {8}Simulación}{32}{section.8}%
-\contentsline {subsection}{\numberline {8.1}Materiales}{32}{subsection.8.1}%
-\contentsline {subsection}{\numberline {8.2}Procedimiento}{32}{subsection.8.2}%
-\contentsline {subsection}{\numberline {8.3}Resolución}{33}{subsection.8.3}%
-\contentsline {subsection}{\numberline {8.4}Resultados}{36}{subsection.8.4}%
-\contentsline {subsection}{\numberline {8.5}Análisis}{37}{subsection.8.5}%
-\contentsline {section}{\numberline {9}Conclusiones}{38}{section.9}%
-\contentsline {section}{\numberline {10}Recomendaciones}{39}{section.10}%
+\contentsline {section}{\numberline {7}Caida libre}{30}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Ecuaciones}{30}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Convención de signos}{32}{subsection.7.2}%
+\contentsline {subsection}{\numberline {7.3}Altura máxima}{32}{subsection.7.3}%
+\contentsline {subsection}{\numberline {7.4}Tiempo total de subida y bajada}{32}{subsection.7.4}%
+\contentsline {subsection}{\numberline {7.5}Características}{33}{subsection.7.5}%
+\contentsline {section}{\numberline {8}Herramientas}{34}{section.8}%
+\contentsline {section}{\numberline {9}Simulación}{36}{section.9}%
+\contentsline {subsection}{\numberline {9.1}Materiales}{36}{subsection.9.1}%
+\contentsline {subsection}{\numberline {9.2}Procedimiento}{36}{subsection.9.2}%
+\contentsline {subsection}{\numberline {9.3}Resolución}{37}{subsection.9.3}%
+\contentsline {subsection}{\numberline {9.4}Resultados}{40}{subsection.9.4}%
+\contentsline {subsection}{\numberline {9.5}Análisis}{41}{subsection.9.5}%
+\contentsline {section}{\numberline {10}Conclusiones}{42}{section.10}%
+\contentsline {section}{\numberline {11}Recomendaciones}{43}{section.11}%

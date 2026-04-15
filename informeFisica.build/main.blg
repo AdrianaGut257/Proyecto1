@@ -1,17 +1,17 @@
 [0] Config.pm:328> INFO - This is Biber 2.21
 [0] Config.pm:331> INFO - Logfile is 'c:/Users/Admin/Documents/PROYECTOS MATERIAS/Proyecto1/informeFisica.build/main.blg'
-[109] biber-MSWIN64:342> INFO - === 
-[154] Biber.pm:421> INFO - Reading 'c:/Users/Admin/Documents/PROYECTOS MATERIAS/Proyecto1/informeFisica.build/main.bcf'
-[269] Biber.pm:999> INFO - Using all citekeys in bib section 0
-[286] Biber.pm:4487> INFO - Processing section 0
-[295] Biber.pm:4678> INFO - Looking for bibtex file 'bibliography.bib' for section 0
-[361] bibtex.pm:1713> INFO - LaTeX decoding ...
-[377] bibtex.pm:1519> INFO - Found BibTeX data source 'bibliography.bib'
-[430] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
-[430] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[430] Biber.pm:4307> INFO - Sorting list 'apa/apasortcite//global/global/global' of type 'entry' with template 'apa' and locale 'es-ES'
-[444] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[444] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
-[444] Biber.pm:4307> INFO - Sorting list 'apa/global//global/global/global' of type 'entry' with template 'apa' and locale 'es-ES'
-[454] bbl.pm:676> INFO - Writing 'c:/Users/Admin/Documents/PROYECTOS MATERIAS/Proyecto1/informeFisica.build/main.bbl' with encoding 'UTF-8'
-[460] bbl.pm:779> INFO - Output to c:/Users/Admin/Documents/PROYECTOS MATERIAS/Proyecto1/informeFisica.build/main.bbl
+[105] biber-MSWIN64:342> INFO - === 
+[149] Biber.pm:421> INFO - Reading 'c:/Users/Admin/Documents/PROYECTOS MATERIAS/Proyecto1/informeFisica.build/main.bcf'
+[260] Biber.pm:999> INFO - Using all citekeys in bib section 0
+[276] Biber.pm:4487> INFO - Processing section 0
+[285] Biber.pm:4678> INFO - Looking for bibtex file 'bibliography.bib' for section 0
+[349] bibtex.pm:1713> INFO - LaTeX decoding ...
+[360] bibtex.pm:1519> INFO - Found BibTeX data source 'bibliography.bib'
+[413] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[413] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
+[413] Biber.pm:4307> INFO - Sorting list 'apa/apasortcite//global/global/global' of type 'entry' with template 'apa' and locale 'es-ES'
+[427] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
+[427] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[427] Biber.pm:4307> INFO - Sorting list 'apa/global//global/global/global' of type 'entry' with template 'apa' and locale 'es-ES'
+[437] bbl.pm:676> INFO - Writing 'c:/Users/Admin/Documents/PROYECTOS MATERIAS/Proyecto1/informeFisica.build/main.bbl' with encoding 'UTF-8'
+[443] bbl.pm:779> INFO - Output to c:/Users/Admin/Documents/PROYECTOS MATERIAS/Proyecto1/informeFisica.build/main.bbl

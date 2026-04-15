@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber c:/Users/Admin/Documents/PROYECTOS MATERIAS/Proyecto1/informeFisica.build/main"] 1776222302.09544 "c:/Users/Admin/Documents/PROYECTOS MATERIAS/Proyecto1/informeFisica.build/main.bcf" "c:/Users/Admin/Documents/PROYECTOS MATERIAS/Proyecto1/informeFisica.build/main.bbl" "c:/Users/Admin/Documents/PROYECTOS MATERIAS/Proyecto1/informeFisica.build/main" 1776222362.26222 0
+["biber c:/Users/Admin/Documents/PROYECTOS MATERIAS/Proyecto1/informeFisica.build/main"] 1776260319.78879 "c:/Users/Admin/Documents/PROYECTOS MATERIAS/Proyecto1/informeFisica.build/main.bcf" "c:/Users/Admin/Documents/PROYECTOS MATERIAS/Proyecto1/informeFisica.build/main.bbl" "c:/Users/Admin/Documents/PROYECTOS MATERIAS/Proyecto1/informeFisica.build/main" 1776260800.20194 0
   "bibliography.bib" 1776222301 1274 3634f5c9108f203a184bd2462d822b18 ""
-  "c:/Users/Admin/Documents/PROYECTOS MATERIAS/Proyecto1/informeFisica.build/main.bcf" 1776222361 134012 5ba32cdb3f1265d32d86578e379f0d29 "pdflatex"
+  "c:/Users/Admin/Documents/PROYECTOS MATERIAS/Proyecto1/informeFisica.build/main.bcf" 1776260799 134012 5ba32cdb3f1265d32d86578e379f0d29 "pdflatex"
   (generated)
   "c:/Users/Admin/Documents/PROYECTOS MATERIAS/Proyecto1/informeFisica.build/main.bbl"
   "c:/Users/Admin/Documents/PROYECTOS MATERIAS/Proyecto1/informeFisica.build/main.blg"
   (rewritten before read)
-["pdflatex"] 1776222358.75589 "c:/Users/Admin/Documents/PROYECTOS MATERIAS/Proyecto1/informeFisica/main.tex" "c:/Users/Admin/Documents/PROYECTOS MATERIAS/Proyecto1/informeFisica.build/main.pdf" "main" 1776222362.26291 0
+["pdflatex"] 1776260796.59332 "c:/Users/Admin/Documents/PROYECTOS MATERIAS/Proyecto1/informeFisica/main.tex" "c:/Users/Admin/Documents/PROYECTOS MATERIAS/Proyecto1/informeFisica.build/main.pdf" "main" 1776260800.20256 0
   "C:/Users/Admin/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1776221632 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/Admin/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1775521573 13333527 3074542d8433c68e6220797e38de3b66 ""
   "C:/Users/Admin/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc" 1256929440 2375 baa924870cfb487815765f9094cf3728 ""
@@ -235,13 +235,13 @@
   "C:/Users/Admin/AppData/Local/Programs/MiKTeX/tex/latex/varwidth/varwidth.sty" 1238469540 10894 d359a13923460b2a73d4312d613554c8 ""
   "C:/Users/Admin/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1729265222 55384 b454dec21c2d9f45ec0b793f0995b992 ""
   "C:/Users/Admin/AppData/Local/Programs/MiKTeX/tex/latex/xkeyval/xkeyval.sty" 1656236919 4937 4ce600ce9bd4ec84d0250eb6892fcf4f ""
-  "c:/Users/Admin/Documents/PROYECTOS MATERIAS/Proyecto1/informeFisica.build/main.aux" 1776222361 10813 98b7acbbbfb0ff2839e467d0a674d0a0 "pdflatex"
-  "c:/Users/Admin/Documents/PROYECTOS MATERIAS/Proyecto1/informeFisica.build/main.bbl" 1776222304 19785 ac01abbe85c4f5c29cea14e9428b205f "biber c:/Users/Admin/Documents/PROYECTOS MATERIAS/Proyecto1/informeFisica.build/main"
-  "c:/Users/Admin/Documents/PROYECTOS MATERIAS/Proyecto1/informeFisica.build/main.lof" 1776222361 2204 24903875212c60304d0f837efbdf201b "pdflatex"
-  "c:/Users/Admin/Documents/PROYECTOS MATERIAS/Proyecto1/informeFisica.build/main.lot" 1776222361 435 201e2b6a75a85d6624ce4c40621c3635 "pdflatex"
-  "c:/Users/Admin/Documents/PROYECTOS MATERIAS/Proyecto1/informeFisica.build/main.out" 1776222361 7214 eebe02f7fe13ff009c5baa13d3ad3361 "pdflatex"
-  "c:/Users/Admin/Documents/PROYECTOS MATERIAS/Proyecto1/informeFisica.build/main.run.xml" 1776222361 2361 33e49787457545757863eb87e35f0b3c "pdflatex"
-  "c:/Users/Admin/Documents/PROYECTOS MATERIAS/Proyecto1/informeFisica.build/main.toc" 1776222361 4182 6a1e9fb0703e0be76ac460e3e6902dc3 "pdflatex"
+  "c:/Users/Admin/Documents/PROYECTOS MATERIAS/Proyecto1/informeFisica.build/main.aux" 1776260799 11556 092a7e16ce4b97ef0f0fceb7b97b07ea "pdflatex"
+  "c:/Users/Admin/Documents/PROYECTOS MATERIAS/Proyecto1/informeFisica.build/main.bbl" 1776260321 19785 ac01abbe85c4f5c29cea14e9428b205f "biber c:/Users/Admin/Documents/PROYECTOS MATERIAS/Proyecto1/informeFisica.build/main"
+  "c:/Users/Admin/Documents/PROYECTOS MATERIAS/Proyecto1/informeFisica.build/main.lof" 1776260799 2204 24903875212c60304d0f837efbdf201b "pdflatex"
+  "c:/Users/Admin/Documents/PROYECTOS MATERIAS/Proyecto1/informeFisica.build/main.lot" 1776260799 435 5f2b326def30145ceb5ac56064930985 "pdflatex"
+  "c:/Users/Admin/Documents/PROYECTOS MATERIAS/Proyecto1/informeFisica.build/main.out" 1776260799 8085 44c1b18cdff750d05d596db98e4f3311 "pdflatex"
+  "c:/Users/Admin/Documents/PROYECTOS MATERIAS/Proyecto1/informeFisica.build/main.run.xml" 1776260799 2361 33e49787457545757863eb87e35f0b3c "pdflatex"
+  "c:/Users/Admin/Documents/PROYECTOS MATERIAS/Proyecto1/informeFisica.build/main.toc" 1776260799 4679 5784bd5e5723dc26c417ea61700043a2 "pdflatex"
   "c:/Users/Admin/Documents/PROYECTOS MATERIAS/Proyecto1/informeFisica/main.tex" 1776221625 2157 60c4519f4dcd5efe0b4417204e625097 ""
   "cover.tex" 1776195180 843 cb1f4fe1abe2d953c8182df5d91948d2 ""
   "images/cinematicGraphics/1DDisplacement.jpg" 1776198214 66956 8dfd21f0bc6021dc3dbe19d75d7bba48 ""
@@ -265,7 +265,7 @@
   "images/tools/geogebra.png" 1776221824 277828 7baf6419b68f5fb1a6d0610f1d5e40a2 ""
   "images/tools/overleaf.jpg" 1776218581 102918 564b8af6ea7c4b9047e95a806f77c5b2 ""
   "main.tex" 1776221625 2157 60c4519f4dcd5efe0b4417204e625097 ""
-  "theoreticalFramework.tex" 1776222358 31778 2ee3d3d108e06a42cb9af00f60786dd4 ""
+  "theoreticalFramework.tex" 1776260796 35224 f97614dd9149901533d26f0c075b5bd7 ""
   (generated)
   "c:/Users/Admin/Documents/PROYECTOS MATERIAS/Proyecto1/informeFisica.build/main.aux"
   "c:/Users/Admin/Documents/PROYECTOS MATERIAS/Proyecto1/informeFisica.build/main.bcf"
