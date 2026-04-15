@@ -9,33 +9,31 @@
 \usepackage[nottoc]{tocbibind}
 \usepackage{fancyhdr}
 \usepackage[backend=biber, style=apa]{biblatex}
-\addbibresource{bibliography.bib}
 \usepackage{subcaption}
 \usepackage{xcolor}
 \usepackage{empheq}
 \usepackage{tcolorbox}
 \usepackage{cancel}
 \usepackage{adjustbox}
-
+\usepackage{geometry}
 \usepackage{array}
 \usepackage{booktabs}
 \usepackage{caption}
 \usepackage{placeins}
-\definecolor{blueS}{RGB}{0, 104, 204}
-
 \usepackage{hyperref}
+\usepackage{etoolbox}   % Siguiente pagina subsection
+\pretocmd{\section}{\clearpage}{}{}
+\geometry{left=35mm, right=25mm}
+
 \hypersetup{
     colorlinks=true,
     linkcolor=black,   % ← índice, referencias internas
     urlcolor=blueS,    % ← enlaces web
     citecolor=black    % ← citas
 }
-%%%Siguiente pagina subsection
-\usepackage{etoolbox}
-\pretocmd{\section}{\clearpage}{}{}
 
-\usepackage{geometry}
-\geometry{left=35mm, right=25mm}
+\definecolor{blueS}{RGB}{0, 104, 204}
+\addbibresource{bibliography.bib}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %   NUMERACIÓN DE SECCIONES     %
