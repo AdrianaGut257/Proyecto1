@@ -27,14 +27,15 @@
 \hypersetup{
     colorlinks=true,
     linkcolor=black,   % ← índice, referencias internas
-    urlcolor=blueS,     % ← enlaces web
+    urlcolor=blueS,    % ← enlaces web
     citecolor=black    % ← citas
 }
 %%%Siguiente pagina subsection
 \usepackage{etoolbox}
 \pretocmd{\section}{\clearpage}{}{}
 
-\geometry{left=35mm, right=25mm, top=21mm, headsep=6mm, height=210mm, footskip=15mm}
+\usepackage{geometry}
+\geometry{left=35mm, right=25mm}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %   NUMERACIÓN DE SECCIONES     %
@@ -55,9 +56,10 @@
   \fancyhead[L]{\nouppercase{\leftmark}}
   \renewcommand{\headrulewidth}{0.4pt}
   \renewcommand{\footrulewidth}{0.4pt}
-  \setlength{\headheight}{14pt}
+  \setlength{\headheight}{16pt}
 }
 
+% chktex-file 1
 \fancypagestyle{cuerpo}{
   \aplicarEstilo
 }
@@ -95,14 +97,14 @@
 %%%%%%%%%%%%%%%%%%
 %  MARCO TEÓRICO %
 %%%%%%%%%%%%%%%%%%
-\input{documentBody/Section1.tex}
-\input{documentBody/Section2.tex}
-\input{documentBody/Section3.tex}
-\input{documentBody/Section4.tex}
-\input{documentBody/Section5.tex}
+\input{documentBody/Section1(IntroductionAndObjectives).tex}
+\input{documentBody/Section2(Kinematics).tex}
+\input{documentBody/Section3(UniformMovement).tex}
+\input{documentBody/Section4(ParticleKinematics).tex}
+\input{documentBody/Section5(DifferentialCalculus).tex}
 \input{documentBody/Section6(MRU).tex}
-\input{documentBody/Section7.tex}
-\input{documentBody/Section8.tex}
+\input{documentBody/Section7(MRUA).tex}
+\input{documentBody/Section8(MVCL).tex}
 \input{documentBody/Section9(Tools).tex}
 \input{documentBody/Section10(Simulation).tex}
 \input{documentBody/Section11(Conclusions).tex}
