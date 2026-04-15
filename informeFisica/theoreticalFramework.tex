@@ -1,3 +1,4 @@
+
 %%%%%%%%%%%%%%%%%%%%%
 
 %%%%%%%%%%%%%%%%%%%%%
@@ -200,12 +201,12 @@ Este límite es lo que en cálculo se conoce como la derivada de la posición re
 
 \subsubsection{Ejemplo}
 
-Encontrar la velocidad:
+Determinar la velocidad instantánea de la partícula.
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.6\textwidth]{images/demonstrations/example1.jpg}
-    \caption{Representación gráfica del ejemplo 1}
+    \caption{Gráfica del ejemplo para encontrar la velocidad instantánea}
 \end{figure}
 
 \begin{align*}
@@ -250,21 +251,19 @@ Encontrar la velocidad:
 
 \subsubsection{Aceleración media}
 La aceleración media mide la variación de la velocidad en un intervalo de tiempo determinado:
-
 \vspace{-20pt}
 
-\[
-\vec{a}_m = \frac{\Delta \vec{v}}{\Delta t} = \frac{v_f - v_0}{t_f - t_0}
-\]
+\begin{align*}
+    \Aboxed{\displaystyle \vec{a}_m = \frac{\Delta \vec{v}}{\Delta t}} = \frac{v_f - v_0}{t_f - t_0}
+\end{align*}
 
 \subsubsection{Aceleración instantánea}
 
 La aceleración instantánea es la aceleración de un objeto en un instante preciso. Se define como el límite de la aceleración media cuando el intervalo de tiempo tiende a cero:
-
 \vspace{-20pt}
 
 \begin{align*}
-\vec{a} &= \lim_{\Delta t \to 0} (\frac{\Delta v}{\Delta t})\\
+\Aboxed{\vec{a} &= \lim_{\Delta t \to 0} (\frac{\Delta v}{\Delta t})}\\
 \vec{a} &= \frac{\Delta v}{\Delta t}(t) \\
 \vec{a} &= \frac{d\vec{v}}{dt} \\
 \vec{v} &= v_x \hat{\imath} + v_y \hat{\jmath} + v_z \hat{k} \\
@@ -279,18 +278,19 @@ a_x &= \frac{dv_x}{dt}, \quad
 a_y = \frac{dv_y}{dt}, \quad
 a_z = \frac{dv_z}{dt}\\
 \vec{a} &= a_x \hat{\imath} + a_y \hat{\jmath} + a_z \hat{k}\\
-|\vec{a}| &= a = \sqrt{a_x^2 + a_y^2 + a_z^2}
+\Aboxed{|\vec{a}| &= a = \sqrt{a_x^2 + a_y^2 + a_z^2}}
 \end{align*}
 
 Geométricamente, corresponde a la pendiente de la recta tangente a la curva velocidad-tiempo en un punto dado.
 
-\subsubsection{Ejemplo}
+\subsubsection{Ejemplo 2}
+
+Determinación de la aceleración usando la definición de aceleración instantánea.
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.6\textwidth]{images/demonstrations/example2.jpg}
-    \caption{Representación gráfica del ejemplo 2}
-    \label{fig:ejemplo 2}
+    \caption{Gráfica del ejemplo para encontrar la aceleración instantánea}
 \end{figure}
 
 \begin{align*}
@@ -304,13 +304,13 @@ Geométricamente, corresponde a la pendiente de la recta tangente a la curva vel
     a_y &= \lim_{\Delta t \to 0} \frac{\cancel{v_{0y}} - \cancel{gt} - g\Delta t - \cancel{v_{0y}} + \cancel{gt}}{\Delta t} \\
     a_y &= \lim_{\Delta t \to 0} \frac{-g\cancel{\Delta t}}{\cancel{\Delta t}} \\
     a_y &= \lim_{\Delta t \to 0} (-g) \\
-    a_y &= -g \\
+    \Aboxed{a_y &= -g} \\
 &\textbf{Comprobación usando derivada:} \\
     \vec{a} &= \frac{dv(t)}{dt} \\
     \vec{a} &= \frac{d}{dt}(v_{0y}-gt) \\
     \vec{a} &= \frac{d}{dt}(\cancel{v_{0y}}) - \frac{d}{dt}(gt)\\
     \vec{a} &= -g \cancel{\frac{dt}{dt}}\\
-    a &= -g
+    \Aboxed{a &= -g}
 \end{align*}
 
 %%%%%%%%%%%%%%%%%%%%%
@@ -320,7 +320,6 @@ Geométricamente, corresponde a la pendiente de la recta tangente a la curva vel
 
 \subsection{Definición}
 El movimiento uniforme es aquel en el cual la velocidad es constante en el tiempo.
-
 \vspace{-20pt}
 
 \begin{align*}
@@ -330,6 +329,8 @@ El movimiento uniforme es aquel en el cual la velocidad es constante en el tiemp
 \vspace{-20pt}
 
 \subsection{Velocidad}
+\vspace{-20pt}
+
 \begin{align*}
 \vec{v}_x &= \frac{\Delta \vec{x}}{\Delta t} \\
 \Delta \vec{x} &= \vec{v}\,\Delta t
@@ -340,14 +341,13 @@ Si $\Delta t$ es constante, entonces también $\Delta x$ es constante.
 \vspace{-10pt}
 
 \subsection{Ecuación de movimiento}
-
 \vspace{-30pt}
 
 \begin{align*}
 \vec{x}_f - \vec{x}_0 &= \vec{v}_x (t_f - \cancel{t_0}) \\
 \text{Tomando } t_f = t: \\
-\vec{x}_f &= \vec{x}_0 + \vec{v}_x t \quad \text{(ecuación vectorial)} \\
-x &= x_0 + v_x t \quad \text{(ecuación escalar)}
+\Aboxed{\vec{x}_f &= \vec{x}_0 + \vec{v}_x t} \quad \text{(ecuación vectorial)} \\
+\Aboxed{x &= x_0 + v_x t} \quad \text{(ecuación escalar)}
 \end{align*}
 
 \subsection{Interpretación gráfica}
@@ -356,7 +356,6 @@ x &= x_0 + v_x t \quad \text{(ecuación escalar)}
     \centering
     \includegraphics[width=0.6\textwidth]{images/demonstrations/uniformMovement.jpg}
     \caption{Representación gráfica del movimiento uniforme}
-    \label{fig:movimiento uniforme}
 \end{figure}
 
 La ecuación es de la forma:
@@ -377,15 +376,19 @@ Donde:
 
 %%%%%%%%%%%%%%%%%%%%%
 \section{Cinematica de la particula}
+
+La cinemática es la rama de la mecánica que estudia el movimiento de las partículas sin considerar las causas que lo originan. Para describir dicho movimiento, se introducen magnitudes fundamentales como la posición, la velocidad y la aceleración, todas ellas dependientes del tiempo.
 \vspace{-20pt}
+
 \begin{align*}
 \vec{v_m} &= \lim_{\Delta t \to 0} \left(\frac{\Delta \vec{r}}{\Delta t}\right)\\
-          &\colorbox{blue!20}{$\vec{v_m} = \frac{d\vec{r}}{dt}(t)$} \\
+\Aboxed{\vec{v_m} &= \frac{d\vec{r}}{dt}(t)}\\[10pt]
 \vec{a_m} &= \lim_{\Delta t \to 0} \left(\frac{\Delta \vec{v}}{\Delta t}\right)\\
-          &\colorbox{blue!20}{$\vec{a} = \frac{d\vec{v}}{dt}(t)$}
+\Aboxed{\vec{a} &= \frac{d\vec{v}}{dt}(t)}
 \end{align*}
 
-\text{Ecuaciones en forma integral}
+Las relaciones anteriores también pueden expresarse en forma integral, lo que permite determinar la velocidad y la posición a partir de la aceleración:
+
 \vspace{-20pt}
 
 \begin{align*}
@@ -410,7 +413,6 @@ La derivada de una función mide la tasa de cambio instantánea. Se define como:
     \centering
     \includegraphics[width=0.6\textwidth]{images/cinematicGraphics/derivative.jpg}
     \caption{Representación gráfica de la derivada}
-    \label{fig:derivada}
 \end{figure}
 
 \vspace{-40pt}
@@ -536,7 +538,6 @@ La integral es la operación inversa de la derivada y permite calcular áreas ba
     \centering
     \includegraphics[width=0.6\textwidth]{images/cinematicGraphics/indefiniteIntegral.jpg}
     \caption{Representación gráfica de la integral indefinida}
-    \label{fig:intregral indefinida}
 \end{figure}
 
 \vspace{-40pt}
@@ -564,7 +565,6 @@ porque:
     \centering
     \includegraphics[width=0.6\textwidth]{images/cinematicGraphics/definiteIntegral.jpg}
     \caption{Representación gráfica de la integral definida}
-    \label{fig:intregral definida}
 \end{figure}
 
 \vspace{-40pt}
@@ -623,9 +623,8 @@ Luego evaluamos en los límites:
 %%%%%%%%%%%%%%%%%%%%%
 \section{Movimiento Rectilíneo Uniforme (MRU)}
 
-
-
 El Movimiento Rectilíneo Uniforme (MRU) es aquel en el que un objeto se desplaza en línea recta con velocidad constante, es decir, con aceleración igual a cero.
+\vspace{-20pt}
 
 \[
 a = 0 \qquad v = \text{constante}
@@ -646,12 +645,13 @@ x - x_0 &= v(t - \cancel{t_0})\\
 
 \vspace{-60pt}
 
-\[
-\hspace{1,8cm}\colorbox{blue!20}{$x = x_0 + vt$}
-\]
+\begin{align*}
+    \hspace{1.8cm} \Aboxed{x &= x_0 + vt}
+\end{align*}
 
 Donde:
 \begin{itemize}
+    \setlength{\itemsep}{0pt}
     \item $x$: posición final
     \item $x_0$: posición inicial
     \item $v$: velocidad constante
@@ -661,6 +661,7 @@ Donde:
 \subsection{Características del MRU}
 
 \begin{itemize}
+    \setlength{\itemsep}{0pt}
     \item La trayectoria es una línea recta.
     \item La velocidad se mantiene constante en módulo, dirección y sentido.
     \item La aceleración es cero.
@@ -676,6 +677,7 @@ Donde:
 El Movimiento Rectilíneo Uniformemente Acelerado (MRUA) se caracteriza por presentar una aceleración constante distinta de cero. En este tipo de movimiento, la velocidad cambia de manera uniforme con respecto al tiempo.
 
 \subsection{Ecuaciones}
+\vspace{-20pt}
 
 \[
 a=\text{cte} \;\Rightarrow\; v \neq \text{cte}
@@ -692,14 +694,13 @@ dv &= a\,dt\\
 v - v_0 &= a(t-0)
 \end{align*}
 
-\vspace{-20pt}
+\vspace{-30pt}
 
-\[
-\colorbox{blue!20}{$v = v_0 + at$}
-\]
+\begin{align*}
+    \Aboxed{v = v_0 + at}
+\end{align*}
 
 Segunda ecuacion:
-
 \begin{align*}
 v &= \frac{dx}{dt}\\
 dx &= v(t)\,dt\\
@@ -711,12 +712,11 @@ x - x_0 &= v_0(t-0) + \frac{1}{2}a(t^2-0)
 
 \vspace{-20pt}
 
-\[
-\colorbox{blue!20}{$x = x_0 + v_0 t + \frac{1}{2}at^2$}
-\]
+\begin{align*}
+    \Aboxed{x = x_0 + v_0 t + \frac{1}{2}at^2}
+\end{align*}
 
 Tercera ecuacion:
-
 \begin{align*}
 a &= \frac{dv}{dt}\\
 dv &= a dt\\
@@ -729,12 +729,11 @@ v\,dv &= a\,dx\\
 \frac{1}{2}(v^2 - v_0^2) &= a(x - x_0)
 \end{align*}
 
-\vspace{-20pt}
+\vspace{-30pt}
 
-\[
-\colorbox{blue!20}{$v^2 = v_0^2 + 2a(x - x_0)$}
-\]
-
+\begin{align*}
+    \Aboxed{v^2 = v_0^2 + 2a(x - x_0)}
+\end{align*}
 
 Las ecuaciones fundamentales del MRUA son:
 
@@ -757,6 +756,7 @@ Las ecuaciones fundamentales del MRUA son:
 
 Donde:
 \begin{itemize}
+    \setlength{\itemsep}{0pt}
     \item $x$: posición final
     \item $x_0$: posición inicial
     \item $v$: velocidad final
@@ -768,6 +768,7 @@ Donde:
 \subsection{Características del MRUA}
 
 \begin{itemize}
+    \setlength{\itemsep}{0pt}
     \item La trayectoria es una línea recta.
     \item La aceleración es constante y distinta de cero.
     \item La velocidad cambia de manera uniforme con el tiempo.
@@ -775,6 +776,216 @@ Donde:
     \item La gráfica velocidad-tiempo es una línea recta con pendiente igual a la aceleración.
     \item Si la aceleración es positiva, el objeto acelera; si es negativa, desacelera.
 \end{itemize}
+
+%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%
+\section{Caida libre}
+
+La caída libre es un caso particular del Movimiento Rectilíneo Uniformemente Acelerado (MRUA), en el cual un cuerpo se mueve únicamente bajo la acción de la gravedad, despreciando la resistencia del aire.
+
+\vspace{-20pt}
+
+\[
+a = g \approx 9{,}8 \,\frac{\text{m}}{\text{s}^2}
+\]
+
+Donde $g$ es la aceleración de la gravedad, dirigida hacia el centro de la Tierra.
+
+
+\subsection{Ecuaciones}
+
+Las ecuaciones son las mismas del MRUA, considerando el eje vertical ($y$):
+
+Primera ecuacion:
+\begin{align*}
+a &= \frac{dv}{dt} \\
+g &= \frac{dv}{dt} \\
+dv &= g\,dt \\
+\int_{v_0}^{v} dv &= \int_{0}^{t} g\,dt \\
+\left[v\right]_{v_0}^{v} &= g\left[t\right]_{0}^{t} \\
+v - v_0 &= g(t - 0)
+\end{align*}
+
+\vspace{-30pt}
+
+\begin{align*}
+    \Aboxed{v = v_0 + gt}
+\end{align*}
+
+Segunda ecuacion:
+\begin{align*}
+v &= \frac{dy}{dt} \\
+dy &= (v_0 + gt)\,dt \\
+\int_{y_0}^{y} dy &= \int_{0}^{t} (v_0 + gt)\,dt \\
+\left[y\right]_{y_0}^{y} &= v_0\left[t\right]_{0}^{t} + g\left[\frac{t^2}{2}\right]_{0}^{t} \\
+y - y_0 &= v_0 t + \frac{1}{2}gt^2
+\end{align*}
+
+\vspace{-20pt}
+
+\begin{align*}
+    \Aboxed{y = y_0 + v_0 t + \frac{1}{2}gt^2}
+\end{align*}
+
+Tercera ecuacion:
+\begin{align*}
+v\,dv &= g\,dy \\
+\int_{v_0}^{v} v\,dv &= \int_{y_0}^{y} g\,dy \\
+\left[\frac{v^2}{2}\right]_{v_0}^{v} &= g\left[y\right]_{y_0}^{y} \\
+\frac{1}{2}(v^2 - v_0^2) &= g(y - y_0)
+\end{align*}
+
+\vspace{-30pt}
+
+\begin{align*}
+    \Aboxed{v^2 = v_0^2 + 2g(y - y_0)}
+\end{align*}
+
+Las ecuaciones fundamentales de la caída libre son:
+
+\begin{itemize}
+    \item Ecuación de posición:
+    \[
+    y = y_0 + v_0 t + \frac{1}{2}gt^2
+    \]
+
+    \item Ecuación de velocidad:
+    \[
+    v = v_0 + gt
+    \]
+
+    \item Ecuación independiente del tiempo:
+    \[
+    v^2 = v_0^2 + 2g(y - y_0)
+    \]
+\end{itemize}
+
+Donde:
+\begin{itemize}
+    \setlength{\itemsep}{0pt}
+    \item $y$: posición final
+    \item $y_0$: posición inicial
+    \item $v$: velocidad final
+    \item $v_0$: velocidad inicial
+    \item $g$: aceleración de la gravedad
+    \item $t$: tiempo
+\end{itemize}
+
+\subsection{Convención de signos}
+
+Es importante definir el sistema de referencia:
+
+\begin{itemize}
+    \setlength{\itemsep}{0pt}
+    \item Si se toma hacia arriba como positivo:
+    \[
+    g = -9{,}8\,\frac{\text{m}}{\text{s}^2}
+    \]
+    \item Si se toma hacia abajo como positivo:
+    \[
+    g = +9{,}8\,\frac{\text{m}}{\text{s}^2}
+    \]
+\end{itemize}
+
+\subsection{Altura máxima}
+
+La altura máxima se alcanza cuando la velocidad es cero:
+
+\vspace{-30pt}
+\begin{align*}
+v &= 0 \\
+0 &= v_0 - gt \\
+t &= \frac{v_0}{g}
+\end{align*}
+
+Sustituyendo en la ecuación de posición:
+
+\vspace{-20pt}
+
+\begin{align*}
+y_{\text{max}} &= y_0 + v_0\left(\frac{v_0}{g}\right) - \frac{1}{2}g\left(\frac{v_0}{g}\right)^2 \\
+\Aboxed{y_{\text{max}} &= y_0 + \frac{v_0^2}{2g}}
+\end{align*}
+
+\subsection{Tiempo total de subida y bajada}
+
+El tiempo de subida es igual al de bajada:
+
+\vspace{-20pt}
+
+\begin{align*}
+t_{\text{subida}} &= \frac{v_0}{g} \\
+\Aboxed{t_{\text{total}} &= \frac{2v_0}{g}}
+\end{align*}
+
+\subsection{Características}
+
+\begin{itemize}
+    \setlength{\itemsep}{0pt}
+    \item Es un movimiento rectilíneo vertical.
+    \item La aceleración es constante e igual a la gravedad.
+    \item Todos los cuerpos caen con la misma aceleración, independientemente de su masa.
+    \item La velocidad cambia uniformemente con el tiempo.
+\end{itemize}
+
+%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%
+\section{Herramientas}
+
+Para el informe se utilizaron las siguientes herramientas:
+% chktex-file 44
+\begin{table}[H]
+\centering
+\begin{tabular}{|p{12cm}|}
+\hline
+\textbf{1. Canva}
+\vspace{-20pt}
+\begin{center}\includegraphics[width=3cm]{images/tools/canva.png}\end{center} \\ \hline
+\textbf{Descripción:} Herramienta de diseño gráfico en línea, permite crear presentaciones, infografías y materiales visuales. \\ \hline
+\textbf{Uso:} Elaboración para deseño de gráficas \\ \hline
+\textbf{Sitio web:} \href{https://www.canva.com/design/DAHFYrvBRTM/uSoooPNlrBeWf89NVjZ5Jg/edit}{Pulsa aquí} \\
+\hline
+\end{tabular}
+\vspace{10pt}
+\caption{Herramienta: Canva}
+\end{table}
+
+\vspace{-20pt}
+\begin{table}[H]
+\centering
+\begin{tabular}{|p{12cm}|}
+\hline
+\textbf{2. Overleaf}
+\vspace{-20pt}
+\begin{center}\includegraphics[width=3cm]{images/tools/overleaf.jpg}\end{center} \\ \hline
+\textbf{Descripción:} Plataforma en línea para la edición y compilación de documentos en LaTeX, que permite el trabajo colaborativo en tiempo real. \\ \hline
+\textbf{Uso:} Redacción, edición y formato del informe \\ \hline
+\textbf{Sitio web:} \href{https://es.overleaf.com/project}{Pulsa aquí} \\
+\hline
+\end{tabular}
+\vspace{10pt}
+\caption{Herramienta: Overleaf}
+\end{table}
+
+\vspace{40pt}
+Para la simulación se utilizaron las siguientes herramientas:
+\begin{table}[H]
+\centering
+\begin{tabular}{|p{12cm}|}
+\hline
+\textbf{2. Overleaf}
+\vspace{-20pt}
+\begin{center}\includegraphics[width=3cm]{images/tools/geogebra.png}\end{center} \\ \hline
+\textbf{Descripción:} Software matemático interactivo que permite realizar construcciones geométricas, gráficas, simulaciones y análisis dinámicos. \\ \hline
+\textbf{Uso:} Modelación, simulación y visualización de gráficos \\ \hline
+\textbf{Sitio web:} \href{https://www.geogebra.org/?lang=es}{Pulsa aquí} \\
+\hline
+\end{tabular}
+\vspace{10pt}
+\caption{Herramienta: Geogebra}
+\end{table}
 
 %%%%%%%%%%%%%%%%%%%%%
 
@@ -979,17 +1190,29 @@ Los resultados obtenidos permiten observar que:
 \section{Conclusiones}
 
 \begin{itemize}
-    \item El automóvil con MRU y el camión con MRUA se encuentran en dos momentos distintos: el primero a $t \approx 2{,}3$ s en la posición $x \approx 90{,}2$ m, y el segundo a $t \approx 17{,}74$ s.
-    \item Las velocidades de ambos vehículos son iguales a los $t = 10$ s, instante en el que el automóvil está 120 m adelante del camión.
-    \item La aplicación de las ecuaciones integrales del MRU y MRUA permite obtener con precisión las funciones de posición y velocidad de cada cuerpo, facilitando el análisis de encuentro entre móviles.
-    \item La simulación en GeoGebra confirma visualmente los resultados algebraicos, permitiendo una mejor comprensión del comportamiento dinámico de los dos vehículos.
+    \item Se logró analizar el movimiento de dos cuerpos con diferentes tipos de trayectoria: el automóvil con Movimiento Rectilíneo Uniforme (MRU) y el camión con Movimiento Rectilíneo Uniformemente Acelerado (MRUA), evidenciando las diferencias fundamentales entre velocidad constante y aceleración constante.
+    
+    \item Se determinó que ambos móviles se encuentran en dos instantes distintos, siendo el primero el más relevante físicamente ($t \approx 2{,}3$ s), lo cual demuestra que en sistemas con aceleración pueden existir múltiples puntos de intersección.
+    
+    \item Se comprobó que, aunque en $t = 10$ s las velocidades de ambos cuerpos son iguales, sus posiciones son diferentes, lo que confirma que igualdad de velocidad no implica igualdad de posición.
+    
+    \item El uso de herramientas matemáticas como derivadas e integrales permitió obtener de forma rigurosa las ecuaciones de velocidad y posición, facilitando la resolución del problema.
+    
+    \item La simulación en GeoGebra permitió validar gráficamente los resultados analíticos, reforzando la comprensión del comportamiento del movimiento y la interpretación física de las gráficas.
 \end{itemize}
 
 \section{Recomendaciones}
 
 \begin{itemize}
-    \item Se recomienda convertir siempre las unidades al Sistema Internacional (m, s) antes de plantear las ecuaciones, para evitar errores de cálculo.
-    \item Es conveniente establecer claramente el sistema de referencia y la posición inicial de cada cuerpo al inicio del problema.
-    \item Al usar GeoGebra, es útil activar la vista gráfica y la hoja de cálculo simultáneamente para relacionar los valores numéricos con la representación visual.
-    \item Para problemas con dos móviles, se recomienda graficar ambas funciones de posición en el mismo sistema de ejes y verificar visualmente los puntos de encuentro antes de resolver algebraicamente.
+    \item Se recomienda trabajar siempre en el Sistema Internacional de Unidades (SI) para evitar errores en los cálculos y asegurar la coherencia de los resultados.
+    
+    \item Es importante definir claramente el sistema de referencia y las condiciones iniciales de cada móvil antes de plantear las ecuaciones.
+    
+    \item Se sugiere realizar primero un análisis conceptual del problema (tipo de movimiento, variables conocidas) antes de proceder con el desarrollo matemático.
+    
+    \item El uso de herramientas como GeoGebra es altamente recomendable, ya que permite visualizar el comportamiento de las funciones y verificar los resultados obtenidos analíticamente.
+    
+    \item Para problemas con múltiples móviles, se recomienda representar las ecuaciones de posición en un mismo sistema de coordenadas para identificar de forma clara los puntos de intersección.
+    
+    \item Se aconseja complementar el análisis algebraico con interpretación gráfica, ya que esto mejora la comprensión física del problema.
 \end{itemize}
