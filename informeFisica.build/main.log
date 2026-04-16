@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.4.6)  15 APR 2026 20:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.4.6)  15 APR 2026 21:07
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1460,64 +1460,64 @@ LaTeX Info: Redefining \% on input line 79.
 LaTeX Info: Redefining \. on input line 124.
 LaTeX Info: Redefining \% on input line 124.
  [39]) (documentBody/Section10(Tools).tex
-LaTeX Info: Redefining \. on input line 1.
-LaTeX Info: Redefining \% on input line 1.
+LaTeX Info: Redefining \. on input line 2.
+LaTeX Info: Redefining \% on input line 2.
  [40]
 <images/tools/canva.png, id=604, 1505.625pt x 1505.625pt>
 File: images/tools/canva.png Graphic file (type png)
 <use images/tools/canva.png>
-Package pdftex.def Info: images/tools/canva.png  used on input line 14.
+Package pdftex.def Info: images/tools/canva.png  used on input line 15.
 (pdftex.def)             Requested size: 85.35826pt x 85.34825pt.
 <images/tools/overleaf.jpg, id=606, 182.18062pt x 208.27812pt>
 File: images/tools/overleaf.jpg Graphic file (type jpg)
 <use images/tools/overleaf.jpg>
-Package pdftex.def Info: images/tools/overleaf.jpg  used on input line 32.
+Package pdftex.def Info: images/tools/overleaf.jpg  used on input line 33.
 (pdftex.def)             Requested size: 85.35826pt x 97.58563pt.
-LaTeX Info: Redefining \. on input line 41.
-LaTeX Info: Redefining \% on input line 41.
+LaTeX Info: Redefining \. on input line 42.
+LaTeX Info: Redefining \% on input line 42.
  [41
 
  <./images/tools/canva.png>]
 <images/tools/github.png, id=613, 352.40228pt x 352.40228pt>
 File: images/tools/github.png Graphic file (type png)
 <use images/tools/github.png>
-Package pdftex.def Info: images/tools/github.png  used on input line 52.
+Package pdftex.def Info: images/tools/github.png  used on input line 53.
 (pdftex.def)             Requested size: 85.35826pt x 85.35797pt.
-LaTeX Info: Redefining \. on input line 61.
-LaTeX Info: Redefining \% on input line 61.
+LaTeX Info: Redefining \. on input line 62.
+LaTeX Info: Redefining \% on input line 62.
  [42 <./images/tools/overleaf.jpg>]
 <images/tools/visualStudioCode.png, id=620, 1284.8pt x 1284.8pt>
 File: images/tools/visualStudioCode.png Graphic file (type png)
 <use images/tools/visualStudioCode.png>
-Package pdftex.def Info: images/tools/visualStudioCode.png  used on input line 70.
+Package pdftex.def Info: images/tools/visualStudioCode.png  used on input line 71.
 (pdftex.def)             Requested size: 85.35826pt x 85.35774pt.
-LaTeX Info: Redefining \. on input line 86.
-LaTeX Info: Redefining \% on input line 86.
+LaTeX Info: Redefining \. on input line 87.
+LaTeX Info: Redefining \% on input line 87.
  [43 <./images/tools/github.png> <./images/tools/visualStudioCode.png>]
 File: images/tools/canva.png Graphic file (type png)
 <use images/tools/canva.png>
-Package pdftex.def Info: images/tools/canva.png  used on input line 105.
+Package pdftex.def Info: images/tools/canva.png  used on input line 106.
 (pdftex.def)             Requested size: 85.35826pt x 85.34825pt.
 <images/tools/capcut.jpg, id=632, 737.75626pt x 546.04pt>
 File: images/tools/capcut.jpg Graphic file (type jpg)
 <use images/tools/capcut.jpg>
-Package pdftex.def Info: images/tools/capcut.jpg  used on input line 123.
+Package pdftex.def Info: images/tools/capcut.jpg  used on input line 124.
 (pdftex.def)             Requested size: 85.35826pt x 63.17238pt.
-LaTeX Info: Redefining \. on input line 132.
-LaTeX Info: Redefining \% on input line 132.
+LaTeX Info: Redefining \. on input line 133.
+LaTeX Info: Redefining \% on input line 133.
  [44]
 <images/tools/audacity.png, id=642, 1597.97pt x 1515.6625pt>
 File: images/tools/audacity.png Graphic file (type png)
 <use images/tools/audacity.png>
-Package pdftex.def Info: images/tools/audacity.png  used on input line 141.
+Package pdftex.def Info: images/tools/audacity.png  used on input line 142.
 (pdftex.def)             Requested size: 85.35826pt x 80.9449pt.
 <images/tools/geogebra.png, id=646, 3854.4pt x 3854.4pt>
 File: images/tools/geogebra.png Graphic file (type png)
 <use images/tools/geogebra.png>
-Package pdftex.def Info: images/tools/geogebra.png  used on input line 170.
+Package pdftex.def Info: images/tools/geogebra.png  used on input line 171.
 (pdftex.def)             Requested size: 85.35826pt x 85.33813pt.
-LaTeX Info: Redefining \. on input line 178.
-LaTeX Info: Redefining \% on input line 178.
+LaTeX Info: Redefining \. on input line 179.
+LaTeX Info: Redefining \% on input line 179.
  [45 <./images/tools/capcut.jpg> <./images/tools/audacity.png>]) (documentBody/Section11(Simulation).tex
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
