@@ -16,48 +16,48 @@
 \contentsline {subsubsection}{\numberline {3.4.2}Rapidez}{14}{subsubsection.3.4.2}%
 \contentsline {subsection}{\numberline {3.5}Velocidad media e instantánea}{15}{subsection.3.5}%
 \contentsline {subsubsection}{\numberline {3.5.1}Velocidad media}{15}{subsubsection.3.5.1}%
-\contentsline {subsubsection}{\numberline {3.5.2}Velocidad instantánea}{15}{subsubsection.3.5.2}%
-\contentsline {subsubsection}{\numberline {3.5.3}Ejemplo}{16}{subsubsection.3.5.3}%
-\contentsline {subsection}{\numberline {3.6}Aceleración media e instantánea}{18}{subsection.3.6}%
-\contentsline {subsubsection}{\numberline {3.6.1}Aceleración media}{18}{subsubsection.3.6.1}%
-\contentsline {subsubsection}{\numberline {3.6.2}Aceleración instantánea}{18}{subsubsection.3.6.2}%
-\contentsline {subsubsection}{\numberline {3.6.3}Ejemplo 2}{19}{subsubsection.3.6.3}%
-\contentsline {section}{\numberline {4}Movimiento uniforme}{21}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Definición}{21}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Velocidad}{21}{subsection.4.2}%
-\contentsline {subsection}{\numberline {4.3}Ecuación de movimiento}{21}{subsection.4.3}%
-\contentsline {subsection}{\numberline {4.4}Interpretación gráfica}{21}{subsection.4.4}%
-\contentsline {section}{\numberline {5}Cinematica de la particula}{23}{section.5}%
-\contentsline {section}{\numberline {6}Cálculo diferencial}{24}{section.6}%
-\contentsline {subsection}{\numberline {6.1}Derivadas}{24}{subsection.6.1}%
-\contentsline {subsubsection}{\numberline {6.1.1}Interpretación}{24}{subsubsection.6.1.1}%
-\contentsline {subsubsection}{\numberline {6.1.2}Reglas de derivación}{24}{subsubsection.6.1.2}%
-\contentsline {subsubsection}{\numberline {6.1.3}Derivadas básicas}{26}{subsubsection.6.1.3}%
-\contentsline {subsection}{\numberline {6.2}Integrales}{26}{subsection.6.2}%
-\contentsline {subsubsection}{\numberline {6.2.1}Integral indefinida}{27}{subsubsection.6.2.1}%
-\contentsline {subsubsection}{\numberline {6.2.2}Integral definida}{28}{subsubsection.6.2.2}%
-\contentsline {subsubsection}{\numberline {6.2.3}Reglas de integración}{28}{subsubsection.6.2.3}%
-\contentsline {section}{\numberline {7}Movimiento Rectilíneo Uniforme (MRU)}{30}{section.7}%
-\contentsline {subsection}{\numberline {7.1}Ecuación de posición}{30}{subsection.7.1}%
-\contentsline {subsection}{\numberline {7.2}Características del MRU}{31}{subsection.7.2}%
-\contentsline {section}{\numberline {8}Movimiento Rectilíneo Uniformemente Acelerado (MRUA)}{32}{section.8}%
-\contentsline {subsection}{\numberline {8.1}Ecuaciones}{32}{subsection.8.1}%
-\contentsline {subsection}{\numberline {8.2}Características del MRUA}{34}{subsection.8.2}%
-\contentsline {section}{\numberline {9}Caida libre (MVCL)}{35}{section.9}%
-\contentsline {subsection}{\numberline {9.1}Ecuaciones}{35}{subsection.9.1}%
-\contentsline {subsection}{\numberline {9.2}Convención de signos}{37}{subsection.9.2}%
-\contentsline {subsection}{\numberline {9.3}Altura máxima}{37}{subsection.9.3}%
-\contentsline {subsection}{\numberline {9.4}Tiempo total de subida y bajada}{38}{subsection.9.4}%
-\contentsline {subsection}{\numberline {9.5}Características}{38}{subsection.9.5}%
-\contentsline {section}{\numberline {10}Herramientas}{39}{section.10}%
-\contentsline {subsection}{\numberline {10.1}Herramientas para la redacción del informe}{39}{subsection.10.1}%
-\contentsline {subsection}{\numberline {10.2}Herramientas para la presentación de la exposición}{42}{subsection.10.2}%
-\contentsline {subsection}{\numberline {10.3}Herramientas para la simulación}{44}{subsection.10.3}%
-\contentsline {section}{\numberline {11}Simulación}{45}{section.11}%
-\contentsline {subsection}{\numberline {11.1}Materiales}{45}{subsection.11.1}%
-\contentsline {subsection}{\numberline {11.2}Procedimiento}{45}{subsection.11.2}%
-\contentsline {subsection}{\numberline {11.3}Resolución}{46}{subsection.11.3}%
-\contentsline {subsection}{\numberline {11.4}Resultados}{49}{subsection.11.4}%
-\contentsline {subsection}{\numberline {11.5}Análisis}{50}{subsection.11.5}%
-\contentsline {section}{\numberline {12}Conclusiones}{51}{section.12}%
-\contentsline {section}{\numberline {13}Recomendaciones}{52}{section.13}%
+\contentsline {subsubsection}{\numberline {3.5.2}Velocidad instantánea}{16}{subsubsection.3.5.2}%
+\contentsline {subsubsection}{\numberline {3.5.3}Ejemplo}{17}{subsubsection.3.5.3}%
+\contentsline {subsection}{\numberline {3.6}Aceleración media e instantánea}{19}{subsection.3.6}%
+\contentsline {subsubsection}{\numberline {3.6.1}Aceleración media}{19}{subsubsection.3.6.1}%
+\contentsline {subsubsection}{\numberline {3.6.2}Aceleración instantánea}{20}{subsubsection.3.6.2}%
+\contentsline {subsubsection}{\numberline {3.6.3}Ejemplo 2}{20}{subsubsection.3.6.3}%
+\contentsline {section}{\numberline {4}Movimiento uniforme}{23}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Definición}{23}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Velocidad}{23}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Ecuación de movimiento}{23}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Interpretación gráfica}{23}{subsection.4.4}%
+\contentsline {section}{\numberline {5}Cinematica de la particula}{25}{section.5}%
+\contentsline {section}{\numberline {6}Cálculo diferencial}{26}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Derivadas}{26}{subsection.6.1}%
+\contentsline {subsubsection}{\numberline {6.1.1}Interpretación}{26}{subsubsection.6.1.1}%
+\contentsline {subsubsection}{\numberline {6.1.2}Reglas de derivación}{26}{subsubsection.6.1.2}%
+\contentsline {subsubsection}{\numberline {6.1.3}Derivadas básicas}{28}{subsubsection.6.1.3}%
+\contentsline {subsection}{\numberline {6.2}Integrales}{28}{subsection.6.2}%
+\contentsline {subsubsection}{\numberline {6.2.1}Integral indefinida}{29}{subsubsection.6.2.1}%
+\contentsline {subsubsection}{\numberline {6.2.2}Integral definida}{30}{subsubsection.6.2.2}%
+\contentsline {subsubsection}{\numberline {6.2.3}Reglas de integración}{30}{subsubsection.6.2.3}%
+\contentsline {section}{\numberline {7}Movimiento Rectilíneo Uniforme (MRU)}{32}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Ecuación de posición}{32}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Características del MRU}{33}{subsection.7.2}%
+\contentsline {section}{\numberline {8}Movimiento Rectilíneo Uniformemente Acelerado (MRUA)}{34}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Ecuaciones}{34}{subsection.8.1}%
+\contentsline {subsection}{\numberline {8.2}Características del MRUA}{36}{subsection.8.2}%
+\contentsline {section}{\numberline {9}Caida libre (MVCL)}{37}{section.9}%
+\contentsline {subsection}{\numberline {9.1}Ecuaciones}{37}{subsection.9.1}%
+\contentsline {subsection}{\numberline {9.2}Convención de signos}{39}{subsection.9.2}%
+\contentsline {subsection}{\numberline {9.3}Altura máxima}{39}{subsection.9.3}%
+\contentsline {subsection}{\numberline {9.4}Tiempo total de subida y bajada}{40}{subsection.9.4}%
+\contentsline {subsection}{\numberline {9.5}Características}{40}{subsection.9.5}%
+\contentsline {section}{\numberline {10}Herramientas}{41}{section.10}%
+\contentsline {subsection}{\numberline {10.1}Herramientas para la redacción del informe}{41}{subsection.10.1}%
+\contentsline {subsection}{\numberline {10.2}Herramientas para la presentación de la exposición}{44}{subsection.10.2}%
+\contentsline {subsection}{\numberline {10.3}Herramientas para la simulación}{46}{subsection.10.3}%
+\contentsline {section}{\numberline {11}Simulación}{47}{section.11}%
+\contentsline {subsection}{\numberline {11.1}Materiales}{47}{subsection.11.1}%
+\contentsline {subsection}{\numberline {11.2}Procedimiento}{47}{subsection.11.2}%
+\contentsline {subsection}{\numberline {11.3}Resolución}{48}{subsection.11.3}%
+\contentsline {subsection}{\numberline {11.4}Resultados}{51}{subsection.11.4}%
+\contentsline {subsection}{\numberline {11.5}Análisis}{52}{subsection.11.5}%
+\contentsline {section}{\numberline {12}Conclusiones}{53}{section.12}%
+\contentsline {section}{\numberline {13}Recomendaciones}{54}{section.13}%

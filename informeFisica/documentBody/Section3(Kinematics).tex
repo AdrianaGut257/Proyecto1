@@ -128,8 +128,10 @@ La velocidad es una magnitud vectorial que expresa la variación de posición po
 
 \begin{figure}[H]
     \centering
+    \captionsetup{width=0.5\textwidth}
+    \caption{Vector velocidad}
     \includegraphics[width=0.5\textwidth]{images/cinematicGraphics/speedV.jpg}
-    \caption{Representación gráfica de la velocidad y rapidez}
+    \caption*{Nota: Representación del vector velocidad, dirección y sentido en el plano.}
 \end{figure}
 
 \vspace{-40pt}
@@ -149,8 +151,10 @@ La rapidez es una magnitud escalar que indica qué tan rápido se mueve un objet
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.5\textwidth]{images/cinematicGraphics/speedV.jpg}
-    \caption{Representación gráfica de la velocidad y rapidez}
+    \captionsetup{width=0.5\textwidth}
+    \caption{Magnitud de la velocidad}
+    \includegraphics[width=0.5\textwidth]{images/cinematicGraphics/speedR.jpg}
+    \caption*{Nota: Representación de la rapidez como el valor escalar de la velocidad}
 \end{figure}
 
 \vspace{-40pt}
@@ -171,9 +175,11 @@ La rapidez es una magnitud escalar que indica qué tan rápido se mueve un objet
 La velocidad media es una magnitud vectorial que se define como el cambio de posición (desplazamiento) dividido entre el intervalo de tiempo en el que ocurre ese cambio.
 
 \begin{figure}[H]
+    \captionsetup{width=0.5\textwidth}
+    \caption{Velocidad media en un intervalo de tiempo}
     \centering
     \includegraphics[width=0.6\textwidth]{images/cinematicGraphics/averageSpeed.jpg}
-    \caption{Representación gráfica de la velocidad media}
+    \caption*{Nota: Representación del desplazamiento en un intervalo de tiempo.}
 \end{figure}
 
 \vspace{-50pt}
@@ -193,8 +199,10 @@ La velocidad instantánea es la velocidad de un objeto en un instante preciso de
 Este límite es lo que en cálculo se conoce como la derivada de la posición respecto al tiempo.
 \begin{figure}[H]
     \centering
+    \captionsetup{width=0.5\textwidth}
+    \caption{Velocidad instantánea en un punto de la trayectoria}
     \includegraphics[width=0.6\textwidth]{images/cinematicGraphics/instantSpeed.jpg}
-    \caption{Representación gráfica de la velocidad instantánea}
+    \caption*{Representación de la velocidad instantánea como la pendiente de la curva posición-tiempo en un punto específico.}
 \end{figure}
 
 \vspace{-40pt}
@@ -215,9 +223,12 @@ Determinar la velocidad instantánea de la partícula.
 
 \begin{figure}[H]
     \centering
+    \captionsetup{width=0.5\textwidth}
+    \caption{Velocidad instantánea en un punto}
     \includegraphics[width=0.6\textwidth]{images/demonstrations/example1.jpg}
-    \caption{Gráfica del ejemplo para encontrar la velocidad instantánea}
+    \caption*{Nota: Representación de la velocidad instantánea en un punto de la trayectoria.}
 \end{figure}
+\vspace{-40pt}
 
 % chktex-file 3
 \begin{align*}
@@ -231,6 +242,8 @@ Determinar la velocidad instantánea de la partícula.
     v_x &= \lim_{\Delta t \to 0} \frac{\cancel{\Delta t}(2t + \Delta t)}{\cancel{\Delta t}} \\
     v_x &= \lim_{\Delta t \to 0} (2t + \cancel{\Delta t}) \\
     \Aboxed{v_x &= 2t} \\
+\end{align*}
+\begin{align*}
 &\textbf{Comprobación usando derivada:} \\
     v_x &= \frac{dx(t)}{dt} \\
     v_x &= \frac{d}{dt}(t^2) \\
@@ -244,14 +257,14 @@ Determinar la velocidad instantánea de la partícula.
 \Rightarrow \quad \text{Ambos métodos coinciden.}
 \]
 
-\vspace{-20pt}
-
 \subsection{Aceleración media e instantánea}
 
 \begin{figure}[H]
     \centering
+    \captionsetup{width=0.5\textwidth}
+    \caption{Aceleración media en un intervalo de tiempo}
     \includegraphics[width=0.6\textwidth]{images/cinematicGraphics/averageAcceleration.jpg}
-    \caption{Representación gráfica de la Aceleración}
+    \caption*{Representación de la aceleración como cambio de la velocidad en el tiempo.}
 \end{figure}
 
 \vspace{-40pt}
@@ -306,8 +319,10 @@ Determinación de la aceleración usando la definición de aceleración instant�
 
 \begin{figure}[H]
     \centering
+    \captionsetup{width=0.5\textwidth}
+    \caption{Aceleración instantánea en función del tiempo}
     \includegraphics[width=0.6\textwidth]{images/demonstrations/example2.jpg}
-    \caption{Gráfica del ejemplo para encontrar la aceleración instantánea}
+    \caption*{Nota: Representación de la aceleración obtenida como derivada de la velocidad respecto al tiempo. }
 \end{figure}
 
 \begin{align*}
