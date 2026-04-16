@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.4.6)  16 APR 2026 00:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.4.6)  16 APR 2026 01:06
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1555,76 +1555,98 @@ Package pdftex.def Info: images/tools/canva.png  used on input line 230.
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
  [49 <./images/tools/geogebra.png>]
-LaTeX Info: Redefining \. on input line 41.
-LaTeX Info: Redefining \% on input line 41.
+<images/simulation/materials/laptop.png, id=717, 1055.945pt x 1011.78pt>
+File: images/simulation/materials/laptop.png Graphic file (type png)
+<use images/simulation/materials/laptop.png>
+Package pdftex.def Info: images/simulation/materials/laptop.png  used on input line 13.
+(pdftex.def)             Requested size: 56.9055pt x 54.51334pt.
+File: images/tools/geogebra.png Graphic file (type png)
+<use images/tools/geogebra.png>
+Package pdftex.def Info: images/tools/geogebra.png  used on input line 14.
+(pdftex.def)             Requested size: 56.9055pt x 56.87248pt.
+<images/simulation/materials/notebook.jpg, id=718, 451.6875pt x 451.6875pt>
+File: images/simulation/materials/notebook.jpg Graphic file (type jpg)
+<use images/simulation/materials/notebook.jpg>
+Package pdftex.def Info: images/simulation/materials/notebook.jpg  used on input line 15.
+(pdftex.def)             Requested size: 56.9055pt x 56.90189pt.
+<images/simulation/materials/calculator.png, id=719, 742.775pt x 742.775pt>
+File: images/simulation/materials/calculator.png Graphic file (type png)
+<use images/simulation/materials/calculator.png>
+Package pdftex.def Info: images/simulation/materials/calculator.png  used on input line 16.
+(pdftex.def)             Requested size: 56.9055pt x 56.89577pt.
+LaTeX Info: Redefining \. on input line 43.
+LaTeX Info: Redefining \% on input line 43.
  [50
 
-]
-LaTeX Info: Redefining \. on input line 83.
-LaTeX Info: Redefining \% on input line 83.
+ <./images/simulation/materials/laptop.png> <./images/simulation/materials/notebook.jpg> <./images/simulation/materials/calculator.png>]
+LaTeX Info: Redefining \. on input line 79.
+LaTeX Info: Redefining \% on input line 79.
  [51]
-LaTeX Info: Redefining \. on input line 113.
-LaTeX Info: Redefining \% on input line 113.
+LaTeX Info: Redefining \. on input line 104.
+LaTeX Info: Redefining \% on input line 104.
  [52]
-<images/simulation/simulation1.jpg, id=730, 1136.74687pt x 615.0478pt>
+LaTeX Info: Redefining \. on input line 159.
+LaTeX Info: Redefining \% on input line 159.
+ [53]
+<images/simulation/simulation1.jpg, id=740, 1099.85907pt x 669.2503pt>
 File: images/simulation/simulation1.jpg Graphic file (type jpg)
 <use images/simulation/simulation1.jpg>
-Package pdftex.def Info: images/simulation/simulation1.jpg  used on input line 159.
-(pdftex.def)             Requested size: 399.21791pt x 216.00197pt.
-LaTeX Info: Redefining \. on input line 161.
-LaTeX Info: Redefining \% on input line 161.
- [53]
-<images/simulation/solutionSectionA.jpg, id=736, 1135.99406pt x 615.0478pt>
+Package pdftex.def Info: images/simulation/simulation1.jpg  used on input line 168.
+(pdftex.def)             Requested size: 399.21791pt x 242.92125pt.
+LaTeX Info: Redefining \. on input line 171.
+LaTeX Info: Redefining \% on input line 171.
+ [54]
+<images/simulation/solutionSectionA.jpg, id=747, 1178.15157pt x 623.32875pt>
 File: images/simulation/solutionSectionA.jpg Graphic file (type jpg)
 <use images/simulation/solutionSectionA.jpg>
-Package pdftex.def Info: images/simulation/solutionSectionA.jpg  used on input line 173.
-(pdftex.def)             Requested size: 399.21791pt x 216.14275pt.
-LaTeX Info: Redefining \. on input line 176.
-LaTeX Info: Redefining \% on input line 176.
- [54 <./images/simulation/simulation1.jpg>]
-<images/simulation/graphA.jpg, id=743, 239.39438pt x 635.37375pt>
+Package pdftex.def Info: images/simulation/solutionSectionA.jpg  used on input line 182.
+(pdftex.def)             Requested size: 399.21791pt x 211.21562pt.
+LaTeX Info: Redefining \. on input line 185.
+LaTeX Info: Redefining \% on input line 185.
+ [55 <./images/simulation/simulation1.jpg>]
+<images/simulation/graphA.jpg, id=753, 165.61874pt x 665.48625pt>
 File: images/simulation/graphA.jpg Graphic file (type jpg)
 <use images/simulation/graphA.jpg>
-Package pdftex.def Info: images/simulation/graphA.jpg  used on input line 183.
-(pdftex.def)             Requested size: 133.07489pt x 353.18921pt.
-LaTeX Info: Redefining \. on input line 186.
-LaTeX Info: Redefining \% on input line 186.
- [55 <./images/simulation/solutionSectionA.jpg>]
-<images/simulation/solutionSectionB.jpg, id=748, 1133.73563pt x 613.54219pt>
+Package pdftex.def Info: images/simulation/graphA.jpg  used on input line 192.
+(pdftex.def)             Requested size: 133.07489pt x 534.74556pt.
+LaTeX Info: Redefining \. on input line 195.
+LaTeX Info: Redefining \% on input line 195.
+ [56 <./images/simulation/solutionSectionA.jpg>]
+LaTeX Info: Redefining \. on input line 199.
+LaTeX Info: Redefining \% on input line 199.
+ [57 <./images/simulation/graphA.jpg>]
+<images/simulation/solutionSectionB.jpg, id=762, 1105.88156pt x 674.52pt>
 File: images/simulation/solutionSectionB.jpg Graphic file (type jpg)
 <use images/simulation/solutionSectionB.jpg>
-Package pdftex.def Info: images/simulation/solutionSectionB.jpg  used on input line 195.
-(pdftex.def)             Requested size: 399.21791pt x 216.04428pt.
-LaTeX Info: Redefining \. on input line 198.
-LaTeX Info: Redefining \% on input line 198.
- [56 <./images/simulation/graphA.jpg>]
-<images/simulation/graphB.jpg, id=754, 99.37125pt x 245.41687pt>
+Package pdftex.def Info: images/simulation/solutionSectionB.jpg  used on input line 204.
+(pdftex.def)             Requested size: 399.21791pt x 243.49602pt.
+<images/simulation/graphB.jpg, id=763, 240.9pt x 563.85657pt>
 File: images/simulation/graphB.jpg Graphic file (type jpg)
 <use images/simulation/graphB.jpg>
-Package pdftex.def Info: images/simulation/graphB.jpg  used on input line 205.
-(pdftex.def)             Requested size: 88.71434pt x 219.1056pt.
-LaTeX Info: Redefining \. on input line 208.
-LaTeX Info: Redefining \% on input line 208.
- [57 <./images/simulation/solutionSectionB.jpg>]
-LaTeX Info: Redefining \. on input line 220.
-LaTeX Info: Redefining \% on input line 220.
- [58 <./images/simulation/graphB.jpg>]) (documentBody/Section12(Conclusions).tex
+Package pdftex.def Info: images/simulation/graphB.jpg  used on input line 214.
+(pdftex.def)             Requested size: 88.71434pt x 207.64284pt.
+LaTeX Info: Redefining \. on input line 217.
+LaTeX Info: Redefining \% on input line 217.
+ [58 <./images/simulation/solutionSectionB.jpg>]
+LaTeX Info: Redefining \. on input line 229.
+LaTeX Info: Redefining \% on input line 229.
+ [59 <./images/simulation/graphB.jpg>]) (documentBody/Section12(Conclusions).tex
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
- [59]) (documentBody/Section13(Recommendations).tex
+ [60]) (documentBody/Section13(Recommendations).tex
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
- [60
+ [61
 
 ])
 LaTeX Info: Redefining \. on input line 117.
 LaTeX Info: Redefining \% on input line 117.
- [61
+ [62
 
 ] AED endfloat: Processing end Figures and Tables
 LaTeX Info: Redefining \. on input line 119.
 LaTeX Info: Redefining \% on input line 119.
- [62
+ [63
 
 
 ] (c:/Users\Admin\Documents\PROYECTOS MATERIAS\Proyecto1\informeFisica.build\main.aux
@@ -1643,17 +1665,17 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 38382 strings out of 467870
- 756728 string characters out of 5418356
- 1646547 words of memory out of 5000000
- 66431 multiletter control sequences out of 15000+600000
+ 38435 strings out of 467870
+ 759050 string characters out of 5418356
+ 1646743 words of memory out of 5000000
+ 66477 multiletter control sequences out of 15000+600000
  694198 words of font info for 74 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,19n,118p,763b,2908s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Admin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/latxfont/line10.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx8.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbxi10.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr6.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri8.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb>
-Output written on "c:/Users\Admin\Documents\PROYECTOS MATERIAS\Proyecto1\informeFisica.build\main.pdf" (63 pages, 6703314 bytes).
+Output written on "c:/Users\Admin\Documents\PROYECTOS MATERIAS\Proyecto1\informeFisica.build\main.pdf" (64 pages, 7376218 bytes).
 PDF statistics:
- 921 PDF objects out of 1000 (max. 8388607)
- 207 named destinations out of 1000 (max. 500000)
- 733 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 942 PDF objects out of 1000 (max. 8388607)
+ 214 named destinations out of 1000 (max. 500000)
+ 748 words of extra memory for PDF output out of 10000 (max. 10000000)
 

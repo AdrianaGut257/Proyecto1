@@ -61,7 +61,7 @@
 \contentsline {subsection}{\numberline {11.2}Procedimiento}{50}{subsection.11.2}%
 \contentsline {subsection}{\numberline {11.3}Resolución analítica}{50}{subsection.11.3}%
 \contentsline {subsection}{\numberline {11.4}Simulación en GeoGebra}{54}{subsection.11.4}%
-\contentsline {subsection}{\numberline {11.5}Resultados}{58}{subsection.11.5}%
-\contentsline {subsection}{\numberline {11.6}Análisis}{59}{subsection.11.6}%
-\contentsline {section}{\numberline {12}Conclusiones}{60}{section.12}%
-\contentsline {section}{\numberline {13}Recomendaciones}{61}{section.13}%
+\contentsline {subsection}{\numberline {11.5}Resultados}{59}{subsection.11.5}%
+\contentsline {subsection}{\numberline {11.6}Análisis}{60}{subsection.11.6}%
+\contentsline {section}{\numberline {12}Conclusiones}{61}{section.12}%
+\contentsline {section}{\numberline {13}Recomendaciones}{62}{section.13}%
