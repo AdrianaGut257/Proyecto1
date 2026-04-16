@@ -51,13 +51,16 @@
 \contentsline {subsection}{\numberline {9.5}Características}{40}{subsection.9.5}%
 \contentsline {section}{\numberline {10}Herramientas}{41}{section.10}%
 \contentsline {subsection}{\numberline {10.1}Herramientas para la redacción del informe}{41}{subsection.10.1}%
-\contentsline {subsection}{\numberline {10.2}Herramientas para la presentación de la exposición}{44}{subsection.10.2}%
-\contentsline {subsection}{\numberline {10.3}Herramientas para la simulación}{46}{subsection.10.3}%
-\contentsline {section}{\numberline {11}Simulación}{47}{section.11}%
-\contentsline {subsection}{\numberline {11.1}Materiales}{47}{subsection.11.1}%
-\contentsline {subsection}{\numberline {11.2}Procedimiento}{47}{subsection.11.2}%
-\contentsline {subsection}{\numberline {11.3}Resolución}{48}{subsection.11.3}%
-\contentsline {subsection}{\numberline {11.4}Resultados}{51}{subsection.11.4}%
-\contentsline {subsection}{\numberline {11.5}Análisis}{52}{subsection.11.5}%
-\contentsline {section}{\numberline {12}Conclusiones}{53}{section.12}%
-\contentsline {section}{\numberline {13}Recomendaciones}{54}{section.13}%
+\contentsline {subsection}{\numberline {10.2}Verificación del uso de \LaTeX {} y guía para la descarga del informe en formato PDF}{44}{subsection.10.2}%
+\contentsline {subsubsection}{\numberline {10.2.1}Verificación del uso de \LaTeX {}}{44}{subsubsection.10.2.1}%
+\contentsline {subsubsection}{\numberline {10.2.2}Guía para la descarga del informe en PDF}{44}{subsubsection.10.2.2}%
+\contentsline {subsection}{\numberline {10.3}Herramientas para la presentación de la exposición}{45}{subsection.10.3}%
+\contentsline {subsection}{\numberline {10.4}Herramientas para la simulación}{46}{subsection.10.4}%
+\contentsline {section}{\numberline {11}Simulación}{48}{section.11}%
+\contentsline {subsection}{\numberline {11.1}Materiales}{48}{subsection.11.1}%
+\contentsline {subsection}{\numberline {11.2}Procedimiento}{48}{subsection.11.2}%
+\contentsline {subsection}{\numberline {11.3}Resolución}{49}{subsection.11.3}%
+\contentsline {subsection}{\numberline {11.4}Resultados}{52}{subsection.11.4}%
+\contentsline {subsection}{\numberline {11.5}Análisis}{53}{subsection.11.5}%
+\contentsline {section}{\numberline {12}Conclusiones}{54}{section.12}%
+\contentsline {section}{\numberline {13}Recomendaciones}{55}{section.13}%

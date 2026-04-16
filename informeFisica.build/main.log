@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.4.6)  15 APR 2026 21:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.4.6)  15 APR 2026 21:35
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1159,7 +1159,7 @@ Package biblatex Info: ... file 'main.bbl' found.
 Package biblatex Info: Reference section=0 on input line 70.
 Package biblatex Info: Reference segment=0 on input line 70.
  (cover.tex
-<images/cover/logoEscudoUmss.png, id=254, 614.295pt x 794.97pt>
+<images/cover/logoEscudoUmss.png, id=266, 614.295pt x 794.97pt>
 File: images/cover/logoEscudoUmss.png Graphic file (type png)
 <use images/cover/logoEscudoUmss.png>
 Package pdftex.def Info: images/cover/logoEscudoUmss.png  used on input line 4.
@@ -1250,12 +1250,12 @@ LaTeX Info: Redefining \% on input line 1.
  [7
 
 ]
-<images/cinematicImages/cinematic.png, id=414, 1541.76pt x 1027.84pt>
+<images/cinematicImages/cinematic.png, id=431, 1541.76pt x 1027.84pt>
 File: images/cinematicImages/cinematic.png Graphic file (type png)
 <use images/cinematicImages/cinematic.png>
 Package pdftex.def Info: images/cinematicImages/cinematic.png  used on input line 9.
 (pdftex.def)             Requested size: 266.14978pt x 177.42805pt.
-<images/cinematicImages/referenceSystem.png, id=415, 1674.255pt x 642.4pt>
+<images/cinematicImages/referenceSystem.png, id=432, 1674.255pt x 642.4pt>
 File: images/cinematicImages/referenceSystem.png Graphic file (type png)
 <use images/cinematicImages/referenceSystem.png>
 Package pdftex.def Info: images/cinematicImages/referenceSystem.png  used on input line 24.
@@ -1268,12 +1268,12 @@ LaTeX Info: Redefining \% on input line 28.
 LaTeX Info: Redefining \. on input line 43.
 LaTeX Info: Redefining \% on input line 43.
  [9{C:/Users/Admin/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc} <./images/cinematicImages/referenceSystem.png>]
-<images/cinematicGraphics/1DPosition.jpg, id=428, 739.26187pt x 566.115pt>
+<images/cinematicGraphics/1DPosition.jpg, id=445, 739.26187pt x 566.115pt>
 File: images/cinematicGraphics/1DPosition.jpg Graphic file (type jpg)
 <use images/cinematicGraphics/1DPosition.jpg>
 Package pdftex.def Info: images/cinematicGraphics/1DPosition.jpg  used on input line 49.
 (pdftex.def)             Requested size: 310.50357pt x 237.77531pt.
-<images/cinematicGraphics/2DPosition.jpg, id=429, 740.0147pt x 580.41844pt>
+<images/cinematicGraphics/2DPosition.jpg, id=446, 740.0147pt x 580.41844pt>
 File: images/cinematicGraphics/2DPosition.jpg Graphic file (type jpg)
 <use images/cinematicGraphics/2DPosition.jpg>
 Package pdftex.def Info: images/cinematicGraphics/2DPosition.jpg  used on input line 63.
@@ -1281,7 +1281,7 @@ Package pdftex.def Info: images/cinematicGraphics/2DPosition.jpg  used on input 
 LaTeX Info: Redefining \. on input line 66.
 LaTeX Info: Redefining \% on input line 66.
  [10{C:/Users/Admin/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/Users/Admin/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc} <./images/cinematicGraphics/1DPosition.jpg>]
-<images/cinematicGraphics/1DDisplacement.jpg, id=437, 801.74532pt x 603.75563pt>
+<images/cinematicGraphics/1DDisplacement.jpg, id=454, 801.74532pt x 603.75563pt>
 File: images/cinematicGraphics/1DDisplacement.jpg Graphic file (type jpg)
 <use images/cinematicGraphics/1DDisplacement.jpg>
 Package pdftex.def Info: images/cinematicGraphics/1DDisplacement.jpg  used on input line 87.
@@ -1289,7 +1289,7 @@ Package pdftex.def Info: images/cinematicGraphics/1DDisplacement.jpg  used on in
 LaTeX Info: Redefining \. on input line 90.
 LaTeX Info: Redefining \% on input line 90.
  [11{C:/Users/Admin/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc} <./images/cinematicGraphics/2DPosition.jpg>]
-<images/cinematicGraphics/2DDisplacement.jpg, id=443, 799.48688pt x 604.50844pt>
+<images/cinematicGraphics/2DDisplacement.jpg, id=460, 799.48688pt x 604.50844pt>
 File: images/cinematicGraphics/2DDisplacement.jpg Graphic file (type jpg)
 <use images/cinematicGraphics/2DDisplacement.jpg>
 Package pdftex.def Info: images/cinematicGraphics/2DDisplacement.jpg  used on input line 101.
@@ -1297,7 +1297,7 @@ Package pdftex.def Info: images/cinematicGraphics/2DDisplacement.jpg  used on in
 LaTeX Info: Redefining \. on input line 104.
 LaTeX Info: Redefining \% on input line 104.
  [12 <./images/cinematicGraphics/1DDisplacement.jpg>]
-<images/cinematicGraphics/speedV.jpg, id=451, 823.57687pt x 622.57594pt>
+<images/cinematicGraphics/speedV.jpg, id=468, 823.57687pt x 622.57594pt>
 File: images/cinematicGraphics/speedV.jpg Graphic file (type jpg)
 <use images/cinematicGraphics/speedV.jpg>
 Package pdftex.def Info: images/cinematicGraphics/speedV.jpg  used on input line 133.
@@ -1305,7 +1305,7 @@ Package pdftex.def Info: images/cinematicGraphics/speedV.jpg  used on input line
 LaTeX Info: Redefining \. on input line 136.
 LaTeX Info: Redefining \% on input line 136.
  [13 <./images/cinematicGraphics/2DDisplacement.jpg>]
-<images/cinematicGraphics/speedR.jpg, id=457, 823.57687pt x 620.3175pt>
+<images/cinematicGraphics/speedR.jpg, id=474, 823.57687pt x 620.3175pt>
 File: images/cinematicGraphics/speedR.jpg Graphic file (type jpg)
 <use images/cinematicGraphics/speedR.jpg>
 Package pdftex.def Info: images/cinematicGraphics/speedR.jpg  used on input line 156.
@@ -1313,7 +1313,7 @@ Package pdftex.def Info: images/cinematicGraphics/speedR.jpg  used on input line
 LaTeX Info: Redefining \. on input line 159.
 LaTeX Info: Redefining \% on input line 159.
  [14 <./images/cinematicGraphics/speedV.jpg>]
-<images/cinematicGraphics/averageSpeed.jpg, id=462, 781.41937pt x 588.69937pt>
+<images/cinematicGraphics/averageSpeed.jpg, id=479, 781.41937pt x 588.69937pt>
 File: images/cinematicGraphics/averageSpeed.jpg Graphic file (type jpg)
 <use images/cinematicGraphics/averageSpeed.jpg>
 Package pdftex.def Info: images/cinematicGraphics/averageSpeed.jpg  used on input line 181.
@@ -1321,7 +1321,7 @@ Package pdftex.def Info: images/cinematicGraphics/averageSpeed.jpg  used on inpu
 LaTeX Info: Redefining \. on input line 184.
 LaTeX Info: Redefining \% on input line 184.
  [15 <./images/cinematicGraphics/speedR.jpg>]
-<images/cinematicGraphics/instantSpeed.jpg, id=467, 802.49812pt x 605.26125pt>
+<images/cinematicGraphics/instantSpeed.jpg, id=484, 802.49812pt x 605.26125pt>
 File: images/cinematicGraphics/instantSpeed.jpg Graphic file (type jpg)
 <use images/cinematicGraphics/instantSpeed.jpg>
 Package pdftex.def Info: images/cinematicGraphics/instantSpeed.jpg  used on input line 204.
@@ -1329,7 +1329,7 @@ Package pdftex.def Info: images/cinematicGraphics/instantSpeed.jpg  used on inpu
 LaTeX Info: Redefining \. on input line 207.
 LaTeX Info: Redefining \% on input line 207.
  [16 <./images/cinematicGraphics/averageSpeed.jpg>]
-<images/demonstrations/example1.jpg, id=473, 758.08218pt x 341.02406pt>
+<images/demonstrations/example1.jpg, id=490, 758.08218pt x 341.02406pt>
 File: images/demonstrations/example1.jpg Graphic file (type jpg)
 <use images/demonstrations/example1.jpg>
 Package pdftex.def Info: images/demonstrations/example1.jpg  used on input line 228.
@@ -1340,7 +1340,7 @@ LaTeX Info: Redefining \% on input line 232.
 LaTeX Info: Redefining \. on input line 252.
 LaTeX Info: Redefining \% on input line 252.
  [18 <./images/demonstrations/example1.jpg>]
-<images/cinematicGraphics/averageAcceleration.jpg, id=486, 738.50906pt x 557.08125pt>
+<images/cinematicGraphics/averageAcceleration.jpg, id=503, 738.50906pt x 557.08125pt>
 File: images/cinematicGraphics/averageAcceleration.jpg Graphic file (type jpg)
 <use images/cinematicGraphics/averageAcceleration.jpg>
 Package pdftex.def Info: images/cinematicGraphics/averageAcceleration.jpg  used on input line 266.
@@ -1348,7 +1348,7 @@ Package pdftex.def Info: images/cinematicGraphics/averageAcceleration.jpg  used 
 LaTeX Info: Redefining \. on input line 282.
 LaTeX Info: Redefining \% on input line 282.
  [19 <./images/cinematicGraphics/averageAcceleration.jpg>]
-<images/demonstrations/example2.jpg, id=491, 801.74532pt x 605.26125pt>
+<images/demonstrations/example2.jpg, id=508, 801.74532pt x 605.26125pt>
 File: images/demonstrations/example2.jpg Graphic file (type jpg)
 <use images/demonstrations/example2.jpg>
 Package pdftex.def Info: images/demonstrations/example2.jpg  used on input line 324.
@@ -1362,7 +1362,7 @@ LaTeX Info: Redefining \% on input line 346.
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
  [22]
-<images/demonstrations/uniformMovement.jpg, id=507, 761.09344pt x 573.64313pt>
+<images/demonstrations/uniformMovement.jpg, id=524, 761.09344pt x 573.64313pt>
 File: images/demonstrations/uniformMovement.jpg Graphic file (type jpg)
 <use images/demonstrations/uniformMovement.jpg>
 Package pdftex.def Info: images/demonstrations/uniformMovement.jpg  used on input line 44.
@@ -1380,7 +1380,7 @@ LaTeX Info: Redefining \% on input line 1.
  [25
 
 ]
-<images/cinematicGraphics/derivative.jpg, id=523, 746.03719pt x 563.10374pt>
+<images/cinematicGraphics/derivative.jpg, id=540, 746.03719pt x 563.10374pt>
 File: images/cinematicGraphics/derivative.jpg Graphic file (type jpg)
 <use images/cinematicGraphics/derivative.jpg>
 Package pdftex.def Info: images/cinematicGraphics/derivative.jpg  used on input line 13.
@@ -1393,7 +1393,7 @@ LaTeX Info: Redefining \% on input line 39.
 LaTeX Info: Redefining \. on input line 90.
 LaTeX Info: Redefining \% on input line 90.
  [27]
-<images/cinematicGraphics/indefiniteIntegral.jpg, id=532, 698.61pt x 527.72156pt>
+<images/cinematicGraphics/indefiniteIntegral.jpg, id=549, 698.61pt x 527.72156pt>
 File: images/cinematicGraphics/indefiniteIntegral.jpg Graphic file (type jpg)
 <use images/cinematicGraphics/indefiniteIntegral.jpg>
 Package pdftex.def Info: images/cinematicGraphics/indefiniteIntegral.jpg  used on input line 141.
@@ -1401,7 +1401,7 @@ Package pdftex.def Info: images/cinematicGraphics/indefiniteIntegral.jpg  used o
 LaTeX Info: Redefining \. on input line 144.
 LaTeX Info: Redefining \% on input line 144.
  [28]
-<images/cinematicGraphics/definiteIntegral.jpg, id=537, 698.61pt x 527.72156pt>
+<images/cinematicGraphics/definiteIntegral.jpg, id=554, 698.61pt x 527.72156pt>
 File: images/cinematicGraphics/definiteIntegral.jpg Graphic file (type jpg)
 <use images/cinematicGraphics/definiteIntegral.jpg>
 Package pdftex.def Info: images/cinematicGraphics/definiteIntegral.jpg  used on input line 170.
@@ -1415,7 +1415,7 @@ LaTeX Info: Redefining \% on input line 207.
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
  [31]
-<images/cinematicImages/uniformRectilinearMotion.png, id=551, 516.42938pt x 236.38312pt>
+<images/cinematicImages/uniformRectilinearMotion.png, id=568, 516.42938pt x 236.38312pt>
 File: images/cinematicImages/uniformRectilinearMotion.png Graphic file (type png)
 <use images/cinematicImages/uniformRectilinearMotion.png>
 Package pdftex.def Info: images/cinematicImages/uniformRectilinearMotion.png  used on input line 9.
@@ -1428,7 +1428,7 @@ LaTeX Info: Redefining \% on input line 32.
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
  [33]
-<images/cinematicImages/uniformAcceleratedRectilinearMovement.jpg, id=564, 602.25pt x 190.7125pt>
+<images/cinematicImages/uniformAcceleratedRectilinearMovement.jpg, id=581, 602.25pt x 190.7125pt>
 File: images/cinematicImages/uniformAcceleratedRectilinearMovement.jpg Graphic file (type jpg)
 <use images/cinematicImages/uniformAcceleratedRectilinearMovement.jpg>
 Package pdftex.def Info: images/cinematicImages/uniformAcceleratedRectilinearMovement.jpg  used on input line 9.
@@ -1444,7 +1444,7 @@ LaTeX Info: Redefining \% on input line 85.
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
  [36]
-<images/cinematicImages/freeFall.jpg, id=581, 401.5pt x 580.1675pt>
+<images/cinematicImages/freeFall.jpg, id=598, 401.5pt x 580.1675pt>
 File: images/cinematicImages/freeFall.jpg Graphic file (type jpg)
 <use images/cinematicImages/freeFall.jpg>
 Package pdftex.def Info: images/cinematicImages/freeFall.jpg  used on input line 9.
@@ -1463,12 +1463,12 @@ LaTeX Info: Redefining \% on input line 124.
 LaTeX Info: Redefining \. on input line 2.
 LaTeX Info: Redefining \% on input line 2.
  [40]
-<images/tools/canva.png, id=604, 1505.625pt x 1505.625pt>
+<images/tools/canva.png, id=620, 1505.625pt x 1505.625pt>
 File: images/tools/canva.png Graphic file (type png)
 <use images/tools/canva.png>
 Package pdftex.def Info: images/tools/canva.png  used on input line 15.
 (pdftex.def)             Requested size: 85.35826pt x 85.34825pt.
-<images/tools/overleaf.jpg, id=606, 182.18062pt x 208.27812pt>
+<images/tools/overleaf.jpg, id=622, 182.18062pt x 208.27812pt>
 File: images/tools/overleaf.jpg Graphic file (type jpg)
 <use images/tools/overleaf.jpg>
 Package pdftex.def Info: images/tools/overleaf.jpg  used on input line 33.
@@ -1478,7 +1478,7 @@ LaTeX Info: Redefining \% on input line 42.
  [41
 
  <./images/tools/canva.png>]
-<images/tools/github.png, id=613, 352.40228pt x 352.40228pt>
+<images/tools/github.png, id=629, 352.40228pt x 352.40228pt>
 File: images/tools/github.png Graphic file (type png)
 <use images/tools/github.png>
 Package pdftex.def Info: images/tools/github.png  used on input line 53.
@@ -1486,7 +1486,7 @@ Package pdftex.def Info: images/tools/github.png  used on input line 53.
 LaTeX Info: Redefining \. on input line 62.
 LaTeX Info: Redefining \% on input line 62.
  [42 <./images/tools/overleaf.jpg>]
-<images/tools/visualStudioCode.png, id=620, 1284.8pt x 1284.8pt>
+<images/tools/visualStudioCode.png, id=636, 1284.8pt x 1284.8pt>
 File: images/tools/visualStudioCode.png Graphic file (type png)
 <use images/tools/visualStudioCode.png>
 Package pdftex.def Info: images/tools/visualStudioCode.png  used on input line 71.
@@ -1494,67 +1494,74 @@ Package pdftex.def Info: images/tools/visualStudioCode.png  used on input line 7
 LaTeX Info: Redefining \. on input line 87.
 LaTeX Info: Redefining \% on input line 87.
  [43 <./images/tools/github.png> <./images/tools/visualStudioCode.png>]
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 101.
+ (C:\Users\Admin\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmtt.fd
+File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
 File: images/tools/canva.png Graphic file (type png)
 <use images/tools/canva.png>
-Package pdftex.def Info: images/tools/canva.png  used on input line 107.
+Package pdftex.def Info: images/tools/canva.png  used on input line 127.
 (pdftex.def)             Requested size: 85.35826pt x 85.34825pt.
-<images/tools/capcut.jpg, id=632, 737.75626pt x 546.04pt>
+LaTeX Info: Redefining \. on input line 135.
+LaTeX Info: Redefining \% on input line 135.
+ [44]
+<images/tools/capcut.jpg, id=663, 737.75626pt x 546.04pt>
 File: images/tools/capcut.jpg Graphic file (type jpg)
 <use images/tools/capcut.jpg>
-Package pdftex.def Info: images/tools/capcut.jpg  used on input line 125.
+Package pdftex.def Info: images/tools/capcut.jpg  used on input line 145.
 (pdftex.def)             Requested size: 85.35826pt x 63.17238pt.
-LaTeX Info: Redefining \. on input line 134.
-LaTeX Info: Redefining \% on input line 134.
- [44]
-<images/tools/audacity.png, id=642, 1597.97pt x 1515.6625pt>
+<images/tools/audacity.png, id=665, 1597.97pt x 1515.6625pt>
 File: images/tools/audacity.png Graphic file (type png)
 <use images/tools/audacity.png>
-Package pdftex.def Info: images/tools/audacity.png  used on input line 143.
+Package pdftex.def Info: images/tools/audacity.png  used on input line 163.
 (pdftex.def)             Requested size: 85.35826pt x 80.9449pt.
-<images/tools/geogebra.png, id=646, 3854.4pt x 3854.4pt>
+LaTeX Info: Redefining \. on input line 172.
+LaTeX Info: Redefining \% on input line 172.
+ [45 <./images/tools/capcut.jpg>]
+<images/tools/geogebra.png, id=673, 3854.4pt x 3854.4pt>
 File: images/tools/geogebra.png Graphic file (type png)
 <use images/tools/geogebra.png>
-Package pdftex.def Info: images/tools/geogebra.png  used on input line 172.
+Package pdftex.def Info: images/tools/geogebra.png  used on input line 192.
 (pdftex.def)             Requested size: 85.35826pt x 85.33813pt.
-LaTeX Info: Redefining \. on input line 180.
-LaTeX Info: Redefining \% on input line 180.
- [45 <./images/tools/capcut.jpg> <./images/tools/audacity.png>]) (documentBody/Section11(Simulation).tex
+LaTeX Info: Redefining \. on input line 201.
+LaTeX Info: Redefining \% on input line 201.
+ [46 <./images/tools/audacity.png>]) (documentBody/Section11(Simulation).tex
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
- [46 <./images/tools/geogebra.png>]
+ [47 <./images/tools/geogebra.png>]
 LaTeX Info: Redefining \. on input line 35.
 LaTeX Info: Redefining \% on input line 35.
- [47
+ [48
 
 ]
 LaTeX Info: Redefining \. on input line 83.
 LaTeX Info: Redefining \% on input line 83.
- [48]
+ [49]
 LaTeX Info: Redefining \. on input line 108.
 LaTeX Info: Redefining \% on input line 108.
- [49]
+ [50]
 LaTeX Info: Redefining \. on input line 162.
 LaTeX Info: Redefining \% on input line 162.
- [50]
+ [51]
 LaTeX Info: Redefining \. on input line 187.
 LaTeX Info: Redefining \% on input line 187.
- [51]) (documentBody/Section12(Conclusions).tex
+ [52]) (documentBody/Section12(Conclusions).tex
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
- [52]) (documentBody/Section13(Recommendations).tex
+ [53]) (documentBody/Section13(Recommendations).tex
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
- [53
+ [54
 
 ])
 LaTeX Info: Redefining \. on input line 117.
 LaTeX Info: Redefining \% on input line 117.
- [54
+ [55
 
 ] AED endfloat: Processing end Figures and Tables
 LaTeX Info: Redefining \. on input line 119.
 LaTeX Info: Redefining \% on input line 119.
- [55
+ [56
 
 
 ] (c:/Users\Admin\Documents\PROYECTOS MATERIAS\Proyecto1\informeFisica.build\main.aux
@@ -1567,23 +1574,23 @@ LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-24>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: E922EBEFE943C492D7ED459B1D99FCFC;9496.
+(rerunfilecheck)             Checksum: FD5B2D5D77D3DD372636EE914B2064BF;10528.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 38258 strings out of 467870
- 753224 string characters out of 5418356
- 1645545 words of memory out of 5000000
- 66330 multiletter control sequences out of 15000+600000
- 689609 words of font info for 72 fonts, out of 8000000 for 9000
+ 38314 strings out of 467870
+ 754115 string characters out of 5418356
+ 1646549 words of memory out of 5000000
+ 66374 multiletter control sequences out of 15000+600000
+ 694198 words of font info for 74 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,19n,118p,763b,2908s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/Admin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/latxfont/line10.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbxi10.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr6.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri8.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb>
-Output written on "c:/Users\Admin\Documents\PROYECTOS MATERIAS\Proyecto1\informeFisica.build\main.pdf" (56 pages, 3570906 bytes).
+<C:/Users/Admin/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/latxfont/line10.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx8.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbxi10.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr6.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri8.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb><C:/Users/Admin/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb>
+Output written on "c:/Users\Admin\Documents\PROYECTOS MATERIAS\Proyecto1\informeFisica.build\main.pdf" (57 pages, 3622502 bytes).
 PDF statistics:
- 834 PDF objects out of 1000 (max. 8388607)
- 188 named destinations out of 1000 (max. 500000)
- 661 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 870 PDF objects out of 1000 (max. 8388607)
+ 196 named destinations out of 1000 (max. 500000)
+ 685 words of extra memory for PDF output out of 10000 (max. 10000000)
 
