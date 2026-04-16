@@ -9,32 +9,32 @@
 \usepackage[nottoc]{tocbibind}
 \usepackage{fancyhdr}
 \usepackage[backend=biber, style=apa]{biblatex}
-\addbibresource{bibliography.bib}
 \usepackage{subcaption}
 \usepackage{xcolor}
 \usepackage{empheq}
 \usepackage{tcolorbox}
 \usepackage{cancel}
 \usepackage{adjustbox}
-
+\usepackage{geometry}
 \usepackage{array}
 \usepackage{booktabs}
 \usepackage{caption}
 \usepackage{placeins}
-\definecolor{blueS}{RGB}{0, 104, 204}
-
 \usepackage{hyperref}
+\usepackage{etoolbox}   % Siguiente pagina subsection
+\pretocmd{\section}{\clearpage}{}{}
+\geometry{left=35mm, right=25mm}
+\captionsetup[figure]{position=top}
+
 \hypersetup{
     colorlinks=true,
     linkcolor=black,   % ← índice, referencias internas
-    urlcolor=blueS,     % ← enlaces web
+    urlcolor=blueS,    % ← enlaces web
     citecolor=black    % ← citas
 }
-%%%Siguiente pagina subsection
-\usepackage{etoolbox}
-\pretocmd{\section}{\clearpage}{}{}
 
-\geometry{left=35mm, right=25mm, top=21mm, headsep=6mm, height=210mm, footskip=15mm}
+\definecolor{blueS}{RGB}{0, 104, 204}
+\addbibresource{bibliography.bib}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %   NUMERACIÓN DE SECCIONES     %
@@ -55,9 +55,10 @@
   \fancyhead[L]{\nouppercase{\leftmark}}
   \renewcommand{\headrulewidth}{0.4pt}
   \renewcommand{\footrulewidth}{0.4pt}
-  \setlength{\headheight}{14pt}
+  \setlength{\headheight}{16pt}
 }
 
+% chktex-file 1
 \fancypagestyle{cuerpo}{
   \aplicarEstilo
 }
@@ -95,18 +96,19 @@
 %%%%%%%%%%%%%%%%%%
 %  MARCO TEÓRICO %
 %%%%%%%%%%%%%%%%%%
-\input{documentBody/Section1.tex}
-\input{documentBody/Section2.tex}
-\input{documentBody/Section3.tex}
-\input{documentBody/Section4.tex}
-\input{documentBody/Section5.tex}
-\input{documentBody/Section6.tex}
-\input{documentBody/Section7.tex}
-\input{documentBody/Section8.tex}
-\input{documentBody/Section9(Tools).tex}
-\input{documentBody/Section10(Simulation).tex}
-\input{documentBody/Section11(Conclusions).tex}
-\input{documentBody/Section12(Recommendations).tex}
+\input{documentBody/Section1(Introduction).tex}
+\input{documentBody/Section2(Objectives).tex}
+\input{documentBody/Section3(Kinematics).tex}
+\input{documentBody/Section4(UniformMovement).tex}
+\input{documentBody/Section5(ParticleKinematics).tex}
+\input{documentBody/Section6(DifferentialCalculus).tex}
+\input{documentBody/Section7(MRU).tex}
+\input{documentBody/Section8(MRUA).tex}
+\input{documentBody/Section9(MVCL).tex}
+\input{documentBody/Section10(Tools).tex}
+\input{documentBody/Section11(Simulation).tex}
+\input{documentBody/Section12(Conclusions).tex}
+\input{documentBody/Section13(Recommendations).tex}
 
 %%%%%%%%%%%%%%%%%%
 %  BIBLIOGRAFÍA  %
