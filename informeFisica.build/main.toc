@@ -1,67 +1,68 @@
 \babel@toc {spanish}{}\relax 
 \contentsline {section}{\'{I}ndice de figuras}{4}{section*.2}%
-\contentsline {section}{\'{I}ndice de tablas}{5}{section*.3}%
-\contentsline {section}{\numberline {1}Introducción}{6}{section.1}%
-\contentsline {section}{\numberline {2}Objetivos}{7}{section.2}%
-\contentsline {subsection}{\numberline {2.1}Objetivo General}{7}{subsection.2.1}%
-\contentsline {subsection}{\numberline {2.2}Objetivos Específicos}{7}{subsection.2.2}%
-\contentsline {section}{\numberline {3}Cinemática}{8}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Sistema de referencia}{8}{subsection.3.1}%
-\contentsline {subsubsection}{\numberline {3.1.1}Observador interno}{9}{subsubsection.3.1.1}%
-\contentsline {subsubsection}{\numberline {3.1.2}Observador externo}{9}{subsubsection.3.1.2}%
-\contentsline {subsection}{\numberline {3.2}Posición}{9}{subsection.3.2}%
-\contentsline {subsection}{\numberline {3.3}Desplazamiento}{11}{subsection.3.3}%
-\contentsline {subsection}{\numberline {3.4}Velocidad y rapidez}{13}{subsection.3.4}%
-\contentsline {subsubsection}{\numberline {3.4.1}Velocidad}{13}{subsubsection.3.4.1}%
-\contentsline {subsubsection}{\numberline {3.4.2}Rapidez}{14}{subsubsection.3.4.2}%
-\contentsline {subsection}{\numberline {3.5}Velocidad media e instantánea}{15}{subsection.3.5}%
-\contentsline {subsubsection}{\numberline {3.5.1}Velocidad media}{15}{subsubsection.3.5.1}%
-\contentsline {subsubsection}{\numberline {3.5.2}Velocidad instantánea}{16}{subsubsection.3.5.2}%
-\contentsline {subsubsection}{\numberline {3.5.3}Ejemplo}{17}{subsubsection.3.5.3}%
-\contentsline {subsection}{\numberline {3.6}Aceleración media e instantánea}{19}{subsection.3.6}%
-\contentsline {subsubsection}{\numberline {3.6.1}Aceleración media}{19}{subsubsection.3.6.1}%
-\contentsline {subsubsection}{\numberline {3.6.2}Aceleración instantánea}{20}{subsubsection.3.6.2}%
-\contentsline {subsubsection}{\numberline {3.6.3}Ejemplo 2}{20}{subsubsection.3.6.3}%
-\contentsline {section}{\numberline {4}Movimiento uniforme}{23}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Definición}{23}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Velocidad}{23}{subsection.4.2}%
-\contentsline {subsection}{\numberline {4.3}Ecuación de movimiento}{23}{subsection.4.3}%
-\contentsline {subsection}{\numberline {4.4}Interpretación gráfica}{24}{subsection.4.4}%
-\contentsline {section}{\numberline {5}Cinematica de la particula}{25}{section.5}%
-\contentsline {section}{\numberline {6}Cálculo diferencial}{26}{section.6}%
-\contentsline {subsection}{\numberline {6.1}Derivadas}{26}{subsection.6.1}%
-\contentsline {subsubsection}{\numberline {6.1.1}Interpretación}{26}{subsubsection.6.1.1}%
-\contentsline {subsubsection}{\numberline {6.1.2}Reglas de derivación}{27}{subsubsection.6.1.2}%
-\contentsline {subsubsection}{\numberline {6.1.3}Derivadas básicas}{28}{subsubsection.6.1.3}%
-\contentsline {subsection}{\numberline {6.2}Integrales}{28}{subsection.6.2}%
-\contentsline {subsubsection}{\numberline {6.2.1}Integral indefinida}{29}{subsubsection.6.2.1}%
-\contentsline {subsubsection}{\numberline {6.2.2}Integral definida}{30}{subsubsection.6.2.2}%
-\contentsline {subsubsection}{\numberline {6.2.3}Reglas de integración}{31}{subsubsection.6.2.3}%
-\contentsline {section}{\numberline {7}Movimiento Rectilíneo Uniforme (MRU)}{32}{section.7}%
-\contentsline {subsection}{\numberline {7.1}Ecuación de posición}{33}{subsection.7.1}%
-\contentsline {subsection}{\numberline {7.2}Características del MRU}{33}{subsection.7.2}%
-\contentsline {section}{\numberline {8}Movimiento Rectilíneo Uniformemente Acelerado (MRUA)}{34}{section.8}%
-\contentsline {subsection}{\numberline {8.1}Ecuaciones}{34}{subsection.8.1}%
-\contentsline {subsection}{\numberline {8.2}Características del MRUA}{36}{subsection.8.2}%
-\contentsline {section}{\numberline {9}Caida libre (MVCL)}{37}{section.9}%
-\contentsline {subsection}{\numberline {9.1}Ecuaciones}{37}{subsection.9.1}%
-\contentsline {subsection}{\numberline {9.2}Convención de signos}{39}{subsection.9.2}%
-\contentsline {subsection}{\numberline {9.3}Altura máxima}{40}{subsection.9.3}%
-\contentsline {subsection}{\numberline {9.4}Tiempo total de subida y bajada}{40}{subsection.9.4}%
-\contentsline {subsection}{\numberline {9.5}Características}{40}{subsection.9.5}%
-\contentsline {section}{\numberline {10}Herramientas}{41}{section.10}%
-\contentsline {subsection}{\numberline {10.1}Herramientas para la redacción del informe}{41}{subsection.10.1}%
-\contentsline {subsection}{\numberline {10.2}Verificación del uso de \LaTeX {} y guía para la descarga del informe en formato PDF}{44}{subsection.10.2}%
-\contentsline {subsubsection}{\numberline {10.2.1}Verificación del uso de \LaTeX {}}{44}{subsubsection.10.2.1}%
-\contentsline {subsubsection}{\numberline {10.2.2}Guía para la descarga del informe en PDF}{46}{subsubsection.10.2.2}%
-\contentsline {subsection}{\numberline {10.3}Herramientas para la presentación de la exposición}{47}{subsection.10.3}%
-\contentsline {subsection}{\numberline {10.4}Herramientas para la simulación}{49}{subsection.10.4}%
-\contentsline {section}{\numberline {11}Simulación}{50}{section.11}%
-\contentsline {subsection}{\numberline {11.1}Materiales}{50}{subsection.11.1}%
-\contentsline {subsection}{\numberline {11.2}Procedimiento}{50}{subsection.11.2}%
-\contentsline {subsection}{\numberline {11.3}Resolución analítica}{50}{subsection.11.3}%
-\contentsline {subsection}{\numberline {11.4}Simulación en GeoGebra}{54}{subsection.11.4}%
-\contentsline {subsection}{\numberline {11.5}Resultados}{59}{subsection.11.5}%
-\contentsline {subsection}{\numberline {11.6}Análisis}{60}{subsection.11.6}%
-\contentsline {section}{\numberline {12}Conclusiones}{61}{section.12}%
-\contentsline {section}{\numberline {13}Recomendaciones}{62}{section.13}%
+\contentsline {section}{\'{I}ndice de tablas}{6}{section*.3}%
+\contentsline {section}{\numberline {1}Introducción}{7}{section.1}%
+\contentsline {section}{\numberline {2}Objetivos}{8}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Objetivo General}{8}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Objetivos Específicos}{8}{subsection.2.2}%
+\contentsline {section}{\numberline {3}Cinemática}{9}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Sistema de referencia}{9}{subsection.3.1}%
+\contentsline {subsubsection}{\numberline {3.1.1}Observador interno}{10}{subsubsection.3.1.1}%
+\contentsline {subsubsection}{\numberline {3.1.2}Observador externo}{10}{subsubsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.2}Posición}{10}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Desplazamiento}{12}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Velocidad y rapidez}{14}{subsection.3.4}%
+\contentsline {subsubsection}{\numberline {3.4.1}Velocidad}{14}{subsubsection.3.4.1}%
+\contentsline {subsubsection}{\numberline {3.4.2}Rapidez}{15}{subsubsection.3.4.2}%
+\contentsline {subsection}{\numberline {3.5}Velocidad media e instantánea}{16}{subsection.3.5}%
+\contentsline {subsubsection}{\numberline {3.5.1}Velocidad media}{16}{subsubsection.3.5.1}%
+\contentsline {subsubsection}{\numberline {3.5.2}Velocidad instantánea}{17}{subsubsection.3.5.2}%
+\contentsline {subsubsection}{\numberline {3.5.3}Ejemplo}{18}{subsubsection.3.5.3}%
+\contentsline {subsection}{\numberline {3.6}Aceleración media e instantánea}{20}{subsection.3.6}%
+\contentsline {subsubsection}{\numberline {3.6.1}Aceleración media}{20}{subsubsection.3.6.1}%
+\contentsline {subsubsection}{\numberline {3.6.2}Aceleración instantánea}{21}{subsubsection.3.6.2}%
+\contentsline {subsubsection}{\numberline {3.6.3}Ejemplo 2}{21}{subsubsection.3.6.3}%
+\contentsline {section}{\numberline {4}Movimiento uniforme}{24}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Definición}{24}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Velocidad}{24}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Ecuación de movimiento}{24}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Interpretación gráfica}{25}{subsection.4.4}%
+\contentsline {section}{\numberline {5}Cinematica de la particula}{26}{section.5}%
+\contentsline {section}{\numberline {6}Cálculo diferencial}{27}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Derivadas}{27}{subsection.6.1}%
+\contentsline {subsubsection}{\numberline {6.1.1}Interpretación}{27}{subsubsection.6.1.1}%
+\contentsline {subsubsection}{\numberline {6.1.2}Reglas de derivación}{28}{subsubsection.6.1.2}%
+\contentsline {subsubsection}{\numberline {6.1.3}Derivadas básicas}{29}{subsubsection.6.1.3}%
+\contentsline {subsection}{\numberline {6.2}Integrales}{29}{subsection.6.2}%
+\contentsline {subsubsection}{\numberline {6.2.1}Integral indefinida}{30}{subsubsection.6.2.1}%
+\contentsline {subsubsection}{\numberline {6.2.2}Integral definida}{31}{subsubsection.6.2.2}%
+\contentsline {subsubsection}{\numberline {6.2.3}Reglas de integración}{32}{subsubsection.6.2.3}%
+\contentsline {section}{\numberline {7}Movimiento Rectilíneo Uniforme (MRU)}{33}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Ecuación de posición}{34}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Características del MRU}{34}{subsection.7.2}%
+\contentsline {section}{\numberline {8}Movimiento Rectilíneo Uniformemente Acelerado (MRUA)}{35}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Ecuaciones}{35}{subsection.8.1}%
+\contentsline {subsection}{\numberline {8.2}Características del MRUA}{37}{subsection.8.2}%
+\contentsline {section}{\numberline {9}Caida libre (MVCL)}{38}{section.9}%
+\contentsline {subsection}{\numberline {9.1}Ecuaciones}{38}{subsection.9.1}%
+\contentsline {subsection}{\numberline {9.2}Convención de signos}{40}{subsection.9.2}%
+\contentsline {subsection}{\numberline {9.3}Altura máxima}{41}{subsection.9.3}%
+\contentsline {subsection}{\numberline {9.4}Tiempo total de subida y bajada}{41}{subsection.9.4}%
+\contentsline {subsection}{\numberline {9.5}Características}{41}{subsection.9.5}%
+\contentsline {section}{\numberline {10}Herramientas}{42}{section.10}%
+\contentsline {subsection}{\numberline {10.1}Herramientas para la redacción del informe}{42}{subsection.10.1}%
+\contentsline {subsection}{\numberline {10.2}Verificación del uso de \LaTeX {} y guía para la descarga del informe en formato PDF}{45}{subsection.10.2}%
+\contentsline {subsubsection}{\numberline {10.2.1}Verificación del uso de \LaTeX {}}{45}{subsubsection.10.2.1}%
+\contentsline {subsubsection}{\numberline {10.2.2}Guía para la descarga del informe en PDF}{47}{subsubsection.10.2.2}%
+\contentsline {subsection}{\numberline {10.3}Herramientas para la presentación de la exposición}{48}{subsection.10.3}%
+\contentsline {subsection}{\numberline {10.4}Herramientas para la simulación}{50}{subsection.10.4}%
+\contentsline {section}{\numberline {11}Simulación}{51}{section.11}%
+\contentsline {subsection}{\numberline {11.1}Materiales}{51}{subsection.11.1}%
+\contentsline {subsection}{\numberline {11.2}Procedimiento}{51}{subsection.11.2}%
+\contentsline {subsection}{\numberline {11.3}Ejercicio Simulado}{54}{subsection.11.3}%
+\contentsline {subsection}{\numberline {11.4}Resolución analítica}{55}{subsection.11.4}%
+\contentsline {subsection}{\numberline {11.5}Simulación en GeoGebra}{59}{subsection.11.5}%
+\contentsline {subsection}{\numberline {11.6}Resultados}{63}{subsection.11.6}%
+\contentsline {subsection}{\numberline {11.7}Análisis}{64}{subsection.11.7}%
+\contentsline {section}{\numberline {12}Conclusiones}{65}{section.12}%
+\contentsline {section}{\numberline {13}Recomendaciones}{66}{section.13}%

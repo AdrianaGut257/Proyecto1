@@ -20,14 +20,92 @@
 \end{table}
 
 \subsection{Procedimiento}
-------falta añadir
-----------------------
+
+\begin{enumerate}
+    \item \textbf{Configuración del Sistema de Referencia Unidimensional.}
+    Se habilitó la Vista Gráfica de GeoGebra configurando el eje de las abscisas para representar la carretera. Se estableció el origen $x = 0$ como punto de partida del automóvil y se desplazó el camión a la posición inicial $x = 80$\,m para cumplir con las condiciones iniciales del problema.
+
+    \item \textbf{Parametrización del Tiempo mediante Deslizador.}
+    Se creó un deslizador dinámico denominado \texttt{t} con un intervalo de $[0,\,20]$ y un incremento de $0{,}01$. Este actúa como el ``reloj'' de la simulación, permitiendo controlar la progresión de los eventos y observar el comportamiento de los móviles segundo a segundo.
+
+    \item \textbf{Definición Cinemática del Automóvil.}
+    Se implementó la ecuación de movimiento para el automóvil rojo. En la Vista Algebraica se introdujo la fórmula \texttt{p = 40 * t}, donde 40 representa la velocidad constante en m/s. Este valor \texttt{p} define la posición en el eje $x$ del vehículo en cualquier instante $t$.
+
+    \item \textbf{Implementación del Movimiento Acelerado del Camión.}
+    Para el camión, se programó la función de posición \texttt{p2 = 80 + 2 * t\^{}2}. El valor $80$ define la posición inicial ($x_0$) y el coeficiente $2$ corresponde a la mitad de la aceleración constante ($4\,\text{m/s}^2$), siguiendo la ecuación cinemática del MRUA.
+
+    \item \textbf{Vinculación de Imágenes a Puntos Coordenados.}
+    Se exportaron las imágenes \texttt{autoRojo.png} y \texttt{elcamionAzul.png}, anclándolas a los puntos coordenados \texttt{(p, 4.5)} y \texttt{(p2, 4.5)} respectivamente, de modo que los vehículos se desplacen sincronizadamente con el cálculo matemático. Además, se añadió la imagen de fondo \texttt{fondoCarretera.png} para mejorar la percepción visual del entorno.
+
+    \item \textbf{Modelado de la Velocidad Instantánea del Camión.}
+    Se creó la variable \texttt{v2 = 4 * t}, que calcula la velocidad del camión en cada instante, permitiendo observar cómo aumenta linealmente desde el reposo hasta superar la velocidad del automóvil.
+
+    \item \textbf{Cálculo de la Distancia de Separación.}
+    Se introdujo la variable \texttt{s = abs(p - p2)}, la cual obtiene la distancia real entre ambos móviles en todo momento. Este parámetro es fundamental para identificar el punto de encuentro, que ocurre cuando $s = 0$.
+
+    \item \textbf{Configuración del Análisis Gráfico ($x$ vs.\ $t$ y $v$ vs.\ $t$).}
+    Se activó la Vista Gráfica 2 para generar los diagramas de trayectorias y velocidades. Se definieron los puntos de trazado \texttt{(t, p)} y \texttt{(t, v1)} para el automóvil, y \texttt{(t, p2)} y \texttt{(t, v2)} para el camión, activando la propiedad de \textit{Rastro} para visualizar la intersección entre la recta y la parábola.
+
+    \item \textbf{Programación de Botones con Scripts.}
+    Se crearon botones con lógica de programación interna (\textit{Scripting}).
+
+    El botón \textbf{``Iniciar''} fue configurado con los comandos:
+    \begin{verbatim}
+    IniciaAnimación(t, True)
+    IniciaAnimación(v2, True)
+    IniciaAnimación(p, True)
+    IniciaAnimación(p2, True)
+    \end{verbatim}
+    \vspace{-20pt}
+
+    El botón \textbf{``Reiniciar''} fue configurado con los comandos:
+    \begin{verbatim}
+    IniciaAnimación(t, false)
+    t = 0
+    p = 0
+    p2 = 80
+    VistaActiva(2)
+    ZoomAcerca(1)
+    VistaActiva(1)
+    \end{verbatim}
+    \vspace{-20pt}
+
+    Mientras que el botón \textbf{``Detener''} fue configurado con los comandos:
+    \begin{verbatim}
+    IniciaAnimación(t, False)
+    IniciaAnimación(v2, False)
+    IniciaAnimación(p, False)
+    IniciaAnimación(p2, False)
+    \end{verbatim}
+    \vspace{-20pt}
+
+    \item \textbf{Formateo de Salida y Redondeo de Datos.}
+    Para la presentación en pantalla, se aplicó el comando \texttt{round(s)} en el cuadro de texto dinámico de ``separación'', mostrando la distancia en metros enteros. Asimismo, se implementaron cuadros de texto para mostrar en tiempo real la velocidad y posición del automóvil rojo, y la aceleración, velocidad y posición del camión azul.
+\end{enumerate}
+
+\subsection{Ejercicio Simulado}
 El ejercicio simulado es el siguiente:
 
 \textbf{Un automóvil se mueve a velocidad constante de 144 km/h en una carretera recta. En determinado momento, un camión que está a 80 m delante del automóvil comienza a moverse desde el reposo con una aceleración de 4 m/s$^2$. Determinar:}
 \begin{itemize}
     \item[\textbf{a.}] El tiempo y la posición cuando el automóvil y el camión se encuentran juntos.
+    \begin{figure}[H]
+    \centering
+    \captionsetup{width=0.8\textwidth}
+    \caption{Grafica del inciso a}
+    \includegraphics[width=0.9\textwidth]{images/simulation/exercisesectionA.jpg}
+    \caption*{Nota: Se muestran las posiciones del automóvil (MRU) y del camión (MRUA); la intersección indica el punto de encuentro.}
+    \end{figure}
+
     \item[\textbf{b.}] El momento cuando la velocidad del automóvil y del camión son iguales, y la separación entre ellos en ese instante.
+
+    \begin{figure}[H]
+    \centering
+    \captionsetup{width=0.8\textwidth}
+    \caption{Grafica del inciso b}
+    \includegraphics[width=0.9\textwidth]{images/simulation/exercisesectionB.jpg}
+    \caption*{Nota: Se representan las posiciones de ambos; cuando las pendientes son iguales, tienen la misma velocidad y existe separación entre ellos.}
+    \end{figure}
 \end{itemize}
 
 \subsection{Resolución analítica}
