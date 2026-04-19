@@ -2,39 +2,113 @@
 
 \subsection{Materiales}
 
-\begin{itemize}
-    \item Computadora o laptop
-    \item Software GeoGebra
-    \item Cuaderno de apuntes
-    \item Calculadora científica
-\end{itemize}
+% chktex-file 44
+\begin{table}[h]
+\centering
+\begin{tabular}{|c|l|}
+\hline
+\textbf{Imagen} & \textbf{Material} \\
+\hline
+
+\includegraphics[width=2cm]{images/simulation/materials/laptop.png} & Computadora o laptop \\
+\includegraphics[width=2cm]{images/tools/geogebra.png} & Software GeoGebra \\
+\includegraphics[width=2cm]{images/simulation/materials/notebook.jpg} & Cuaderno de apuntes \\
+\includegraphics[width=2cm]{images/simulation/materials/calculator.png} & Calculadora científica \\
+
+\hline
+\end{tabular}
+\end{table}
 
 \subsection{Procedimiento}
 
 \begin{enumerate}
-    \item Abrir el software GeoGebra.
-    \item En la barra de entrada, definir la función de posición del automóvil (MRU):
-    \[
-    x_a(t) = 40t
-    \]
-    \item Definir la función de posición del camión (MRUA):
-    \[
-    x_c(t) = 2t^2 + 80
-    \]
-    \item Observar las curvas generadas: la del automóvil es una línea recta y la del camión es una parábola.
-    \item Identificar gráficamente los puntos de intersección entre ambas curvas.
-    \item Verificar los resultados obtenidos analíticamente con los valores leídos en la gráfica.
+    \item \textbf{Configuración del Sistema de Referencia Unidimensional.}
+    Se habilitó la Vista Gráfica de GeoGebra configurando el eje de las abscisas para representar la carretera. Se estableció el origen $x = 0$ como punto de partida del automóvil y se desplazó el camión a la posición inicial $x = 80$\,m para cumplir con las condiciones iniciales del problema.
+
+    \item \textbf{Parametrización del Tiempo mediante Deslizador.}
+    Se creó un deslizador dinámico denominado \texttt{t} con un intervalo de $[0,\,20]$ y un incremento de $0{,}01$. Este actúa como el ``reloj'' de la simulación, permitiendo controlar la progresión de los eventos y observar el comportamiento de los móviles segundo a segundo.
+
+    \item \textbf{Definición Cinemática del Automóvil.}
+    Se implementó la ecuación de movimiento para el automóvil rojo. En la Vista Algebraica se introdujo la fórmula \texttt{p = 40 * t}, donde 40 representa la velocidad constante en m/s. Este valor \texttt{p} define la posición en el eje $x$ del vehículo en cualquier instante $t$.
+
+    \item \textbf{Implementación del Movimiento Acelerado del Camión.}
+    Para el camión, se programó la función de posición \texttt{p2 = 80 + 2 * t\^{}2}. El valor $80$ define la posición inicial ($x_0$) y el coeficiente $2$ corresponde a la mitad de la aceleración constante ($4\,\text{m/s}^2$), siguiendo la ecuación cinemática del MRUA.
+
+    \item \textbf{Vinculación de Imágenes a Puntos Coordenados.}
+    Se exportaron las imágenes \texttt{autoRojo.png} y \texttt{elcamionAzul.png}, anclándolas a los puntos coordenados \texttt{(p, 4.5)} y \texttt{(p2, 4.5)} respectivamente, de modo que los vehículos se desplacen sincronizadamente con el cálculo matemático. Además, se añadió la imagen de fondo \texttt{fondoCarretera.png} para mejorar la percepción visual del entorno.
+
+    \item \textbf{Modelado de la Velocidad Instantánea del Camión.}
+    Se creó la variable \texttt{v2 = 4 * t}, que calcula la velocidad del camión en cada instante, permitiendo observar cómo aumenta linealmente desde el reposo hasta superar la velocidad del automóvil.
+
+    \item \textbf{Cálculo de la Distancia de Separación.}
+    Se introdujo la variable \texttt{s = abs(p - p2)}, la cual obtiene la distancia real entre ambos móviles en todo momento. Este parámetro es fundamental para identificar el punto de encuentro, que ocurre cuando $s = 0$.
+
+    \item \textbf{Configuración del Análisis Gráfico ($x$ vs.\ $t$ y $v$ vs.\ $t$).}
+    Se activó la Vista Gráfica 2 para generar los diagramas de trayectorias y velocidades. Se definieron los puntos de trazado \texttt{(t, p)} y \texttt{(t, v1)} para el automóvil, y \texttt{(t, p2)} y \texttt{(t, v2)} para el camión, activando la propiedad de \textit{Rastro} para visualizar la intersección entre la recta y la parábola.
+
+    \item \textbf{Programación de Botones con Scripts.}
+    Se crearon botones con lógica de programación interna (\textit{Scripting}).
+
+    El botón \textbf{``Iniciar''} fue configurado con los comandos:
+    \begin{verbatim}
+    IniciaAnimación(t, True)
+    IniciaAnimación(v2, True)
+    IniciaAnimación(p, True)
+    IniciaAnimación(p2, True)
+    \end{verbatim}
+    \vspace{-20pt}
+
+    El botón \textbf{``Reiniciar''} fue configurado con los comandos:
+    \begin{verbatim}
+    IniciaAnimación(t, false)
+    t = 0
+    p = 0
+    p2 = 80
+    VistaActiva(2)
+    ZoomAcerca(1)
+    VistaActiva(1)
+    \end{verbatim}
+    \vspace{-20pt}
+
+    Mientras que el botón \textbf{``Detener''} fue configurado con los comandos:
+    \begin{verbatim}
+    IniciaAnimación(t, False)
+    IniciaAnimación(v2, False)
+    IniciaAnimación(p, False)
+    IniciaAnimación(p2, False)
+    \end{verbatim}
+    \vspace{-20pt}
+
+    \item \textbf{Formateo de Salida y Redondeo de Datos.}
+    Para la presentación en pantalla, se aplicó el comando \texttt{round(s)} en el cuadro de texto dinámico de ``separación'', mostrando la distancia en metros enteros. Asimismo, se implementaron cuadros de texto para mostrar en tiempo real la velocidad y posición del automóvil rojo, y la aceleración, velocidad y posición del camión azul.
 \end{enumerate}
 
+\subsection{Ejercicio Simulado}
 El ejercicio simulado es el siguiente:
 
 \textbf{Un automóvil se mueve a velocidad constante de 144 km/h en una carretera recta. En determinado momento, un camión que está a 80 m delante del automóvil comienza a moverse desde el reposo con una aceleración de 4 m/s$^2$. Determinar:}
 \begin{itemize}
     \item[\textbf{a.}] El tiempo y la posición cuando el automóvil y el camión se encuentran juntos.
+    \begin{figure}[H]
+    \centering
+    \captionsetup{width=0.8\textwidth}
+    \caption{Grafica del inciso a}
+    \includegraphics[width=0.9\textwidth]{images/simulation/exercisesectionA.jpg}
+    \caption*{Nota: Se muestran las posiciones del automóvil (MRU) y del camión (MRUA); la intersección indica el punto de encuentro.}
+    \end{figure}
+
     \item[\textbf{b.}] El momento cuando la velocidad del automóvil y del camión son iguales, y la separación entre ellos en ese instante.
+
+    \begin{figure}[H]
+    \centering
+    \captionsetup{width=0.8\textwidth}
+    \caption{Grafica del inciso b}
+    \includegraphics[width=0.9\textwidth]{images/simulation/exercisesectionB.jpg}
+    \caption*{Nota: Se representan las posiciones de ambos; cuando las pendientes son iguales, tienen la misma velocidad y existe separación entre ellos.}
+    \end{figure}
 \end{itemize}
 
-\subsection{Resolución}
+\subsection{Resolución analítica}
 
 \textbf{Datos del problema:}
 
@@ -130,13 +204,14 @@ Se obtienen dos eventos:
 \]
 
 \textit{Nota: El primer evento ($t_1 \approx 2{,}3$ s) es físicamente el relevante; corresponde al momento en que el auto alcanza al camión por primera vez.}
-
 Calculando la posición en $t_1 \approx 2{,}3$ s:
+\vspace{-20pt}
 
 \begin{align*}
 x_a &= 40t_1 = 40(2{,}25) = 90\,\text{m} \\
 x_c &= 2(2{,}25)^2 + 80 = 2(5{,}0625) + 80 = 10{,}125 + 80 \approx 90{,}2\,\text{m}
 \end{align*}
+\vspace{-20pt}
 
 \[
 \boxed{t_1 \approx 2{,}3\,\text{s}, \qquad x \approx 90{,}2\,\text{m}}
@@ -161,31 +236,73 @@ x_c &= 2t^2 + 80 = 2(10)^2 + 80 = 200 + 80 = 280\,\text{m}
 \Aboxed{\Delta x &= 120\,\text{m}}
 \end{align*}
 
-\subsection{Resultados}
+\subsection{Simulación en GeoGebra}
+Entramos en geogebra, y abrimos el archivo SimulacionEjercicioClassic.ggb
 
-A partir de la simulación realizada en GeoGebra se obtuvieron los siguientes resultados:
-
-\begin{itemize}
-    \item La gráfica del automóvil es una línea recta (MRU), con pendiente constante igual a su velocidad (40 m/s).
-    \item La gráfica del camión es una parábola (MRUA), que parte desde $x = 80$ m y se acelera progresivamente.
-    \item Las dos curvas se intersectan en dos puntos: el primero alrededor de $t \approx 2{,}3$ s y el segundo en $t \approx 17{,}74$ s.
-\end{itemize}
-
-\begin{table}[H]
-\centering
-% chktex-file 44
-\begin{tabular}{c|c|c|c}
-Tiempo (s) & $x_{\text{auto}}$ (m) & $x_{\text{camión}}$ (m) & $v_{\text{camión}}$ (m/s) \\\hline
-0   & 0     & 80    & 0  \\
-2{,}3 & 90  & 90{,}2 & 9{,}2 \\
-5   & 200   & 130   & 20 \\
-10  & 400   & 280   & 40 \\
-17{,}74 & 709{,}6 & 709{,}6 & 70{,}96 \\
-\end{tabular}
-\caption{Datos obtenidos en la simulación}
-\end{table}
+\begin{figure}[H]
+    \centering
+    \captionsetup{width=0.8\textwidth}
+    \caption{Vista inicial de la simulación en GeoGebra}
+    \includegraphics[width=0.9\textwidth]{images/simulation/simulation1.jpg}
+    \caption*{Nota: Se observan las gráficas de posición en función del tiempo para el automóvil (MRU) y el camión (MRUA), con sus condiciones iniciales configuradas.}
+\end{figure}
 
 \vspace{-20pt}
+
+\subsubsection*{Inciso a: Encuentro entre el automóvil y el camión}
+
+Al igualar las ecuaciones de posición en GeoGebra, se identificaron visualmente los dos instantes en que ambas se intersectan, confirmando los resultados analíticos.
+
+\begin{figure}[H]
+    \centering
+    \captionsetup{width=0.8\textwidth}
+    \caption{Solución del inciso a en GeoGebra}
+    \includegraphics[width=0.9\textwidth]{images/simulation/solutionSectionA.jpg}
+    \caption*{Nota: La simulación muestra el instante $t_1 \approx 17{,}74$ s en que el automóvil y el camión se intersectan, confirmando el resultado analítico.}
+\end{figure}
+
+\vspace{-40pt}
+
+\begin{figure}[H]
+    \centering
+    \captionsetup{width=0.8\textwidth}
+    \caption{Gráfica posición-tiempo — inciso a}
+    \includegraphics[width=0.3\textwidth]{images/simulation/graphA.jpg}
+    \caption*{Nota: Se aprecia con claridad en la grafica el encuentro del automóvil y el camión.}
+\end{figure}
+
+\subsubsection*{Inciso b: Igualdad de velocidades y separación}
+
+Al comparar las expresiones de velocidad en GeoGebra, se identificó el instante $t = 10$ s en que ambas velocidades son iguales (40 m/s), y se calculó dinámicamente la separación entre los vehículos en ese momento.
+
+\begin{figure}[H]
+    \centering
+    \captionsetup{width=0.8\textwidth}
+    \caption{Solución del inciso b en GeoGebra}
+    \includegraphics[width=0.9\textwidth]{images/simulation/solutionSectionB.jpg}
+    \caption*{Nota: La simulación confirma que en $t = 10$ s ambos vehículos tienen la misma velocidad (40 m/s). En ese instante, la separación entre ellos es de 120 m, con el automóvil adelante del camión.}
+\end{figure}
+
+\vspace{-20pt}
+
+\begin{figure}[H]
+    \centering
+    \captionsetup{width=0.9\textwidth}
+    \caption{Gráfica velocidad-tiempo — inciso b}
+    \includegraphics[width=0.2\textwidth]{images/simulation/graphB.jpg}
+    \caption*{Nota: La intersección de las rectas de velocidad evidencia el instante en que ambos vehículos alcanzan la misma rapidez. A partir de ese momento, el camión continúa acelerando y supera la velocidad del automóvil.}
+\end{figure}
+
+\subsection{Resultados}
+
+A partir de la resolución analítica y su verificación mediante la simulación en GeoGebra, se obtuvieron los siguientes resultados:
+
+\begin{itemize}
+    \item \textbf{Inciso a:} El automóvil y el camión se encuentran por segunda vez en $t_2 \approx 17{,}74$ s, cuando el camión ya tiene una mayor velocidad y vuelve a coincidir con el automóvil.
+    \item \textbf{Inciso b:} Las velocidades de ambos vehículos se igualan en $t = 10$ s (ambas a 40 m/s). En ese instante, la separación entre ellos es de $\Delta x = 120$ m, con el automóvil por delante del camión.
+\end{itemize}
+
+La simulación reprodujo fielmente los valores calculados de forma analítica, validando la coherencia entre ambos métodos.
 
 \subsection{Análisis}
 

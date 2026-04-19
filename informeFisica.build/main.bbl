@@ -19,7 +19,7 @@
 
 \refsection{0}
   \datalist[entry]{apa/apasortcite//global/global/global}
-    \entry{audacity}{online}{}{}
+    \entry{audacity2024}{online}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=6eeddaff647b4d5744923fa08c6973af}{%
            family={{Audacity Team}},
@@ -50,7 +50,7 @@
       \verb https://www.audacityteam.org
       \endverb
     \endentry
-    \entry{canva}{online}{}{}
+    \entry{canva2024}{online}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=776828efa2737f017d05c533df1f8041}{%
            family={{Canva}},
@@ -81,7 +81,7 @@
       \verb https://www.canva.com
       \endverb
     \endentry
-    \entry{capcut}{online}{}{}
+    \entry{capcut2024}{online}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=e9bae98b34b2138ead8c156b998c5f59}{%
            family={{CapCut}},
@@ -112,7 +112,7 @@
       \verb https://www.capcut.com
       \endverb
     \endentry
-    \entry{freesound}{online}{}{}
+    \entry{freesound2024}{online}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=dae3fe77e8c49ebdd09e9fd3319a6cd0}{%
            family={{Freesound}},
@@ -230,7 +230,100 @@
       \field{year}{2009}
       \true{nocite}
     \endentry
-    \entry{overleaf}{online}{}{}
+    \entry{github2024}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d3b7c913cd04ebfec0e9ec32cb6fd58c}{%
+           family={{GitHub}},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{d3b7c913cd04ebfec0e9ec32cb6fd58c}
+      \strng{fullhash}{d3b7c913cd04ebfec0e9ec32cb6fd58c}
+      \strng{fullhashraw}{d3b7c913cd04ebfec0e9ec32cb6fd58c}
+      \strng{bibnamehash}{d3b7c913cd04ebfec0e9ec32cb6fd58c}
+      \strng{authorbibnamehash}{d3b7c913cd04ebfec0e9ec32cb6fd58c}
+      \strng{authornamehash}{d3b7c913cd04ebfec0e9ec32cb6fd58c}
+      \strng{authorfullhash}{d3b7c913cd04ebfec0e9ec32cb6fd58c}
+      \strng{authorfullhashraw}{d3b7c913cd04ebfec0e9ec32cb6fd58c}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{GitHub: plataforma de desarrollo colaborativo}
+      \field{year}{2024}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://github.com
+      \endverb
+      \verb{url}
+      \verb https://github.com
+      \endverb
+    \endentry
+    \entry{vscode2024}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=140864078aeca1c7c35b4beb33c53c34}{%
+           family={{Microsoft}},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{fullhash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{fullhashraw}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{bibnamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authorbibnamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authornamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authorfullhash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authorfullhashraw}{140864078aeca1c7c35b4beb33c53c34}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Visual Studio Code}
+      \field{year}{2024}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://code.visualstudio.com
+      \endverb
+      \verb{url}
+      \verb https://code.visualstudio.com
+      \endverb
+    \endentry
+    \entry{miktex2024}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8a4daf132f683bc4c1b4b635506434e7}{%
+           family={{MiKTeX Project}},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{8a4daf132f683bc4c1b4b635506434e7}
+      \strng{fullhash}{8a4daf132f683bc4c1b4b635506434e7}
+      \strng{fullhashraw}{8a4daf132f683bc4c1b4b635506434e7}
+      \strng{bibnamehash}{8a4daf132f683bc4c1b4b635506434e7}
+      \strng{authorbibnamehash}{8a4daf132f683bc4c1b4b635506434e7}
+      \strng{authornamehash}{8a4daf132f683bc4c1b4b635506434e7}
+      \strng{authorfullhash}{8a4daf132f683bc4c1b4b635506434e7}
+      \strng{authorfullhashraw}{8a4daf132f683bc4c1b4b635506434e7}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{MiKTeX: distribución de LaTeX}
+      \field{year}{2024}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://miktex.org
+      \endverb
+      \verb{url}
+      \verb https://miktex.org
+      \endverb
+    \endentry
+    \entry{overleaf2024}{online}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=80d685e90fa23d7996a66e45aa2d24ad}{%
            family={{Overleaf}},
@@ -261,7 +354,7 @@
       \verb https://www.overleaf.com
       \endverb
     \endentry
-    \entry{pexels}{online}{}{}
+    \entry{pexels2024}{online}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=3eb2e67058ae86730adc2fb770cdce83}{%
            family={{Pexels}},
@@ -282,7 +375,7 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Pexels: banco de videos e imágenes gratuitos}
+      \field{title}{Pexels: banco de imágenes y videos gratuitos}
       \field{year}{2024}
       \true{nocite}
       \verb{urlraw}
@@ -362,6 +455,37 @@
       \field{year}{2012}
       \true{nocite}
     \endentry
+    \entry{strawberryperl2024}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=4d4204c414d6ba68dcb4a30d64dc275b}{%
+           family={{Strawberry Perl}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{4d4204c414d6ba68dcb4a30d64dc275b}
+      \strng{fullhash}{4d4204c414d6ba68dcb4a30d64dc275b}
+      \strng{fullhashraw}{4d4204c414d6ba68dcb4a30d64dc275b}
+      \strng{bibnamehash}{4d4204c414d6ba68dcb4a30d64dc275b}
+      \strng{authorbibnamehash}{4d4204c414d6ba68dcb4a30d64dc275b}
+      \strng{authornamehash}{4d4204c414d6ba68dcb4a30d64dc275b}
+      \strng{authorfullhash}{4d4204c414d6ba68dcb4a30d64dc275b}
+      \strng{authorfullhashraw}{4d4204c414d6ba68dcb4a30d64dc275b}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Strawberry Perl: distribución de Perl para Windows}
+      \field{year}{2024}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://strawberryperl.com
+      \endverb
+      \verb{url}
+      \verb https://strawberryperl.com
+      \endverb
+    \endentry
     \entry{tipler2008}{book}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=943b75d33d2ddaa051f5704fa8676cdd}{%
@@ -399,10 +523,41 @@
       \field{title}{Física para la ciencia y la tecnología}
       \field{year}{2008}
       \true{nocite}
+    \endentry
+    \entry{youtube_latex_vscode}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8dd1bae8da2e2408210d0656fbe6b7d1}{%
+           family={{YouTube}},
+           familyi={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{8dd1bae8da2e2408210d0656fbe6b7d1}
+      \strng{fullhash}{8dd1bae8da2e2408210d0656fbe6b7d1}
+      \strng{fullhashraw}{8dd1bae8da2e2408210d0656fbe6b7d1}
+      \strng{bibnamehash}{8dd1bae8da2e2408210d0656fbe6b7d1}
+      \strng{authorbibnamehash}{8dd1bae8da2e2408210d0656fbe6b7d1}
+      \strng{authornamehash}{8dd1bae8da2e2408210d0656fbe6b7d1}
+      \strng{authorfullhash}{8dd1bae8da2e2408210d0656fbe6b7d1}
+      \strng{authorfullhashraw}{8dd1bae8da2e2408210d0656fbe6b7d1}
+      \field{sortinit}{Y}
+      \field{sortinithash}{fd67ad5a9ef0f7456bdd9aab10fe1495}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Configuración de LaTeX en VS Code (tutorial)}
+      \field{year}{2024}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://www.youtube.com/watch?v=kLT0QVnz3vk&t=1211s
+      \endverb
+      \verb{url}
+      \verb https://www.youtube.com/watch?v=kLT0QVnz3vk&t=1211s
+      \endverb
     \endentry
   \enddatalist
   \datalist[entry]{apa/global//global/global/global}
-    \entry{audacity}{online}{}{}
+    \entry{audacity2024}{online}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=6eeddaff647b4d5744923fa08c6973af}{%
            family={{Audacity Team}},
@@ -433,7 +588,7 @@
       \verb https://www.audacityteam.org
       \endverb
     \endentry
-    \entry{canva}{online}{}{}
+    \entry{canva2024}{online}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=776828efa2737f017d05c533df1f8041}{%
            family={{Canva}},
@@ -464,7 +619,7 @@
       \verb https://www.canva.com
       \endverb
     \endentry
-    \entry{capcut}{online}{}{}
+    \entry{capcut2024}{online}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=e9bae98b34b2138ead8c156b998c5f59}{%
            family={{CapCut}},
@@ -495,7 +650,7 @@
       \verb https://www.capcut.com
       \endverb
     \endentry
-    \entry{freesound}{online}{}{}
+    \entry{freesound2024}{online}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=dae3fe77e8c49ebdd09e9fd3319a6cd0}{%
            family={{Freesound}},
@@ -613,7 +768,100 @@
       \field{year}{2009}
       \true{nocite}
     \endentry
-    \entry{overleaf}{online}{}{}
+    \entry{github2024}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d3b7c913cd04ebfec0e9ec32cb6fd58c}{%
+           family={{GitHub}},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{d3b7c913cd04ebfec0e9ec32cb6fd58c}
+      \strng{fullhash}{d3b7c913cd04ebfec0e9ec32cb6fd58c}
+      \strng{fullhashraw}{d3b7c913cd04ebfec0e9ec32cb6fd58c}
+      \strng{bibnamehash}{d3b7c913cd04ebfec0e9ec32cb6fd58c}
+      \strng{authorbibnamehash}{d3b7c913cd04ebfec0e9ec32cb6fd58c}
+      \strng{authornamehash}{d3b7c913cd04ebfec0e9ec32cb6fd58c}
+      \strng{authorfullhash}{d3b7c913cd04ebfec0e9ec32cb6fd58c}
+      \strng{authorfullhashraw}{d3b7c913cd04ebfec0e9ec32cb6fd58c}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{GitHub: plataforma de desarrollo colaborativo}
+      \field{year}{2024}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://github.com
+      \endverb
+      \verb{url}
+      \verb https://github.com
+      \endverb
+    \endentry
+    \entry{vscode2024}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=140864078aeca1c7c35b4beb33c53c34}{%
+           family={{Microsoft}},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{fullhash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{fullhashraw}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{bibnamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authorbibnamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authornamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authorfullhash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authorfullhashraw}{140864078aeca1c7c35b4beb33c53c34}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Visual Studio Code}
+      \field{year}{2024}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://code.visualstudio.com
+      \endverb
+      \verb{url}
+      \verb https://code.visualstudio.com
+      \endverb
+    \endentry
+    \entry{miktex2024}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8a4daf132f683bc4c1b4b635506434e7}{%
+           family={{MiKTeX Project}},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{8a4daf132f683bc4c1b4b635506434e7}
+      \strng{fullhash}{8a4daf132f683bc4c1b4b635506434e7}
+      \strng{fullhashraw}{8a4daf132f683bc4c1b4b635506434e7}
+      \strng{bibnamehash}{8a4daf132f683bc4c1b4b635506434e7}
+      \strng{authorbibnamehash}{8a4daf132f683bc4c1b4b635506434e7}
+      \strng{authornamehash}{8a4daf132f683bc4c1b4b635506434e7}
+      \strng{authorfullhash}{8a4daf132f683bc4c1b4b635506434e7}
+      \strng{authorfullhashraw}{8a4daf132f683bc4c1b4b635506434e7}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{MiKTeX: distribución de LaTeX}
+      \field{year}{2024}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://miktex.org
+      \endverb
+      \verb{url}
+      \verb https://miktex.org
+      \endverb
+    \endentry
+    \entry{overleaf2024}{online}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=80d685e90fa23d7996a66e45aa2d24ad}{%
            family={{Overleaf}},
@@ -644,7 +892,7 @@
       \verb https://www.overleaf.com
       \endverb
     \endentry
-    \entry{pexels}{online}{}{}
+    \entry{pexels2024}{online}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=3eb2e67058ae86730adc2fb770cdce83}{%
            family={{Pexels}},
@@ -665,7 +913,7 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Pexels: banco de videos e imágenes gratuitos}
+      \field{title}{Pexels: banco de imágenes y videos gratuitos}
       \field{year}{2024}
       \true{nocite}
       \verb{urlraw}
@@ -745,6 +993,37 @@
       \field{year}{2012}
       \true{nocite}
     \endentry
+    \entry{strawberryperl2024}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=4d4204c414d6ba68dcb4a30d64dc275b}{%
+           family={{Strawberry Perl}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{4d4204c414d6ba68dcb4a30d64dc275b}
+      \strng{fullhash}{4d4204c414d6ba68dcb4a30d64dc275b}
+      \strng{fullhashraw}{4d4204c414d6ba68dcb4a30d64dc275b}
+      \strng{bibnamehash}{4d4204c414d6ba68dcb4a30d64dc275b}
+      \strng{authorbibnamehash}{4d4204c414d6ba68dcb4a30d64dc275b}
+      \strng{authornamehash}{4d4204c414d6ba68dcb4a30d64dc275b}
+      \strng{authorfullhash}{4d4204c414d6ba68dcb4a30d64dc275b}
+      \strng{authorfullhashraw}{4d4204c414d6ba68dcb4a30d64dc275b}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Strawberry Perl: distribución de Perl para Windows}
+      \field{year}{2024}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://strawberryperl.com
+      \endverb
+      \verb{url}
+      \verb https://strawberryperl.com
+      \endverb
+    \endentry
     \entry{tipler2008}{book}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=943b75d33d2ddaa051f5704fa8676cdd}{%
@@ -782,6 +1061,37 @@
       \field{title}{Física para la ciencia y la tecnología}
       \field{year}{2008}
       \true{nocite}
+    \endentry
+    \entry{youtube_latex_vscode}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8dd1bae8da2e2408210d0656fbe6b7d1}{%
+           family={{YouTube}},
+           familyi={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{8dd1bae8da2e2408210d0656fbe6b7d1}
+      \strng{fullhash}{8dd1bae8da2e2408210d0656fbe6b7d1}
+      \strng{fullhashraw}{8dd1bae8da2e2408210d0656fbe6b7d1}
+      \strng{bibnamehash}{8dd1bae8da2e2408210d0656fbe6b7d1}
+      \strng{authorbibnamehash}{8dd1bae8da2e2408210d0656fbe6b7d1}
+      \strng{authornamehash}{8dd1bae8da2e2408210d0656fbe6b7d1}
+      \strng{authorfullhash}{8dd1bae8da2e2408210d0656fbe6b7d1}
+      \strng{authorfullhashraw}{8dd1bae8da2e2408210d0656fbe6b7d1}
+      \field{sortinit}{Y}
+      \field{sortinithash}{fd67ad5a9ef0f7456bdd9aab10fe1495}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Configuración de LaTeX en VS Code (tutorial)}
+      \field{year}{2024}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://www.youtube.com/watch?v=kLT0QVnz3vk&t=1211s
+      \endverb
+      \verb{url}
+      \verb https://www.youtube.com/watch?v=kLT0QVnz3vk&t=1211s
+      \endverb
     \endentry
   \enddatalist
 \endrefsection
